@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,6 +117,2262 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CabinetDepthControl.Caption" xml:space="preserve">
+    <value>Depth</value>
+  </data>
+  <data name="CabinetControl.Caption" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="CabinetColorControl.Caption" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="FrontPlateControl.Caption" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="FrontPlateColorControl.Caption" xml:space="preserve">
+    <value>Color       </value>
+  </data>
+  <data name="RailControl.Caption" xml:space="preserve">
+    <value>Draw Rail</value>
+  </data>
+  <data name="RailColorControl.Caption" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ShowWiresControl.Caption" xml:space="preserve">
+    <value>Show Wires</value>
+  </data>
+  <data name="Wire2PointsControl.Caption" xml:space="preserve">
+    <value>Wire 2 pts</value>
+  </data>
+  <data name="RoutePathControl.Caption" xml:space="preserve">
+    <value>Define Route Path</value>
+  </data>
+  <data name="AutoRouteControl.Caption" xml:space="preserve">
+    <value>Create Wire</value>
+  </data>
+  <data name="CableChannelInfoControl.Caption" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="itemHideCableChannel.Caption" xml:space="preserve">
+    <value>Hide Cable Channel</value>
+  </data>
+  <data name="CabinetThicknessControl.Caption" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="PlateThicknessControl.Caption" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="itemCollisionCheck.Caption" xml:space="preserve">
+    <value>Check Collision</value>
+  </data>
+  <data name="itemShowMountingBox.Caption" xml:space="preserve">
+    <value>Show Mounting Box</value>
+  </data>
+  <data name="itemSelectWire.Caption" xml:space="preserve">
+    <value>Select Wire</value>
+  </data>
+  <data name="itemRouteWireNet.Caption" xml:space="preserve">
+    <value>Create Net</value>
+  </data>
+  <data name="WiresCheckbox.Caption" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="checkItemNets.Caption" xml:space="preserve">
+    <value>Nets</value>
+  </data>
+  <data name="itemShowDrillHoles.Caption" xml:space="preserve">
+    <value>Show Drill Holes</value>
+  </data>
+  <data name="itemDrillHolesSteinhauer.Caption" xml:space="preserve">
+    <value>Generate Drill Holes(Steinhauer)</value>
+  </data>
+  <data name="subItemWires.Caption" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="itemRerouteSelected.Caption" xml:space="preserve">
+    <value>Re-route selected wires</value>
+  </data>
+  <data name="itemChangeRoutePath.Caption" xml:space="preserve">
+    <value>Change route path</value>
+  </data>
+  <data name="subItemRailTools.Caption" xml:space="preserve">
+    <value>Rail Tools</value>
+  </data>
+  <data name="itemSwapComponentLeft.Caption" xml:space="preserve">
+    <value>Swap Left</value>
+  </data>
+  <data name="itemSwapComponentRight.Caption" xml:space="preserve">
+    <value>Swap Right</value>
+  </data>
+  <data name="itemOffsetComponentLeft.Caption" xml:space="preserve">
+    <value>Offset Left</value>
+  </data>
+  <data name="itemOffsetComponentRight.Caption" xml:space="preserve">
+    <value>Offset Right</value>
+  </data>
+  <data name="itemOrganizeLeftComp.Caption" xml:space="preserve">
+    <value>Organize Left</value>
+  </data>
+  <data name="itemOrganizeRightComp.Caption" xml:space="preserve">
+    <value>Organize Right</value>
+  </data>
+  <data name="itemOrganizeLeftRail.Caption" xml:space="preserve">
+    <value>Organize Left</value>
+  </data>
+  <data name="itemOrganizeRightRail.Caption" xml:space="preserve">
+    <value>Organize Right</value>
+  </data>
+  <data name="itemDrillHole.Caption" xml:space="preserve">
+    <value>Create Drill Contour</value>
+  </data>
+  <data name="itemCreateDrillContour.Caption" xml:space="preserve">
+    <value>Create Drill Contour</value>
+  </data>
+  <data name="itemDynamicScale.Caption" xml:space="preserve">
+    <value>Dynamic scale</value>
+  </data>
+  <data name="itemAlignCompEvenlyRail.Caption" xml:space="preserve">
+    <value>Align Components Evenly</value>
+  </data>
+  <data name="itemShowConnectedChannels.Caption" xml:space="preserve">
+    <value>Show Connected Channels</value>
+  </data>
+  <data name="itemCreatePlateFromSurface.Caption" xml:space="preserve">
+    <value>Create From Surface</value>
+  </data>
+  <data name="itemDrawChannel.Caption" xml:space="preserve">
+    <value>Draw channel</value>
+  </data>
+  <data name="channelColorControl.Caption" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="itemDrillHolesCharts.Caption" xml:space="preserve">
+    <value>Generate Drill Holes Charts</value>
+  </data>
+  <data name="circleDrillContour.Caption" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="rectangleDrillContur.Caption" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="polylineDrillContour.Caption" xml:space="preserve">
+    <value>Polyline</value>
+  </data>
+  <data name="itemCableChannelCheckOverload.Caption" xml:space="preserve">
+    <value>Check Overload</value>
+  </data>
+  <data name="itemDrillHolesPerforex.Caption" xml:space="preserve">
+    <value>Generate Drill Holes(Perforex)</value>
+  </data>
+  <data name="itemRerouteWireConnections.Caption" xml:space="preserve">
+    <value>Change connection point</value>
+  </data>
+  <data name="itemHideRoutePath.Caption" xml:space="preserve">
+    <value>Hide Route Path</value>
+  </data>
+  <data name="subItemThreadDrill.Caption" xml:space="preserve">
+    <value>Threaded Hole</value>
+  </data>
+  <data name="itemCreateHarness.Caption" xml:space="preserve">
+    <value>Create Sleeve</value>
+  </data>
+  <data name="itemMergeHarness.Caption" xml:space="preserve">
+    <value>Merge Sleeves</value>
+  </data>
+  <data name="itemCreateControlPoint.Caption" xml:space="preserve">
+    <value>Create Control Point</value>
+  </data>
+  <data name="itemModifyControlPoint.Caption" xml:space="preserve">
+    <value>Modify Control Point</value>
+  </data>
+  <data name="itemDeleteControlPoint.Caption" xml:space="preserve">
+    <value>Delete Control Point</value>
+  </data>
+  <data name="itemCheckBendRadius.Caption" xml:space="preserve">
+    <value>Check Bend Radius</value>
+  </data>
+  <data name="itemUpdateBendRadiusFromWires.Caption" xml:space="preserve">
+    <value>Update Bend Radius From Wires</value>
+  </data>
+  <data name="itemSaveAsWiring.Caption" xml:space="preserve">
+    <value>Save 3D Panel Shop Floor Drawing</value>
+  </data>
+  <data name="itemImportWiringDrawing.Caption" xml:space="preserve">
+    <value>Load 3D Panel Shop Floor Information</value>
+  </data>
+  <data name="itemComponentInfo.Caption" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="checkItemCables.Caption" xml:space="preserve">
+    <value>Cables</value>
+  </data>
+  <data name="itemCreateCable.Caption" xml:space="preserve">
+    <value>Create Cable</value>
+  </data>
+  <data name="itemDrillHolesXML.Caption" xml:space="preserve">
+    <value>Generate Drill Holes XML</value>
+  </data>
+  <data name="itemSaveAsProduction.Caption" xml:space="preserve">
+    <value>Panel Production Model</value>
+  </data>
+  <data name="itemDrillHolesAutoCAD.Caption" xml:space="preserve">
+    <value>Generate Drill Holes AutoCAD</value>
+  </data>
+  <data name="createBusBarButtonItem.Caption" xml:space="preserve">
+    <value>Create Busbar</value>
+  </data>
+  <data name="bendBusBarButtonItem.Caption" xml:space="preserve">
+    <value>Bend Busbar</value>
+  </data>
+  <data name="extendBusBarBarButtonItem.Caption" xml:space="preserve">
+    <value>Extend Busbar</value>
+  </data>
+  <data name="showConnectedBusBarsButtonItem.Caption" xml:space="preserve">
+    <value>Show Connected Busbars</value>
+  </data>
+  <data name="subItemCables.Caption" xml:space="preserve">
+    <value>Cables</value>
+  </data>
+  <data name="itemRerouteSelectedCables.Caption" xml:space="preserve">
+    <value>Re-route selected cables</value>
+  </data>
+  <data name="itemChangeRoutePathCable.Caption" xml:space="preserve">
+    <value>Change route path</value>
+  </data>
+  <data name="itemModifyCableEndPoints.Caption" xml:space="preserve">
+    <value>Modify end points</value>
+  </data>
+  <data name="itemFlipComponentVertical.Caption" xml:space="preserve">
+    <value>Flip Vertical</value>
+  </data>
+  <data name="generateDrillHolesButtonItem.Caption" xml:space="preserve">
+    <value>Generate Drill Holes</value>
+  </data>
+  <data name="predefinedBusbarsBarButtonItem.Caption" xml:space="preserve">
+    <value>Predefined Busbars</value>
+  </data>
+  <data name="itemDrillHolesPolygon.Caption" xml:space="preserve">
+    <value>Polygon</value>
+  </data>
+  <data name="itemDrillPolygonSegment.Caption" xml:space="preserve">
+    <value>Polygon By Segment</value>
+  </data>
+  <data name="itemDrillPolygonOutsideCircle.Caption" xml:space="preserve">
+    <value>Polygon Circumscribed Around Circle</value>
+  </data>
+  <data name="itemDrillPolygonInsideCircle.Caption" xml:space="preserve">
+    <value>Polygon Inscribed In Circle</value>
+  </data>
+  <data name="generateBusbarDrawingBarButtonItem.Caption" xml:space="preserve">
+    <value>Generate Manufacturing Drawing</value>
+  </data>
+  <data name="itemMachiningDefinitions.Caption" xml:space="preserve">
+    <value>Machining Definitions</value>
+  </data>
+  <data name="itemCreateBusBarGuide.Caption" xml:space="preserve">
+    <value>Create Busbar Connector Guide</value>
+  </data>
+  <data name="itemWireNumbering.Caption" xml:space="preserve">
+    <value>Wire Numbering</value>
+  </data>
+  <data name="itemComponentDuplicateTag.Caption" xml:space="preserve">
+    <value>Check Duplicate Tags</value>
+  </data>
+  <data name="itemProClima.Caption" xml:space="preserve">
+    <value>ProClima</value>
+  </data>
+  <data name="itemCubic.Caption" xml:space="preserve">
+    <value>CUBIC</value>
+  </data>
+  <data name="itemMountingCheck.Caption" xml:space="preserve">
+    <value>Check Mounting Regions</value>
+  </data>
+  <data name="subItemShopFloor.Caption" xml:space="preserve">
+    <value>Panel Shop Floor</value>
+  </data>
+  <data name="itemCheckInShopFloor.Caption" xml:space="preserve">
+    <value>Check In</value>
+  </data>
+  <data name="subItemLocal.Caption" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="subItemServer.Caption" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="itemUndoCheckOutShopFloor.Caption" xml:space="preserve">
+    <value>Undo Check Out</value>
+  </data>
+  <data name="itemAddToServer.Caption" xml:space="preserve">
+    <value>Add to Server</value>
+  </data>
+  <data name="itemUpdateToServer.Caption" xml:space="preserve">
+    <value>Update to Server</value>
+  </data>
+  <data name="subItemManufacturing.Caption" xml:space="preserve">
+    <value>Manufacturing</value>
+  </data>
+  <data name="itemDoorCollisionCheck.Caption" xml:space="preserve">
+    <value>Check Door Collision</value>
+  </data>
+  <data name="itemShowDrillHolesControl.Caption" xml:space="preserve">
+    <value>Show Drill Holes</value>
+  </data>
+  <data name="SnapVertexControl.Caption" xml:space="preserve">
+    <value>Snap to Point</value>
+  </data>
+  <data name="SnapVertexControl.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="SnapIntersectControl.Caption" xml:space="preserve">
+    <value>Snap to Route Path</value>
+  </data>
+  <data name="SnapIntersectControl.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="HideWiresControl.Caption" xml:space="preserve">
+    <value>Hide Wires</value>
+  </data>
+  <data name="itemShowRoutePath.Caption" xml:space="preserve">
+    <value>Show Route Path</value>
+  </data>
+  <data name="itemShowCableChannel.Caption" xml:space="preserve">
+    <value>Show Cable Channel</value>
+  </data>
+  <data name="itemTangentBend.Caption" xml:space="preserve">
+    <value>Tangent Bend</value>
+  </data>
+  <data name="itemTangentBend.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="itemChangePlane.Caption" xml:space="preserve">
+    <value>Change Plane</value>
+  </data>
+  <data name="itemChangePlane.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="itemLineMode.Caption" xml:space="preserve">
+    <value>Line Mode</value>
+  </data>
+  <data name="itemLineMode.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="itemSubNets.Caption" xml:space="preserve">
+    <value>Nets</value>
+  </data>
+  <data name="itemSetSegregationCode.Caption" xml:space="preserve">
+    <value>Define the Segregation Code on Selected Wires</value>
+  </data>
+  <data name="itemUpdateSegregationCode.Caption" xml:space="preserve">
+    <value>Set All Net Segregation Codes to Match the Signal Names</value>
+  </data>
+  <data name="itemSegregationCodeBySignalType.Caption" xml:space="preserve">
+    <value>Set All Net Segregation Codes to Match the Signal Types</value>
+  </data>
+  <data name="itemSelectNetsBySegregation.Caption" xml:space="preserve">
+    <value>Highlight All Nets with a Defined Segregation Group</value>
+  </data>
+  <data name="itemSubBundles.Caption" xml:space="preserve">
+    <value>Bundles</value>
+  </data>
+  <data name="itemDefineBundleGroup.Caption" xml:space="preserve">
+    <value>Define the Bundle Code on Selected Wires</value>
+  </data>
+  <data name="itemNetTypeBundleGroup.Caption" xml:space="preserve">
+    <value>Set All Net Bundle Codes to Match the Signal Types</value>
+  </data>
+  <data name="itemWireTypeBundleGroup.Caption" xml:space="preserve">
+    <value>Set All Wire Bundle Codes to Match the Signal Types</value>
+  </data>
+  <data name="itemHighlightNetsBundleGroup.Caption" xml:space="preserve">
+    <value>Highlight All Nets with a Defined Bundle group</value>
+  </data>
+  <data name="itemHighlightWiresBundleGroup.Caption" xml:space="preserve">
+    <value>Highlight All Wires with a Defined Bundle group</value>
+  </data>
+  <data name="itemSegCodeOnSelectedPaths.Caption" xml:space="preserve">
+    <value>Define the Segregation Code on Selected Route Paths</value>
+  </data>
+  <data name="itemSubRouting.Caption" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="barSubItem1.Caption" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="itemRemoveInvalidWires.Caption" xml:space="preserve">
+    <value>Remove Invalid Wires</value>
+  </data>
+  <data name="itemSwapSignalWiresNotInNet.Caption" xml:space="preserve">
+    <value>Swap Signal Attributes for Wires not in Net</value>
+  </data>
+  <data name="itemSwapSignalCableCores.Caption" xml:space="preserve">
+    <value>Swap Signal Attributes for Cable Cores</value>
+  </data>
+  <data name="itemSegCodeMatchNumberWire.Caption" xml:space="preserve">
+    <value>Set All Segregation Codes to Match the Wire Numbers</value>
+  </data>
+  <data name="itemSegCodeMatchTypesWire.Caption" xml:space="preserve">
+    <value>Set All Segregation Codes to Match the Signal Types</value>
+  </data>
+  <data name="itemDefineSegCodeWire.Caption" xml:space="preserve">
+    <value>Define the Segregation Code on Selected Wires</value>
+  </data>
+  <data name="itemHighlightSegCodeWire.Caption" xml:space="preserve">
+    <value>Highlight All Wires with a Defined Segregation Group</value>
+  </data>
+  <data name="CabinetGroup.Text" xml:space="preserve">
+    <value>Cabinet</value>
+  </data>
+  <data name="MountingPlateGroup.Text" xml:space="preserve">
+    <value>Mounting Plate</value>
+  </data>
+  <data name="RailGroup.Text" xml:space="preserve">
+    <value>Rail</value>
+  </data>
+  <data name="channelPageGroup.Text" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="groupComponent.Text" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="CabinetPage.Text" xml:space="preserve">
+    <value>Cabinet</value>
+  </data>
+  <data name="wiringPage.Text" xml:space="preserve">
+    <value>Wiring</value>
+  </data>
+  <data name="harnessPage.Text" xml:space="preserve">
+    <value>Sleeve</value>
+  </data>
+  <data name="copperPage.Text" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="externalPage.Text" xml:space="preserve">
+    <value>External</value>
+  </data>
+  <data name="ribbonControl1.SearchEditItem.AccessibleName" xml:space="preserve">
+    <value>Search Item</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.Name" xml:space="preserve">
+    <value>ribbonStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;seeComponentControl1.Name" xml:space="preserve">
+    <value>seeComponentControl1</value>
+  </data>
+  <data name="&gt;&gt;seeComponentControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeComponentControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeComponentControl1.Parent" xml:space="preserve">
+    <value>dockContainerComponent</value>
+  </data>
+  <data name="&gt;&gt;seeComponentControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;seePlaneControl1.Name" xml:space="preserve">
+    <value>seePlaneControl1</value>
+  </data>
+  <data name="&gt;&gt;seePlaneControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeePlaneControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seePlaneControl1.Parent" xml:space="preserve">
+    <value>controlContainer2</value>
+  </data>
+  <data name="&gt;&gt;seePlaneControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LayerDockPanel.Name" xml:space="preserve">
+    <value>LayerDockPanel</value>
+  </data>
+  <data name="&gt;&gt;LayerDockPanel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LayerDockPanel.Parent" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="&gt;&gt;LayerDockPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;seeLayerControl1.Name" xml:space="preserve">
+    <value>seeLayerControl1</value>
+  </data>
+  <data name="&gt;&gt;seeLayerControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeLayerControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeLayerControl1.Parent" xml:space="preserve">
+    <value>controlContainer3</value>
+  </data>
+  <data name="&gt;&gt;seeLayerControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;seeTreeExplorerControl.Name" xml:space="preserve">
+    <value>seeTreeExplorerControl</value>
+  </data>
+  <data name="&gt;&gt;seeTreeExplorerControl.Type" xml:space="preserve">
+    <value>See3DEditor.SeeTreeExplorerControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeTreeExplorerControl.Parent" xml:space="preserve">
+    <value>controlContainerTreeExplorer</value>
+  </data>
+  <data name="&gt;&gt;seeTreeExplorerControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;seeSymbolControl1.Name" xml:space="preserve">
+    <value>seeSymbolControl1</value>
+  </data>
+  <data name="&gt;&gt;seeSymbolControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeSymbolControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeSymbolControl1.Parent" xml:space="preserve">
+    <value>controlContainer1</value>
+  </data>
+  <data name="&gt;&gt;seeSymbolControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;seeCabinetPaperControl.Name" xml:space="preserve">
+    <value>seeCabinetPaperControl</value>
+  </data>
+  <data name="&gt;&gt;seeCabinetPaperControl.Type" xml:space="preserve">
+    <value>See3DCabinet.SeeCabinetPaper, See3DCabinet.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=de92a1d638cc9715</value>
+  </data>
+  <data name="&gt;&gt;seeCabinetPaperControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;seeCabinetPaperControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CableChannelGroup.Text" xml:space="preserve">
+    <value>Check Channels</value>
+  </data>
+  <data name="groupCable.Text" xml:space="preserve">
+    <value>Cable</value>
+  </data>
+  <data name="WireGroup.Text" xml:space="preserve">
+    <value>Wire</value>
+  </data>
+  <data name="groupCableChannelPath.Text" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="busBarGroup.Text" xml:space="preserve">
+    <value>Busbar</value>
+  </data>
+  <data name="&gt;&gt;WireDockPanel.Name" xml:space="preserve">
+    <value>WireDockPanel</value>
+  </data>
+  <data name="&gt;&gt;WireDockPanel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.Name" xml:space="preserve">
+    <value>seeWireControl1</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeWireControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.Parent" xml:space="preserve">
+    <value>controlContainer4</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;controlContainer4.Name" xml:space="preserve">
+    <value>controlContainer4</value>
+  </data>
+  <data name="&gt;&gt;controlContainer4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NetDockPanel.Name" xml:space="preserve">
+    <value>NetDockPanel</value>
+  </data>
+  <data name="&gt;&gt;NetDockPanel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.Name" xml:space="preserve">
+    <value>seeNetControl1</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeNetControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.Parent" xml:space="preserve">
+    <value>controlContainer7</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;controlContainer7.Name" xml:space="preserve">
+    <value>controlContainer7</value>
+  </data>
+  <data name="&gt;&gt;controlContainer7.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;controlContainer7.Parent" xml:space="preserve">
+    <value>dockPanelCables</value>
+  </data>
+  <data name="&gt;&gt;controlContainer7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonGroupDrillHoles.Text" xml:space="preserve">
+    <value>Drill Holes</value>
+  </data>
+  <data name="harnessGroup.Text" xml:space="preserve">
+    <value>Sleeve</value>
+  </data>
+  <data name="&gt;&gt;dockPanelCables.Name" xml:space="preserve">
+    <value>dockPanelCables</value>
+  </data>
+  <data name="&gt;&gt;dockPanelCables.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.Name" xml:space="preserve">
+    <value>seeCableControl1</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeCableControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.Parent" xml:space="preserve">
+    <value>controlContainer8</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;controlContainer8.Name" xml:space="preserve">
+    <value>controlContainer8</value>
+  </data>
+  <data name="&gt;&gt;controlContainer8.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ThermalManagementGroup.Text" xml:space="preserve">
+    <value>Thermal Management</value>
+  </data>
+  <data name="ConfiguratorOutputsGroup.Text" xml:space="preserve">
+    <value>Configurator Outputs</value>
+  </data>
+  <data name="CommandsGroup.Text" xml:space="preserve">
+    <value>Utilities</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupConnection.Name" xml:space="preserve">
+    <value>ribbonGroupConnection</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemGoTo.Name" xml:space="preserve">
+    <value>subItemGoTo</value>
+  </data>
+  <data name="&gt;&gt;subItemGoTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DockGroup.Name" xml:space="preserve">
+    <value>DockGroup</value>
+  </data>
+  <data name="&gt;&gt;DockGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AssemblyPage.Name" xml:space="preserve">
+    <value>AssemblyPage</value>
+  </data>
+  <data name="&gt;&gt;AssemblyPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemAssembly.Name" xml:space="preserve">
+    <value>subItemAssembly</value>
+  </data>
+  <data name="&gt;&gt;subItemAssembly.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItelTools.Name" xml:space="preserve">
+    <value>subItelTools</value>
+  </data>
+  <data name="&gt;&gt;subItelTools.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupSelectionMenu.Name" xml:space="preserve">
+    <value>popupSelectionMenu</value>
+  </data>
+  <data name="&gt;&gt;popupSelectionMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupNotSelectionMenu.Name" xml:space="preserve">
+    <value>popupNotSelectionMenu</value>
+  </data>
+  <data name="&gt;&gt;popupNotSelectionMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;WindowsPage.Name" xml:space="preserve">
+    <value>WindowsPage</value>
+  </data>
+  <data name="&gt;&gt;WindowsPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;applicationMenu1.Name" xml:space="preserve">
+    <value>applicationMenu1</value>
+  </data>
+  <data name="&gt;&gt;applicationMenu1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.ApplicationMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemSaveAs.Name" xml:space="preserve">
+    <value>subItemSaveAs</value>
+  </data>
+  <data name="&gt;&gt;subItemSaveAs.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemImport.Name" xml:space="preserve">
+    <value>subItemImport</value>
+  </data>
+  <data name="&gt;&gt;subItemImport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonLabelGroup.Name" xml:space="preserve">
+    <value>ribbonLabelGroup</value>
+  </data>
+  <data name="&gt;&gt;ribbonLabelGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MainPage.Name" xml:space="preserve">
+    <value>MainPage</value>
+  </data>
+  <data name="&gt;&gt;MainPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbon2DLayoutGroup.Name" xml:space="preserve">
+    <value>ribbon2DLayoutGroup</value>
+  </data>
+  <data name="&gt;&gt;ribbon2DLayoutGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetPage.Name" xml:space="preserve">
+    <value>CabinetPage</value>
+  </data>
+  <data name="&gt;&gt;CabinetPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetGroup.Name" xml:space="preserve">
+    <value>CabinetGroup</value>
+  </data>
+  <data name="&gt;&gt;CabinetGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetControl.Name" xml:space="preserve">
+    <value>CabinetControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetColorControl.Name" xml:space="preserve">
+    <value>CabinetColorControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetColorControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetColorEditControl.Name" xml:space="preserve">
+    <value>CabinetColorEditControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetColorEditControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetDepthControl.Name" xml:space="preserve">
+    <value>CabinetDepthControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetDepthControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetDepthEditControl.Name" xml:space="preserve">
+    <value>CabinetDepthEditControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetDepthEditControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetThicknessControl.Name" xml:space="preserve">
+    <value>CabinetThicknessControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetThicknessControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetThicknessControlEdit.Name" xml:space="preserve">
+    <value>CabinetThicknessControlEdit</value>
+  </data>
+  <data name="&gt;&gt;CabinetThicknessControlEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MountingPlateGroup.Name" xml:space="preserve">
+    <value>MountingPlateGroup</value>
+  </data>
+  <data name="&gt;&gt;MountingPlateGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateControl.Name" xml:space="preserve">
+    <value>FrontPlateControl</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreatePlateFromSurface.Name" xml:space="preserve">
+    <value>itemCreatePlateFromSurface</value>
+  </data>
+  <data name="&gt;&gt;itemCreatePlateFromSurface.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateColorControl.Name" xml:space="preserve">
+    <value>FrontPlateColorControl</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateColorControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateColorEditControl.Name" xml:space="preserve">
+    <value>FrontPlateColorEditControl</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateColorEditControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PlateThicknessControl.Name" xml:space="preserve">
+    <value>PlateThicknessControl</value>
+  </data>
+  <data name="&gt;&gt;PlateThicknessControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PlateThicknessControlEdit.Name" xml:space="preserve">
+    <value>PlateThicknessControlEdit</value>
+  </data>
+  <data name="&gt;&gt;PlateThicknessControlEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RailGroup.Name" xml:space="preserve">
+    <value>RailGroup</value>
+  </data>
+  <data name="&gt;&gt;RailGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RailControl.Name" xml:space="preserve">
+    <value>RailControl</value>
+  </data>
+  <data name="&gt;&gt;RailControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupDinRailMenu.Name" xml:space="preserve">
+    <value>popupDinRailMenu</value>
+  </data>
+  <data name="&gt;&gt;popupDinRailMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RailColorControl.Name" xml:space="preserve">
+    <value>RailColorControl</value>
+  </data>
+  <data name="&gt;&gt;RailColorControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RailColorEditControl.Name" xml:space="preserve">
+    <value>RailColorEditControl</value>
+  </data>
+  <data name="&gt;&gt;RailColorEditControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;channelPageGroup.Name" xml:space="preserve">
+    <value>channelPageGroup</value>
+  </data>
+  <data name="&gt;&gt;channelPageGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrawChannel.Name" xml:space="preserve">
+    <value>itemDrawChannel</value>
+  </data>
+  <data name="&gt;&gt;itemDrawChannel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupChannelMenu.Name" xml:space="preserve">
+    <value>popupChannelMenu</value>
+  </data>
+  <data name="&gt;&gt;popupChannelMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;channelColorControl.Name" xml:space="preserve">
+    <value>channelColorControl</value>
+  </data>
+  <data name="&gt;&gt;channelColorControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemColorEdit1.Name" xml:space="preserve">
+    <value>repositoryItemColorEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemColorEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupComponent.Name" xml:space="preserve">
+    <value>groupComponent</value>
+  </data>
+  <data name="&gt;&gt;groupComponent.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCollisionCheck.Name" xml:space="preserve">
+    <value>itemCollisionCheck</value>
+  </data>
+  <data name="&gt;&gt;itemCollisionCheck.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDoorCollisionCheck.Name" xml:space="preserve">
+    <value>itemDoorCollisionCheck</value>
+  </data>
+  <data name="&gt;&gt;itemDoorCollisionCheck.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemMountingCheck.Name" xml:space="preserve">
+    <value>itemMountingCheck</value>
+  </data>
+  <data name="&gt;&gt;itemMountingCheck.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemComponentDuplicateTag.Name" xml:space="preserve">
+    <value>itemComponentDuplicateTag</value>
+  </data>
+  <data name="&gt;&gt;itemComponentDuplicateTag.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowMountingBox.Name" xml:space="preserve">
+    <value>itemShowMountingBox</value>
+  </data>
+  <data name="&gt;&gt;itemShowMountingBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemComponentInfo.Name" xml:space="preserve">
+    <value>itemComponentInfo</value>
+  </data>
+  <data name="&gt;&gt;itemComponentInfo.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CableChannelGroup.Name" xml:space="preserve">
+    <value>CableChannelGroup</value>
+  </data>
+  <data name="&gt;&gt;CableChannelGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowConnectedChannels.Name" xml:space="preserve">
+    <value>itemShowConnectedChannels</value>
+  </data>
+  <data name="&gt;&gt;itemShowConnectedChannels.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCableChannelCheckOverload.Name" xml:space="preserve">
+    <value>itemCableChannelCheckOverload</value>
+  </data>
+  <data name="&gt;&gt;itemCableChannelCheckOverload.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CableChannelInfoControl.Name" xml:space="preserve">
+    <value>CableChannelInfoControl</value>
+  </data>
+  <data name="&gt;&gt;CableChannelInfoControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupCable.Name" xml:space="preserve">
+    <value>groupCable</value>
+  </data>
+  <data name="&gt;&gt;groupCable.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateCable.Name" xml:space="preserve">
+    <value>itemCreateCable</value>
+  </data>
+  <data name="&gt;&gt;itemCreateCable.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;WireGroup.Name" xml:space="preserve">
+    <value>WireGroup</value>
+  </data>
+  <data name="&gt;&gt;WireGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ShowWiresControl.Name" xml:space="preserve">
+    <value>ShowWiresControl</value>
+  </data>
+  <data name="&gt;&gt;ShowWiresControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;HideWiresControl.Name" xml:space="preserve">
+    <value>HideWiresControl</value>
+  </data>
+  <data name="&gt;&gt;HideWiresControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSelectWire.Name" xml:space="preserve">
+    <value>itemSelectWire</value>
+  </data>
+  <data name="&gt;&gt;itemSelectWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AutoRouteControl.Name" xml:space="preserve">
+    <value>AutoRouteControl</value>
+  </data>
+  <data name="&gt;&gt;AutoRouteControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Wire2PointsControl.Name" xml:space="preserve">
+    <value>Wire2PointsControl</value>
+  </data>
+  <data name="&gt;&gt;Wire2PointsControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRouteWireNet.Name" xml:space="preserve">
+    <value>itemRouteWireNet</value>
+  </data>
+  <data name="&gt;&gt;itemRouteWireNet.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemWireNumbering.Name" xml:space="preserve">
+    <value>itemWireNumbering</value>
+  </data>
+  <data name="&gt;&gt;itemWireNumbering.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupCableChannelPath.Name" xml:space="preserve">
+    <value>groupCableChannelPath</value>
+  </data>
+  <data name="&gt;&gt;groupCableChannelPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RoutePathControl.Name" xml:space="preserve">
+    <value>RoutePathControl</value>
+  </data>
+  <data name="&gt;&gt;RoutePathControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SnapVertexControl.Name" xml:space="preserve">
+    <value>SnapVertexControl</value>
+  </data>
+  <data name="&gt;&gt;SnapVertexControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SnapIntersectControl.Name" xml:space="preserve">
+    <value>SnapIntersectControl</value>
+  </data>
+  <data name="&gt;&gt;SnapIntersectControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowRoutePath.Name" xml:space="preserve">
+    <value>itemShowRoutePath</value>
+  </data>
+  <data name="&gt;&gt;itemShowRoutePath.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHideRoutePath.Name" xml:space="preserve">
+    <value>itemHideRoutePath</value>
+  </data>
+  <data name="&gt;&gt;itemHideRoutePath.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowCableChannel.Name" xml:space="preserve">
+    <value>itemShowCableChannel</value>
+  </data>
+  <data name="&gt;&gt;itemShowCableChannel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHideCableChannel.Name" xml:space="preserve">
+    <value>itemHideCableChannel</value>
+  </data>
+  <data name="&gt;&gt;itemHideCableChannel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSubRouting.Name" xml:space="preserve">
+    <value>itemSubRouting</value>
+  </data>
+  <data name="&gt;&gt;itemSubRouting.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeOnSelectedPaths.Name" xml:space="preserve">
+    <value>itemSegCodeOnSelectedPaths</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeOnSelectedPaths.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;busBarGroup.Name" xml:space="preserve">
+    <value>busBarGroup</value>
+  </data>
+  <data name="&gt;&gt;busBarGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;createBusBarButtonItem.Name" xml:space="preserve">
+    <value>createBusBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;createBusBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bendBusBarButtonItem.Name" xml:space="preserve">
+    <value>bendBusBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;bendBusBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;extendBusBarBarButtonItem.Name" xml:space="preserve">
+    <value>extendBusBarBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;extendBusBarBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;showConnectedBusBarsButtonItem.Name" xml:space="preserve">
+    <value>showConnectedBusBarsButtonItem</value>
+  </data>
+  <data name="&gt;&gt;showConnectedBusBarsButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;generateDrillHolesButtonItem.Name" xml:space="preserve">
+    <value>generateDrillHolesButtonItem</value>
+  </data>
+  <data name="&gt;&gt;generateDrillHolesButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;predefinedBusbarsBarButtonItem.Name" xml:space="preserve">
+    <value>predefinedBusbarsBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;predefinedBusbarsBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupBusbarMenu.Name" xml:space="preserve">
+    <value>popupBusbarMenu</value>
+  </data>
+  <data name="&gt;&gt;popupBusbarMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;mapItem.Name" xml:space="preserve">
+    <value>mapItem</value>
+  </data>
+  <data name="&gt;&gt;mapItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;WiresCheckbox.Name" xml:space="preserve">
+    <value>WiresCheckbox</value>
+  </data>
+  <data name="&gt;&gt;WiresCheckbox.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;checkItemNets.Name" xml:space="preserve">
+    <value>checkItemNets</value>
+  </data>
+  <data name="&gt;&gt;checkItemNets.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowDrillHoles.Name" xml:space="preserve">
+    <value>itemShowDrillHoles</value>
+  </data>
+  <data name="&gt;&gt;itemShowDrillHoles.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesSteinhauer.Name" xml:space="preserve">
+    <value>itemDrillHolesSteinhauer</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesSteinhauer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemWires.Name" xml:space="preserve">
+    <value>subItemWires</value>
+  </data>
+  <data name="&gt;&gt;subItemWires.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteSelected.Name" xml:space="preserve">
+    <value>itemRerouteSelected</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteSelected.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteWireConnections.Name" xml:space="preserve">
+    <value>itemRerouteWireConnections</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteWireConnections.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemChangeRoutePath.Name" xml:space="preserve">
+    <value>itemChangeRoutePath</value>
+  </data>
+  <data name="&gt;&gt;itemChangeRoutePath.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemRailTools.Name" xml:space="preserve">
+    <value>subItemRailTools</value>
+  </data>
+  <data name="&gt;&gt;subItemRailTools.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSwapComponentLeft.Name" xml:space="preserve">
+    <value>itemSwapComponentLeft</value>
+  </data>
+  <data name="&gt;&gt;itemSwapComponentLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSwapComponentRight.Name" xml:space="preserve">
+    <value>itemSwapComponentRight</value>
+  </data>
+  <data name="&gt;&gt;itemSwapComponentRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOffsetComponentLeft.Name" xml:space="preserve">
+    <value>itemOffsetComponentLeft</value>
+  </data>
+  <data name="&gt;&gt;itemOffsetComponentLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOffsetComponentRight.Name" xml:space="preserve">
+    <value>itemOffsetComponentRight</value>
+  </data>
+  <data name="&gt;&gt;itemOffsetComponentRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemFlipComponentVertical.Name" xml:space="preserve">
+    <value>itemFlipComponentVertical</value>
+  </data>
+  <data name="&gt;&gt;itemFlipComponentVertical.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeLeftComp.Name" xml:space="preserve">
+    <value>itemOrganizeLeftComp</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeLeftComp.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeRightComp.Name" xml:space="preserve">
+    <value>itemOrganizeRightComp</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeRightComp.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeLeftRail.Name" xml:space="preserve">
+    <value>itemOrganizeLeftRail</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeLeftRail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeRightRail.Name" xml:space="preserve">
+    <value>itemOrganizeRightRail</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeRightRail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemAlignCompEvenlyRail.Name" xml:space="preserve">
+    <value>itemAlignCompEvenlyRail</value>
+  </data>
+  <data name="&gt;&gt;itemAlignCompEvenlyRail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupDrillHoles.Name" xml:space="preserve">
+    <value>ribbonGroupDrillHoles</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupDrillHoles.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHole.Name" xml:space="preserve">
+    <value>itemDrillHole</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHole.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;drillContourMenu.Name" xml:space="preserve">
+    <value>drillContourMenu</value>
+  </data>
+  <data name="&gt;&gt;drillContourMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;circleDrillContour.Name" xml:space="preserve">
+    <value>circleDrillContour</value>
+  </data>
+  <data name="&gt;&gt;circleDrillContour.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rectangleDrillContur.Name" xml:space="preserve">
+    <value>rectangleDrillContur</value>
+  </data>
+  <data name="&gt;&gt;rectangleDrillContur.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;polylineDrillContour.Name" xml:space="preserve">
+    <value>polylineDrillContour</value>
+  </data>
+  <data name="&gt;&gt;polylineDrillContour.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesPolygon.Name" xml:space="preserve">
+    <value>itemDrillHolesPolygon</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesPolygon.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonInsideCircle.Name" xml:space="preserve">
+    <value>itemDrillPolygonInsideCircle</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonInsideCircle.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonOutsideCircle.Name" xml:space="preserve">
+    <value>itemDrillPolygonOutsideCircle</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonOutsideCircle.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonSegment.Name" xml:space="preserve">
+    <value>itemDrillPolygonSegment</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonSegment.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemThreadDrill.Name" xml:space="preserve">
+    <value>subItemThreadDrill</value>
+  </data>
+  <data name="&gt;&gt;subItemThreadDrill.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowDrillHolesControl.Name" xml:space="preserve">
+    <value>itemShowDrillHolesControl</value>
+  </data>
+  <data name="&gt;&gt;itemShowDrillHolesControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateDrillContour.Name" xml:space="preserve">
+    <value>itemCreateDrillContour</value>
+  </data>
+  <data name="&gt;&gt;itemCreateDrillContour.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDynamicScale.Name" xml:space="preserve">
+    <value>itemDynamicScale</value>
+  </data>
+  <data name="&gt;&gt;itemDynamicScale.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit2.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesCharts.Name" xml:space="preserve">
+    <value>itemDrillHolesCharts</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesCharts.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesPerforex.Name" xml:space="preserve">
+    <value>itemDrillHolesPerforex</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesPerforex.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;harnessPage.Name" xml:space="preserve">
+    <value>harnessPage</value>
+  </data>
+  <data name="&gt;&gt;harnessPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;harnessGroup.Name" xml:space="preserve">
+    <value>harnessGroup</value>
+  </data>
+  <data name="&gt;&gt;harnessGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateHarness.Name" xml:space="preserve">
+    <value>itemCreateHarness</value>
+  </data>
+  <data name="&gt;&gt;itemCreateHarness.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemLineMode.Name" xml:space="preserve">
+    <value>itemLineMode</value>
+  </data>
+  <data name="&gt;&gt;itemLineMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemTangentBend.Name" xml:space="preserve">
+    <value>itemTangentBend</value>
+  </data>
+  <data name="&gt;&gt;itemTangentBend.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemChangePlane.Name" xml:space="preserve">
+    <value>itemChangePlane</value>
+  </data>
+  <data name="&gt;&gt;itemChangePlane.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemMergeHarness.Name" xml:space="preserve">
+    <value>itemMergeHarness</value>
+  </data>
+  <data name="&gt;&gt;itemMergeHarness.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateControlPoint.Name" xml:space="preserve">
+    <value>itemCreateControlPoint</value>
+  </data>
+  <data name="&gt;&gt;itemCreateControlPoint.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemModifyControlPoint.Name" xml:space="preserve">
+    <value>itemModifyControlPoint</value>
+  </data>
+  <data name="&gt;&gt;itemModifyControlPoint.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDeleteControlPoint.Name" xml:space="preserve">
+    <value>itemDeleteControlPoint</value>
+  </data>
+  <data name="&gt;&gt;itemDeleteControlPoint.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCheckBendRadius.Name" xml:space="preserve">
+    <value>itemCheckBendRadius</value>
+  </data>
+  <data name="&gt;&gt;itemCheckBendRadius.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateBendRadiusFromWires.Name" xml:space="preserve">
+    <value>itemUpdateBendRadiusFromWires</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateBendRadiusFromWires.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSaveAsWiring.Name" xml:space="preserve">
+    <value>itemSaveAsWiring</value>
+  </data>
+  <data name="&gt;&gt;itemSaveAsWiring.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemImportWiringDrawing.Name" xml:space="preserve">
+    <value>itemImportWiringDrawing</value>
+  </data>
+  <data name="&gt;&gt;itemImportWiringDrawing.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;checkItemCables.Name" xml:space="preserve">
+    <value>checkItemCables</value>
+  </data>
+  <data name="&gt;&gt;checkItemCables.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesXML.Name" xml:space="preserve">
+    <value>itemDrillHolesXML</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesXML.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSaveAsProduction.Name" xml:space="preserve">
+    <value>itemSaveAsProduction</value>
+  </data>
+  <data name="&gt;&gt;itemSaveAsProduction.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesAutoCAD.Name" xml:space="preserve">
+    <value>itemDrillHolesAutoCAD</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesAutoCAD.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemCables.Name" xml:space="preserve">
+    <value>subItemCables</value>
+  </data>
+  <data name="&gt;&gt;subItemCables.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteSelectedCables.Name" xml:space="preserve">
+    <value>itemRerouteSelectedCables</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteSelectedCables.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemChangeRoutePathCable.Name" xml:space="preserve">
+    <value>itemChangeRoutePathCable</value>
+  </data>
+  <data name="&gt;&gt;itemChangeRoutePathCable.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemModifyCableEndPoints.Name" xml:space="preserve">
+    <value>itemModifyCableEndPoints</value>
+  </data>
+  <data name="&gt;&gt;itemModifyCableEndPoints.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;copperPage.Name" xml:space="preserve">
+    <value>copperPage</value>
+  </data>
+  <data name="&gt;&gt;copperPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;generateBusbarDrawingBarButtonItem.Name" xml:space="preserve">
+    <value>generateBusbarDrawingBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;generateBusbarDrawingBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemMachiningDefinitions.Name" xml:space="preserve">
+    <value>itemMachiningDefinitions</value>
+  </data>
+  <data name="&gt;&gt;itemMachiningDefinitions.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateBusBarGuide.Name" xml:space="preserve">
+    <value>itemCreateBusBarGuide</value>
+  </data>
+  <data name="&gt;&gt;itemCreateBusBarGuide.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;externalPage.Name" xml:space="preserve">
+    <value>externalPage</value>
+  </data>
+  <data name="&gt;&gt;externalPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ThermalManagementGroup.Name" xml:space="preserve">
+    <value>ThermalManagementGroup</value>
+  </data>
+  <data name="&gt;&gt;ThermalManagementGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemProClima.Name" xml:space="preserve">
+    <value>itemProClima</value>
+  </data>
+  <data name="&gt;&gt;itemProClima.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ConfiguratorOutputsGroup.Name" xml:space="preserve">
+    <value>ConfiguratorOutputsGroup</value>
+  </data>
+  <data name="&gt;&gt;ConfiguratorOutputsGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCubic.Name" xml:space="preserve">
+    <value>itemCubic</value>
+  </data>
+  <data name="&gt;&gt;itemCubic.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemShopFloor.Name" xml:space="preserve">
+    <value>subItemShopFloor</value>
+  </data>
+  <data name="&gt;&gt;subItemShopFloor.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemLocal.Name" xml:space="preserve">
+    <value>subItemLocal</value>
+  </data>
+  <data name="&gt;&gt;subItemLocal.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemServer.Name" xml:space="preserve">
+    <value>subItemServer</value>
+  </data>
+  <data name="&gt;&gt;subItemServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCheckInShopFloor.Name" xml:space="preserve">
+    <value>itemCheckInShopFloor</value>
+  </data>
+  <data name="&gt;&gt;itemCheckInShopFloor.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateToServer.Name" xml:space="preserve">
+    <value>itemUpdateToServer</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateToServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemUndoCheckOutShopFloor.Name" xml:space="preserve">
+    <value>itemUndoCheckOutShopFloor</value>
+  </data>
+  <data name="&gt;&gt;itemUndoCheckOutShopFloor.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemAddToServer.Name" xml:space="preserve">
+    <value>itemAddToServer</value>
+  </data>
+  <data name="&gt;&gt;itemAddToServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemManufacturing.Name" xml:space="preserve">
+    <value>subItemManufacturing</value>
+  </data>
+  <data name="&gt;&gt;subItemManufacturing.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;wiringPage.Name" xml:space="preserve">
+    <value>wiringPage</value>
+  </data>
+  <data name="&gt;&gt;wiringPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandsGroup.Name" xml:space="preserve">
+    <value>CommandsGroup</value>
+  </data>
+  <data name="&gt;&gt;CommandsGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Name" xml:space="preserve">
+    <value>barSubItem1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRemoveInvalidWires.Name" xml:space="preserve">
+    <value>itemRemoveInvalidWires</value>
+  </data>
+  <data name="&gt;&gt;itemRemoveInvalidWires.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSwapSignalWiresNotInNet.Name" xml:space="preserve">
+    <value>itemSwapSignalWiresNotInNet</value>
+  </data>
+  <data name="&gt;&gt;itemSwapSignalWiresNotInNet.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSwapSignalCableCores.Name" xml:space="preserve">
+    <value>itemSwapSignalCableCores</value>
+  </data>
+  <data name="&gt;&gt;itemSwapSignalCableCores.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeMatchNumberWire.Name" xml:space="preserve">
+    <value>itemSegCodeMatchNumberWire</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeMatchNumberWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeMatchTypesWire.Name" xml:space="preserve">
+    <value>itemSegCodeMatchTypesWire</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeMatchTypesWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDefineSegCodeWire.Name" xml:space="preserve">
+    <value>itemDefineSegCodeWire</value>
+  </data>
+  <data name="&gt;&gt;itemDefineSegCodeWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightSegCodeWire.Name" xml:space="preserve">
+    <value>itemHighlightSegCodeWire</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightSegCodeWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSubNets.Name" xml:space="preserve">
+    <value>itemSubNets</value>
+  </data>
+  <data name="&gt;&gt;itemSubNets.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSetSegregationCode.Name" xml:space="preserve">
+    <value>itemSetSegregationCode</value>
+  </data>
+  <data name="&gt;&gt;itemSetSegregationCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateSegregationCode.Name" xml:space="preserve">
+    <value>itemUpdateSegregationCode</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateSegregationCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSegregationCodeBySignalType.Name" xml:space="preserve">
+    <value>itemSegregationCodeBySignalType</value>
+  </data>
+  <data name="&gt;&gt;itemSegregationCodeBySignalType.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSelectNetsBySegregation.Name" xml:space="preserve">
+    <value>itemSelectNetsBySegregation</value>
+  </data>
+  <data name="&gt;&gt;itemSelectNetsBySegregation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSubBundles.Name" xml:space="preserve">
+    <value>itemSubBundles</value>
+  </data>
+  <data name="&gt;&gt;itemSubBundles.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDefineBundleGroup.Name" xml:space="preserve">
+    <value>itemDefineBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemDefineBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemNetTypeBundleGroup.Name" xml:space="preserve">
+    <value>itemNetTypeBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemNetTypeBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemWireTypeBundleGroup.Name" xml:space="preserve">
+    <value>itemWireTypeBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemWireTypeBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightNetsBundleGroup.Name" xml:space="preserve">
+    <value>itemHighlightNetsBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightNetsBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightWiresBundleGroup.Name" xml:space="preserve">
+    <value>itemHighlightWiresBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightWiresBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Cabinet3DForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>See3DEditor.CAD3DForm, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="Helper_" xml:space="preserve">
+    <value>Minimize the Ribbon (Ctrl+F1)Only show tab names on the Ribbon</value>
+  </data>
+  <data name="Helper_SelectAllControl" xml:space="preserve">
+    <value>Select all elements123 and objects in drawing which have not been made unselectable</value>
+  </data>
+  <data name="Helper_SelectSingleControl" xml:space="preserve">
+    <value>Select separate objects and elements</value>
+  </data>
+  <data name="Helper_DeleteSelectedControl" xml:space="preserve">
+    <value>Delete the selected element</value>
+  </data>
+  <data name="Helper_SelectWindowControl" xml:space="preserve">
+    <value>Select all elements and objects in rectangle area</value>
+  </data>
+  <data name="Helper_ModifySelected" xml:space="preserve">
+    <value>Opens the Modify tool the enables modifying the position and/or rotation of selected elements</value>
+  </data>
+  <data name="Helper_RemoveSelectionControl" xml:space="preserve">
+    <value>Cancel the current selection and fobid any further selection of elements</value>
+  </data>
+  <data name="Helper_DrawLineControl" xml:space="preserve">
+    <value>Draw lines from two points.
+
+Create polygons by continuing until you obtain the desired shape</value>
+  </data>
+  <data name="Helper_SmoothCurveControl" xml:space="preserve">
+    <value>Make polygons look smooth after execution of some particular operations</value>
+  </data>
+  <data name="Helper_CircleControl" xml:space="preserve">
+    <value>Draw Circle on the active plane</value>
+  </data>
+  <data name="Helper_RectangleControl" xml:space="preserve">
+    <value>Draw Rectangle from two points on the active plane</value>
+  </data>
+  <data name="Helper_BlockControl" xml:space="preserve">
+    <value>Create Block from selected elements
+
+Block is a group of objects without intelligence</value>
+  </data>
+  <data name="Helper_CylinderControl" xml:space="preserve">
+    <value>Draw Cylinder from extruded circle on active plane</value>
+  </data>
+  <data name="Helper_ExtrudeControl" xml:space="preserve">
+    <value>Transforms a closed 2D contour (circle, rectange, closed polyline, etc) into a 3D object</value>
+  </data>
+  <data name="Helper_UnionControl" xml:space="preserve">
+    <value>Merge intersecting 3D objects into a single object</value>
+  </data>
+  <data name="Helper_DiffControl" xml:space="preserve">
+    <value>Remove part of a 3D object, which intersects with another object, and deleting the latter at the same time</value>
+  </data>
+  <data name="Helper_BoxControl" xml:space="preserve">
+    <value>Draw Box from extruded rectangle on active plane</value>
+  </data>
+  <data name="Helper_ComponentControl" xml:space="preserve">
+    <value>Create a 3D component from selected Elements, which represent kind of blocks with intelligence and a particular purpose.
+
+The different 3D components bear different information, depending on their designation.</value>
+  </data>
+  <data name="Helper_ConnectionControl" xml:space="preserve">
+    <value>Define Connections of selected graphics 
+
+Relevant routing directions must be indicated (i.e. created)</value>
+  </data>
+  <data name="Helper_DirectionControl" xml:space="preserve">
+    <value>Used on components&apos; connection points, to indicate the initial (primary) routing direction, which is to be followed by the wire routing process for a minimum of 5 mm.
+
+Must define appropriate planes on which the respective connection points are to be present.
+</value>
+  </data>
+  <data name="Helper_UnBlockControl" xml:space="preserve">
+    <value>Decompose a previously created block or component.</value>
+  </data>
+  <data name="Helper_CreateAttributeControl" xml:space="preserve">
+    <value>Create various text attributes, a.k.a. text placeholders, assigned to the blocks and/or components.</value>
+  </data>
+  <data name="Helper_ArcControl" xml:space="preserve">
+    <value>Draw Arc on the active plane</value>
+  </data>
+  <data name="Helper_RelationControl" xml:space="preserve">
+    <value>Define parent-children relations of the selected parent element</value>
+  </data>
+  <data name="Helper_barButtonMeasure" xml:space="preserve">
+    <value>Measure distance between two points</value>
+  </data>
+  <data name="Helper_CircleCenterRadius" xml:space="preserve">
+    <value>Create Circle from center and a radius</value>
+  </data>
+  <data name="Helper_Circle2pts" xml:space="preserve">
+    <value>Create Circle from 2 points</value>
+  </data>
+  <data name="Helper_Circle3pts" xml:space="preserve">
+    <value>Create Circle from 3 points</value>
+  </data>
+  <data name="Helper_EllipseAxes" xml:space="preserve">
+    <value>Draw Elilipse by defining its axes</value>
+  </data>
+  <data name="Helper_PolylineControl" xml:space="preserve">
+    <value>Draw a contour, containing lines and arcs, on the currently active plane 
+
+&lt;b&gt;Right-Click:&lt;/b&gt; change drawing mode to either Arc or Line</value>
+  </data>
+  <data name="Helper_CircleCenterDiameter" xml:space="preserve">
+    <value>Create Circle from center and diameter</value>
+  </data>
+  <data name="Helper_itemSnapCenter" xml:space="preserve">
+    <value>Snap to the centre of a circle, arc or polyline arc segment.</value>
+  </data>
+  <data name="Helper_itemSnapEndPoint" xml:space="preserve">
+    <value>Snap to end points of lines on contours or 3D objects</value>
+  </data>
+  <data name="Helper_itemSnapGrid" xml:space="preserve">
+    <value>Snap to current grid pointsGrid snap is definied in the Status Bar</value>
+  </data>
+  <data name="Helper_itemSnapIntersection" xml:space="preserve">
+    <value>Snap to intersection between two drawing objects</value>
+  </data>
+  <data name="Helper_itemSnapMidPoint" xml:space="preserve">
+    <value>Snap to mid point of lines on contours or 3D objects</value>
+  </data>
+  <data name="Helper_itemSnapQuadrant" xml:space="preserve">
+    <value>Snap to one of the four circle quadrant points</value>
+  </data>
+  <data name="Helper_itemShowBlockPlane" xml:space="preserve">
+    <value>Visualize planes within a selected element, which allow snapping to rail or mounting plate.
+
+Planes are automatically highlighted in the colours assigned in their definition</value>
+  </data>
+  <data name="Helper_itemEntityProperties" xml:space="preserve">
+    <value>Displays the Property Card of selected element. Or the properties of the current 3D page, if nothing is selected</value>
+  </data>
+  <data name="Helper_itemScaleSelected" xml:space="preserve">
+    <value>Scale and displace selected elements</value>
+  </data>
+  <data name="Helper_IntersectControl" xml:space="preserve">
+    <value>Remove two intersecting 3D objects, by keeping the part that intersects</value>
+  </data>
+  <data name="Helper_CutByPlaneControl" xml:space="preserve">
+    <value>Use a suitable plane to split a 3D object into two pieces</value>
+  </data>
+  <data name="Helper_ConeControl" xml:space="preserve">
+    <value>Draw Cone from a circle on the active plane</value>
+  </data>
+  <data name="Helper_Sphere" xml:space="preserve">
+    <value>Draw Sphere from circle on the active plane</value>
+  </data>
+  <data name="Helper_TorusControl" xml:space="preserve">
+    <value>Draw Torus from two circles specifying the inner and outer diameter of the torus</value>
+  </data>
+  <data name="Helper_itemCopyBasePoint" xml:space="preserve">
+    <value>Copy with a specified point that is to be used as refernce point when element(s) is/are pasted</value>
+  </data>
+  <data name="Helper_itemSweep" xml:space="preserve">
+    <value>Create a relevant 3D object by using a 2D contour to define its shape and another one (usually, a polyline) – to extend and possibly displace accordingly the 3D shape.</value>
+  </data>
+  <data name="Helper_itemRevolve" xml:space="preserve">
+    <value>Create a 3D object through a rotation of a 2D contour around a defined axis</value>
+  </data>
+  <data name="Helper_itemSpline" xml:space="preserve">
+    <value>Draw Splines on the active plane</value>
+  </data>
+  <data name="Helper_itemDrawText" xml:space="preserve">
+    <value>Insert fixed texts on the current planeRecommended that the plane used is a bit in front of construction plane being used for drawing</value>
+  </data>
+  <data name="Helper_TrimControl" xml:space="preserve">
+    <value>Remove parts of geometrical elements at their intersections with another element</value>
+  </data>
+  <data name="Helper_ExtendControl" xml:space="preserve">
+    <value>Extend geometrical element to join to another one</value>
+  </data>
+  <data name="Helper_JoinControl" xml:space="preserve">
+    <value>Join two geometrical lines</value>
+  </data>
+  <data name="Helper_BreakControl" xml:space="preserve">
+    <value>Cut out part of geometrical element</value>
+  </data>
+  <data name="Helper_OffsetControl" xml:space="preserve">
+    <value>Create new geometrical elements from an offset of a selected simple 2D geometrical element (line, circle, arc, etc.)</value>
+  </data>
+  <data name="Helper_Dimension2Pts" xml:space="preserve">
+    <value>Calculate and display linear distance between two points on the current plane</value>
+  </data>
+  <data name="Helper_btnMakeSelectable" xml:space="preserve">
+    <value>Make alle objects selectedable</value>
+  </data>
+  <data name="Helper_btnMakeUnselectable" xml:space="preserve">
+    <value>Make selected objects unselectable</value>
+  </data>
+  <data name="Helper_itemAboutShow" xml:space="preserve">
+    <value>Credits of SEE Electrical 3D Panel+, as well as to obtain advanced software and system information.</value>
+  </data>
+  <data name="Helper_itemSnapMidBetween2Pt" xml:space="preserve">
+    <value>Select the middle point between 2 points. Use in combination with other snap point tools</value>
+  </data>
+  <data name="Helper_itemRemoveRelation" xml:space="preserve">
+    <value>Cancel a previously defined parent-children relation between selected components</value>
+  </data>
+  <data name="Helper_componentWizardItem" xml:space="preserve">
+    <value>Opens the Component Generation Wizard, enabling you to create components automatically</value>
+  </data>
+  <data name="Helper_itemHelpShow" xml:space="preserve">
+    <value>Access the SEE Electrical 3D Panel+ help, which contains all the necessary information concerning the use of the application.</value>
+  </data>
+  <data name="Helper_barButtonDimensionNc" xml:space="preserve">
+    <value>Calculate and display the horizontal or vertical distance between two points</value>
+  </data>
+  <data name="Helper_itemRelativeSnapPoint" xml:space="preserve">
+    <value>Snap to point located a fixed distance from a specified refernce point</value>
+  </data>
+  <data name="Helper_barButtonOrthogonalDimension" xml:space="preserve">
+    <value>Calculate and display the othogonal (on X or Y axis) distance between two points on the current plane</value>
+  </data>
+  <data name="Helper_itemAddToBlock" xml:space="preserve">
+    <value>Add a selected element to an already created block or component.
+Especially beneficial if you need to additionally affix a connection point or drill contour to an existing component.</value>
+  </data>
+  <data name="Helper_FilletControl" xml:space="preserve">
+    <value>Connect two geometrical lines with a tangent arc</value>
+  </data>
+  <data name="Helper_ChamferControl" xml:space="preserve">
+    <value>Create a 45 degrees chamfer from intersection of two lines</value>
+  </data>
+  <data name="Helper_ItemShowAll" xml:space="preserve">
+    <value>Displays all elements which have been made invisible</value>
+  </data>
+  <data name="Helper_itemSelectAssembly" xml:space="preserve">
+    <value>Select all elements which belongs to same Label Group as selected element</value>
+  </data>
+  <data name="Helper_itemShowConnections" xml:space="preserve">
+    <value>Shows all Connections</value>
+  </data>
+  <data name="Helper_itemValidateCompDefinition" xml:space="preserve">
+    <value>Validate the selected componentChecks several parameters that are crucial for the proper use of the component in the 3D model</value>
+  </data>
+  <data name="Helper_itemAddConnection" xml:space="preserve">
+    <value>Add an already defined connection point</value>
+  </data>
+  <data name="Helper_itemHideTextTag" xml:space="preserve">
+    <value>Hide all Text Attributes (such as description, equipment, function, location etc) of all components inserted in the drawing window</value>
+  </data>
+  <data name="Helper_itemBlockEditor" xml:space="preserve">
+    <value>Modify the definition of the selected block. Change all block references contained in the block definition. Edit the definition of the symbol if the the block is connected to a symbol</value>
+  </data>
+  <data name="Helper_itemDiscardBlockEdit" xml:space="preserve">
+    <value>Discard all changes in Edit Block and exit the Block Editor</value>
+  </data>
+  <data name="Helper_itemSaveBlockEdit" xml:space="preserve">
+    <value>Save changes made in the Block Editor</value>
+  </data>
+  <data name="Helper_itemChangeBlockReference" xml:space="preserve">
+    <value>Change reference point of block</value>
+  </data>
+  <data name="Helper_itemShortCuts" xml:space="preserve">
+    <value>Show list of generic hotkeys and shortcuts</value>
+  </data>
+  <data name="Helper_barButtonDiameterDimension" xml:space="preserve">
+    <value>Display the diameter of selected circle/arc</value>
+  </data>
+  <data name="Helper_barButtonRadialDim" xml:space="preserve">
+    <value>Display the radius of the selected circle/arc</value>
+  </data>
+  <data name="Helper_barButtonAngularDim" xml:space="preserve">
+    <value>Display angle between two lines, or angle of a selected arc</value>
+  </data>
+  <data name="Helper_itemCreateDirectionPath" xml:space="preserve">
+    <value>Create direction path is used when making guide lines for use in the sleeves module</value>
+  </data>
+  <data name="Helper_itemSnapObject" xml:space="preserve">
+    <value>Alings object being inserted with other objects</value>
+  </data>
+  <data name="Helper_itemDefineClipping" xml:space="preserve">
+    <value>Define a clipping view from selected side on component</value>
+  </data>
+  <data name="Helper_itemShowClippingView" xml:space="preserve">
+    <value>Switch between the clipping view and the standard view</value>
+  </data>
+  <data name="Helper_itemSnapPlane" xml:space="preserve">
+    <value>Objects are automatically rotated to match the active plane</value>
+  </data>
+  <data name="Helper_itemCreatePicture" xml:space="preserve">
+    <value>Insert image into the current drawing</value>
+  </data>
+  <data name="Helper_itemSnapMate" xml:space="preserve">
+    <value>Automactically matches a device or accessory that is being inserted to a corresponding plane, allowing for an easy 
+&quot;drag and drop&quot; insertion</value>
+  </data>
+  <data name="Helper_barButtonLabelGroup" xml:space="preserve">
+    <value>Shows a list of all label groups present in the project</value>
+  </data>
+  <data name="Helper_itemPolygon" xml:space="preserve">
+    <value>Draw Polygon from number of edges on the active plane</value>
+  </data>
+  <data name="Helper_itemNews" xml:space="preserve">
+    <value>Information about the new and improved features of the software.</value>
+  </data>
+  <data name="Helper_itemSnapObjectIntersectPlane" xml:space="preserve">
+    <value>Alings object being inserted with other objects on the active plane</value>
+  </data>
+  <data name="Helper_itemSearchReplaceAttributes" xml:space="preserve">
+    <value>Find and replace values of specific attributes (such as description, equipment, etc.) of some or all components inserted in the drawing window.</value>
+  </data>
+  <data name="Helper_snap2EdgesIntersectionBarButtonItem" xml:space="preserve">
+    <value>Snap to point at intersection of two edges on a defined plane</value>
+  </data>
+  <data name="Helper_snapToEdgePointBarButtonItem" xml:space="preserve">
+    <value>Snap to point a fixed distance from a specified reference point along an edge projected on the active plane</value>
+  </data>
+  <data name="Helper_itemCopyVector" xml:space="preserve">
+    <value>Copy and paste element(s) by specifying a vectors initial point, length and direction</value>
+  </data>
+  <data name="Helper_itemExplodeBlockRecursive" xml:space="preserve">
+    <value>Decompose block or component to its ultimate level beyond which it cannot be further decomposed.
+
+And it becomes possible to access the particular elements separately
+</value>
+  </data>
+  <data name="Helper_item2DLayout" xml:space="preserve">
+    <value>Opens the Documentation Designer, which is a 2D view editor where you can create any type of documentation from a 3D workspace in 2D format.  For example:  create documents containing information on how to drill holes, how to assemble components with respect to dimensions, etc.</value>
+  </data>
+  <data name="Helper_Draw3dLineControl" xml:space="preserve">
+    <value>Draw a 3D line</value>
+  </data>
+  <data name="Helper_itemHideSelected" xml:space="preserve">
+    <value>Hide selected elements</value>
+  </data>
+  <data name="Helper_itemHideAllExceptSelected" xml:space="preserve">
+    <value>Hide all except selected</value>
+  </data>
+  <data name="Helper_itemFrontView" xml:space="preserve">
+    <value>Front view</value>
+  </data>
+  <data name="Helper_itemBackView" xml:space="preserve">
+    <value>Back view</value>
+  </data>
+  <data name="Helper_itemRightView" xml:space="preserve">
+    <value>Right view</value>
+  </data>
+  <data name="Helper_itemLeftView" xml:space="preserve">
+    <value>Left view</value>
+  </data>
+  <data name="Helper_itemTopView" xml:space="preserve">
+    <value>Top view</value>
+  </data>
+  <data name="Helper_itemBottomView" xml:space="preserve">
+    <value>Bottom view</value>
+  </data>
+  <data name="Helper_itemShowClippingViewList" xml:space="preserve">
+    <value>Accessible provided a clipping view is defined
+Switch between the clipping view and the standard view of defined clipping views</value>
+  </data>
+  <data name="Helper_itemMoveCameraFrontActivePlane" xml:space="preserve">
+    <value>Move Camera in front of active plane</value>
+  </data>
+  <data name="Helper_btnUpdateTextAttributes" xml:space="preserve">
+    <value>Update all Text Attributes from selected Text Templates in the Update Text Attributes window.</value>
+  </data>
+  <data name="Helper_itemCheckAskAspectsOnInsert" xml:space="preserve">
+    <value>Override default aspect assignment when inserting or copying components</value>
+  </data>
+  <data name="Helper_itemInverteShowHide" xml:space="preserve">
+    <value>Inverts visibility of all elements</value>
+  </data>
+  <data name="Helper_itemCheckDynamicSelection" xml:space="preserve">
+    <value>Highlights hovered objects and elements</value>
+  </data>
+  <data name="Helper_itemRenderView" xml:space="preserve">
+    <value>View of current 3D page</value>
+  </data>
+  <data name="Helper_btnTextTemplates" xml:space="preserve">
+    <value>Edit Text Templates</value>
+  </data>
+  <data name="Helper_itemShowTextTag" xml:space="preserve">
+    <value>Show all Text Attributes (such as description, equipment, function, location etc) of all components inserted in the drawing window</value>
+  </data>
+  <data name="Helper_barButtonItem1" xml:space="preserve">
+    <value>Hides all Connections</value>
+  </data>
+  <data name="Helper_itemShowDimensions" xml:space="preserve">
+    <value>Show all dimensioning lines and linear distances inserted in the drawing</value>
+  </data>
+  <data name="Helper_itemHideDimensions" xml:space="preserve">
+    <value>Hide all dimensioning lines and linear distances inserted in the drawing</value>
+  </data>
+  <data name="Helper_CabinetDepthControl" xml:space="preserve">
+    <value>Depth of cabinet to draw</value>
+  </data>
+  <data name="Helper_CabinetControl" xml:space="preserve">
+    <value>Draw cabinet from rectangle on current plane</value>
+  </data>
+  <data name="Helper_CabinetColorControl" xml:space="preserve">
+    <value>Color to use when drawing cabinet</value>
+  </data>
+  <data name="Helper_FrontPlateControl" xml:space="preserve">
+    <value>Draw mounting plate from rectangle on active plane</value>
+  </data>
+  <data name="Helper_FrontPlateColorControl" xml:space="preserve">
+    <value>Color of mounting plate to draw</value>
+  </data>
+  <data name="Helper_RailControl" xml:space="preserve">
+    <value>Insert a predefined rail from list of predefined rails
+
+Predefined rails can be edited in the Rail Settings</value>
+  </data>
+  <data name="Helper_RailColorControl" xml:space="preserve">
+    <value>Color to use when drawing rail</value>
+  </data>
+  <data name="Helper_Wire2PointsControl" xml:space="preserve">
+    <value>Create wire directly between two components without passing through cable channels and route paths</value>
+  </data>
+  <data name="Helper_RoutePathControl" xml:space="preserve">
+    <value>Define routing paths used by the wire routing process</value>
+  </data>
+  <data name="Helper_AutoRouteControl" xml:space="preserve">
+    <value>Create automatically routed wire between two connections using a predefined list
+
+Predefined wires can be modified in the Wire Settings</value>
+  </data>
+  <data name="Helper_CableChannelInfoControl" xml:space="preserve">
+    <value>Perfom capacity check on selected cable channe, in order to obtain space reservation information concering the cable ducts</value>
+  </data>
+  <data name="Helper_itemHideCableChannel" xml:space="preserve">
+    <value>Hide cable channels</value>
+  </data>
+  <data name="Helper_CabinetThicknessControl" xml:space="preserve">
+    <value>Thickness of cabinet to draw</value>
+  </data>
+  <data name="Helper_PlateThicknessControl" xml:space="preserve">
+    <value>Thickness of mounting plate to draw</value>
+  </data>
+  <data name="Helper_itemCollisionCheck" xml:space="preserve">
+    <value>Will highlight any pieces of equipment in the cabinet that overlaps with eachother</value>
+  </data>
+  <data name="Helper_itemShowMountingBox" xml:space="preserve">
+    <value>Display the boxes defining the mounting spaces occupied by the selected pieces of equipment in the cabinet</value>
+  </data>
+  <data name="Helper_itemSelectWire" xml:space="preserve">
+    <value>Select wire to highlight and check its entire route</value>
+  </data>
+  <data name="Helper_itemRouteWireNet" xml:space="preserve">
+    <value>Create net of wires from a list of predefined wires. Which are automatically routed between chosen connection points</value>
+  </data>
+  <data name="Helper_itemDrillHole" xml:space="preserve">
+    <value>Create drill contours for the selected object on which drill holes are to be created</value>
+  </data>
+  <data name="Helper_itemShowConnectedChannels" xml:space="preserve">
+    <value>Highlights channels that connect to the selected channelConnected channels allow wires to pass freely between the different channels in the routing process</value>
+  </data>
+  <data name="Helper_itemCreatePlateFromSurface" xml:space="preserve">
+    <value>Create mounting plate by selecting a planar face of a component</value>
+  </data>
+  <data name="Helper_itemDrawChannel" xml:space="preserve">
+    <value>Insert channel from list of predefined channels</value>
+  </data>
+  <data name="Helper_itemCableChannelCheckOverload" xml:space="preserve">
+    <value>Check if any channel inserted in the drawing window is overloaded</value>
+  </data>
+  <data name="Helper_itemHideRoutePath" xml:space="preserve">
+    <value>Hide all route paths</value>
+  </data>
+  <data name="Helper_itemCreateHarness" xml:space="preserve">
+    <value>Create sleeve for wires to run through in the routing process</value>
+  </data>
+  <data name="Helper_itemMergeHarness" xml:space="preserve">
+    <value>Merge sleeves</value>
+  </data>
+  <data name="Helper_itemCreateControlPoint" xml:space="preserve">
+    <value>Add point on sleeve to control the path of the sleeve</value>
+  </data>
+  <data name="Helper_itemModifyControlPoint" xml:space="preserve">
+    <value>Modify control point to change path of sleeve</value>
+  </data>
+  <data name="Helper_itemDeleteControlPoint" xml:space="preserve">
+    <value>Remove control point from sleeve path</value>
+  </data>
+  <data name="Helper_itemComponentInfo" xml:space="preserve">
+    <value>Hover over elements to get information about it</value>
+  </data>
+  <data name="Helper_itemCreateCable" xml:space="preserve">
+    <value>Create a cable out of wires in the 3D drawing</value>
+  </data>
+  <data name="Helper_createBusBarButtonItem" xml:space="preserve">
+    <value>Create and insert busbar into drawingPress the  X ,  Y  or  Z  keys to change the busbar orientation along the x, y or z axis</value>
+  </data>
+  <data name="Helper_bendBusBarButtonItem" xml:space="preserve">
+    <value>Bend a busbar so that it connects to another element in the drawing</value>
+  </data>
+  <data name="Helper_extendBusBarBarButtonItem" xml:space="preserve">
+    <value>Extend a busbar element, so that it can connect to another element</value>
+  </data>
+  <data name="Helper_showConnectedBusBarsButtonItem" xml:space="preserve">
+    <value>Highlight busbars connected to the selected busbar element</value>
+  </data>
+  <data name="Helper_generateDrillHolesButtonItem" xml:space="preserve">
+    <value>Automatically generate drill holes on a busbar overlapping with another busbar or connected component</value>
+  </data>
+  <data name="Helper_predefinedBusbarsBarButtonItem" xml:space="preserve">
+    <value>Insert busbar from list of predefined busbars.
+
+Predefined list can be modified in the Copper Settings</value>
+  </data>
+  <data name="Helper_itemWireNumbering" xml:space="preserve">
+    <value>Automatically renumber all wires in the current drawing</value>
+  </data>
+  <data name="Helper_itemComponentDuplicateTag" xml:space="preserve">
+    <value>Display all duplicate components, i.e. all components having duplicate tags in the current drawing</value>
+  </data>
+  <data name="Helper_itemProClima" xml:space="preserve">
+    <value>Provides information about the heat balance, ventilation, cooling, heating and control of your panel in order to optimise its thermal management.</value>
+  </data>
+  <data name="Helper_itemCubic" xml:space="preserve">
+    <value>Connect to the CUBIC panel design software where you can directly create electrical panels</value>
+  </data>
+  <data name="Helper_itemMountingCheck" xml:space="preserve">
+    <value>Validate mounting regions </value>
+  </data>
+  <data name="Helper_itemDoorCollisionCheck" xml:space="preserve">
+    <value>Will highlight any pieces of equipment in the cabinet that overlaps/gets in the way of the cabinet doors</value>
+  </data>
+  <data name="Helper_itemShowDrillHolesControl" xml:space="preserve">
+    <value>Display defined drill holes on the selected element</value>
+  </data>
+  <data name="Helper_HideWiresControl" xml:space="preserve">
+    <value>Hide all visible wires</value>
+  </data>
+  <data name="Helper_itemShowRoutePath" xml:space="preserve">
+    <value>Show all route paths</value>
+  </data>
+  <data name="Helper_itemShowCableChannel" xml:space="preserve">
+    <value>Show cable channels</value>
+  </data>
   <data name="Empty_xml_path" xml:space="preserve">
     <value>Empty xml path.</value>
   </data>
@@ -130,10 +2386,10 @@
     <value>Plane name can not be empty.</value>
   </data>
   <data name="Plane_name_exists" xml:space="preserve">
-    <value>Plane with name '{0}' already exists.</value>
+    <value>Plane with name &apos;{0}&apos; already exists.</value>
   </data>
   <data name="MsgDeletePlane" xml:space="preserve">
-    <value>Are you sure you want to delete plane '{0}'?</value>
+    <value>Are you sure you want to delete plane &apos;{0}&apos;?</value>
   </data>
   <data name="Title_DeletePlane" xml:space="preserve">
     <value>Delete Plane</value>
@@ -151,22 +2407,22 @@
     <value>The version of Symbol Template Database is not supported.</value>
   </data>
   <data name="MsgDeleteFolder" xml:space="preserve">
-    <value>Are you sure you want to delete folder '{0}'?</value>
+    <value>Are you sure you want to delete folder &apos;{0}&apos;?</value>
   </data>
   <data name="Delete_Folder" xml:space="preserve">
     <value>Delete Folder</value>
   </data>
   <data name="MsgDeleteSymbol" xml:space="preserve">
-    <value>Are you sure you want to delete symbol '{0}'?</value>
+    <value>Are you sure you want to delete symbol &apos;{0}&apos;?</value>
   </data>
   <data name="Delete_Symbol" xml:space="preserve">
     <value>Delete Symbol</value>
   </data>
   <data name="Symbol_0_already_exist" xml:space="preserve">
-    <value>Symbol '{0}' already exist.</value>
+    <value>Symbol &apos;{0}&apos; already exist.</value>
   </data>
   <data name="Folder_0_already_exist" xml:space="preserve">
-    <value>Folder '{0}' already exist.</value>
+    <value>Folder &apos;{0}&apos; already exist.</value>
   </data>
   <data name="Name_can_not_be_empty" xml:space="preserve">
     <value>Name can not be empty.</value>
@@ -280,7 +2536,7 @@
     <value>Please select block.</value>
   </data>
   <data name="Selected_block_doesnt_have_defined_plane" xml:space="preserve">
-    <value>Selected block doesn't have defined plane.</value>
+    <value>Selected block doesn&apos;t have defined plane.</value>
   </data>
   <data name="Select_plane" xml:space="preserve">
     <value>Select plane</value>
@@ -490,10 +2746,10 @@
     <value>Print view name can not be empty.</value>
   </data>
   <data name="Print_view_name_exists" xml:space="preserve">
-    <value>Print view with name '{0}' already exists.</value>
+    <value>Print view with name &apos;{0}&apos; already exists.</value>
   </data>
   <data name="Print_view_delete" xml:space="preserve">
-    <value>Are you sure you want to delete print view '{0}'?</value>
+    <value>Are you sure you want to delete print view &apos;{0}&apos;?</value>
   </data>
   <data name="Delete_print_view" xml:space="preserve">
     <value>Delete Print View</value>
@@ -526,13 +2782,13 @@
     <value>None</value>
   </data>
   <data name="Component_child_warning" xml:space="preserve">
-    <value>The selected component '{0}' has one or more children, which are already part of the component filter. Do you want to add this component and remove all its children from the filter?</value>
+    <value>The selected component &apos;{0}&apos; has one or more children, which are already part of the component filter. Do you want to add this component and remove all its children from the filter?</value>
   </data>
   <data name="Component_exist_warning" xml:space="preserve">
-    <value>The selected component '{0}' is already part of the component filter.</value>
+    <value>The selected component &apos;{0}&apos; is already part of the component filter.</value>
   </data>
   <data name="Component_parent_warning" xml:space="preserve">
-    <value>The selected component '{0}' can not be added to the component filter, because its parent is already a part of it.</value>
+    <value>The selected component &apos;{0}&apos; can not be added to the component filter, because its parent is already a part of it.</value>
   </data>
   <data name="Delete_all_components" xml:space="preserve">
     <value>Are you sure you want to delete all components?</value>
@@ -988,7 +3244,7 @@
     <value>YES</value>
   </data>
   <data name="Drill_start_position_format" xml:space="preserve">
-    <value>Value of drill start position should be 'X(double);Y(double)'.</value>
+    <value>Value of drill start position should be &apos;X(double);Y(double)&apos;.</value>
   </data>
   <data name="Drawing" xml:space="preserve">
     <value>Drawing</value>
@@ -1048,7 +3304,7 @@
     <value>Assembly</value>
   </data>
   <data name="Err_launch" xml:space="preserve">
-    <value>(couldn't launch '</value>
+    <value>(couldn&apos;t launch &apos;</value>
   </data>
   <data name="IGE_contact" xml:space="preserve">
     <value>info@ige-xao.com</value>
@@ -1057,7 +3313,7 @@
     <value>Website: http://www.ige-xao.com/en/</value>
   </data>
   <data name="MS_Path_Sys_Info" xml:space="preserve">
-    <value>(couldn't find path for Microsoft System Information Tool in the registry.)</value>
+    <value>(couldn&apos;t find path for Microsoft System Information Tool in the registry.)</value>
   </data>
   <data name="See3DEditor_description" xml:space="preserve">
     <value>3D Designer</value>
@@ -1075,7 +3331,7 @@
     <value>Contact:</value>
   </data>
   <data name="MsgConfirmDeleteComponentChildren" xml:space="preserve">
-    <value>Are you sure you want to delete this component's children</value>
+    <value>Are you sure you want to delete this component&apos;s children</value>
   </data>
   <data name="Diff" xml:space="preserve">
     <value>*DIFF*</value>
@@ -1087,7 +3343,7 @@
     <value>We could not delete this library. check if file is used by another process</value>
   </data>
   <data name="DeleteLibraryMsg" xml:space="preserve">
-    <value>Are you sure you want to delete library '{0}'?</value>
+    <value>Are you sure you want to delete library &apos;{0}&apos;?</value>
   </data>
   <data name="Delete_Library" xml:space="preserve">
     <value>Delete Library</value>
@@ -1378,7 +3634,7 @@
     <value>Do you want to remove references to it from recent lists ?</value>
   </data>
   <data name="File_cannot_be_opened" xml:space="preserve">
-    <value>The file '{0}' cannot be opened. </value>
+    <value>The file &apos;{0}&apos; cannot be opened. </value>
   </data>
   <data name="Recent_files" xml:space="preserve">
     <value>Recent Files</value>
@@ -1990,7 +4246,7 @@ Equipment: {3}</value>
     <value>Select second Line</value>
   </data>
   <data name="Symbol_library_already_exist" xml:space="preserve">
-    <value>Symbol library '{0}' already exist.</value>
+    <value>Symbol library &apos;{0}&apos; already exist.</value>
   </data>
   <data name="Not_able_to_print" xml:space="preserve">
     <value>Not able to print</value>
@@ -2200,7 +4456,7 @@ Equipment: {3}</value>
     <value>Could not read symbol name.</value>
   </data>
   <data name="MsgSymbolAlreadyExist" xml:space="preserve">
-    <value>Symbol '{0}' already exist. Do you want to overwrite existing symbol?</value>
+    <value>Symbol &apos;{0}&apos; already exist. Do you want to overwrite existing symbol?</value>
   </data>
   <data name="Selected_print_view_not_image" xml:space="preserve">
     <value>The selected print view can not be printed as image. Please use print view, which have rendered print style.</value>
@@ -2233,7 +4489,7 @@ Equipment: {3}</value>
     <value>Manufacturer</value>
   </data>
   <data name="Manufacturer_already_exists_err" xml:space="preserve">
-    <value>Manufacturer '{0}' already exist.</value>
+    <value>Manufacturer &apos;{0}&apos; already exist.</value>
   </data>
   <data name="Manufacturer_empty_err" xml:space="preserve">
     <value>Manufacturer can not be empty.</value>
@@ -2263,7 +4519,7 @@ Equipment: {3}</value>
     <value>Filter definition can not be empty.</value>
   </data>
   <data name="MsgDeleteFilter" xml:space="preserve">
-    <value>Are you sure you want to delete filter '{0}'?</value>
+    <value>Are you sure you want to delete filter &apos;{0}&apos;?</value>
   </data>
   <data name="Title_DeleteFilter" xml:space="preserve">
     <value>Delete Filter</value>
@@ -2446,19 +4702,19 @@ Equipment: {3}</value>
     <value>Template file {0} has an older version than the current. If you upgrade it you will no longer be able to open it in previous versions of See 3D. Do you want to upgrade it?</value>
   </data>
   <data name="MsgDeleteTemplate" xml:space="preserve">
-    <value>Are you sure you want to delete template '{0}'?</value>
+    <value>Are you sure you want to delete template &apos;{0}&apos;?</value>
   </data>
   <data name="Title_DeleteTemplate" xml:space="preserve">
     <value>Delete Template</value>
   </data>
   <data name="Id_already_exists" xml:space="preserve">
-    <value>Id '{0}' already exist.</value>
+    <value>Id &apos;{0}&apos; already exist.</value>
   </data>
   <data name="Id_empty_error" xml:space="preserve">
     <value>Id can not be empty.</value>
   </data>
   <data name="System_id_exists" xml:space="preserve">
-    <value>System property with id '{0}' already exist.</value>
+    <value>System property with id &apos;{0}&apos; already exist.</value>
   </data>
   <data name="Symbol_copy" xml:space="preserve">
     <value>Copy</value>
@@ -2569,13 +4825,13 @@ Equipment: {3}</value>
     <value>Group Id can not be empty.</value>
   </data>
   <data name="Macro_group_not_loaded" xml:space="preserve">
-    <value>Macro can not be loaded for assembly group '{0}'</value>
+    <value>Macro can not be loaded for assembly group &apos;{0}&apos;</value>
   </data>
   <data name="Views_caption" xml:space="preserve">
     <value>Views</value>
   </data>
   <data name="Views_vector_warning" xml:space="preserve">
-    <value>Warning: Depending on the complexity of the view to render, vectors view generation can take more than an hour and will make the program unresponsive. We recommend you use "hidden lines".</value>
+    <value>Warning: Depending on the complexity of the view to render, vectors view generation can take more than an hour and will make the program unresponsive. We recommend you use &quot;hidden lines&quot;.</value>
   </data>
   <data name="News_link" xml:space="preserve">
     <value>https://www.ige-xao.com/en/client-area/notes-de-realisation/?product_to_show=see_electrical_3d_panel</value>
@@ -2701,7 +4957,7 @@ Equipment: {3}</value>
     <value>Are you sure you want to delete the selected variables?</value>
   </data>
   <data name="Variable_already_exist" xml:space="preserve">
-    <value>Variable '{0}' already exist.</value>
+    <value>Variable &apos;{0}&apos; already exist.</value>
   </data>
   <data name="Variable_empty_name" xml:space="preserve">
     <value>Variable name can not be empty.</value>
@@ -2713,7 +4969,7 @@ Equipment: {3}</value>
     <value>Please add some variables definitions first.</value>
   </data>
   <data name="Delete_variable_value_set" xml:space="preserve">
-    <value>Are you sure you want to delete value set '{0}'?</value>
+    <value>Are you sure you want to delete value set &apos;{0}&apos;?</value>
   </data>
   <data name="Keep_macro_variables_definitions" xml:space="preserve">
     <value>Do you want to keep macro variables definitions?</value>
@@ -3125,7 +5381,7 @@ Version: {1}</value>
     <value>Version Validation</value>
   </data>
   <data name="MsgMacroAlreadyExist" xml:space="preserve">
-    <value>Macro '{0}' already exist. Do you want to overwrite existing macro?</value>
+    <value>Macro &apos;{0}&apos; already exist. Do you want to overwrite existing macro?</value>
   </data>
   <data name="Macro_container_file_not_saved" xml:space="preserve">
     <value>Macro container file {0} can not be saved.</value>
@@ -3152,7 +5408,7 @@ Version: {1}</value>
     <value>Rename Macro Container</value>
   </data>
   <data name="Delete_macro_container" xml:space="preserve">
-    <value>Are you sure you want to delete container '{0}'?</value>
+    <value>Are you sure you want to delete container &apos;{0}&apos;?</value>
   </data>
   <data name="Delete_macro_container_caption" xml:space="preserve">
     <value>Delete Macro Container</value>
@@ -3161,10 +5417,10 @@ Version: {1}</value>
     <value>Delete Macro</value>
   </data>
   <data name="MsgDeleteMacro" xml:space="preserve">
-    <value>Are you sure you want to delete macro '{0}'?</value>
+    <value>Are you sure you want to delete macro &apos;{0}&apos;?</value>
   </data>
   <data name="Macro_already_exist" xml:space="preserve">
-    <value>Macro '{0}' already exist.</value>
+    <value>Macro &apos;{0}&apos; already exist.</value>
   </data>
   <data name="Macro_properties" xml:space="preserve">
     <value>Macro Properties</value>
@@ -3221,7 +5477,7 @@ Version: {1}</value>
     <value>Top Right</value>
   </data>
   <data name="Is_Template_Valid_Name" xml:space="preserve">
-    <value>Template name cannot contain any of the following characters: \ / : * ? " &lt; &gt; | %</value>
+    <value>Template name cannot contain any of the following characters: \ / : * ? &quot; &lt; &gt; | %</value>
   </data>
   <data name="TextTemplateInfo" xml:space="preserve">
     <value>Template {0} updated to {1} component</value>
@@ -3566,7 +5822,7 @@ Version: {1}</value>
     <value>Template name can not be empty.</value>
   </data>
   <data name="Drawing_template_name_already_exists" xml:space="preserve">
-    <value>Drawing text template '{0}' already exist.</value>
+    <value>Drawing text template &apos;{0}&apos; already exist.</value>
   </data>
   <data name="Label_mapping_empty_definition" xml:space="preserve">
     <value>There is no template mapping defined.</value>
