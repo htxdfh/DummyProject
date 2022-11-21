@@ -1,0 +1,2221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CabinetDepthControl.Caption" xml:space="preserve">
+    <value>Depth</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CabinetDepthEditControl.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.1" name="DevExpress.Utils.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="CabinetDepthEditControl.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.1">
+    <value>Combo</value>
+  </data>
+  
+  <data name="CabinetControl.Caption" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  
+  <data name="CabinetColorControl.Caption" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="CabinetColorEditControl.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CabinetColorEditControl.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.1">
+    <value>Combo</value>
+  </data>
+  
+  <data name="FrontPlateControl.Caption" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  
+  <data name="FrontPlateColorControl.Caption" xml:space="preserve">
+    <value>Color       </value>
+  </data>
+  <data name="FrontPlateColorEditControl.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FrontPlateColorEditControl.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.1">
+    <value>Combo</value>
+  </data>
+  
+  <metadata name="popupDinRailMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>658, 17</value>
+  </metadata>
+  <data name="RailControl.Caption" xml:space="preserve">
+    <value>Draw Rail</value>
+  </data>
+  
+  <data name="RailColorControl.Caption" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="RailColorEditControl.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RailColorEditControl.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.1">
+    <value>Combo</value>
+  </data>
+  
+  <data name="ShowWiresControl.Caption" xml:space="preserve">
+    <value>Show Wires</value>
+  </data>
+  
+  <data name="Wire2PointsControl.Caption" xml:space="preserve">
+    <value>Wire 2 pts</value>
+  </data>
+  
+  <data name="RoutePathControl.Caption" xml:space="preserve">
+    <value>Define Route Path</value>
+  </data>
+  
+  <data name="AutoRouteControl.Caption" xml:space="preserve">
+    <value>Create Wire</value>
+  </data>
+  
+  <data name="CableChannelInfoControl.Caption" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  
+  <data name="itemHideCableChannel.Caption" xml:space="preserve">
+    <value>Hide Cable Channel</value>
+  </data>
+  
+  <data name="CabinetThicknessControl.Caption" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="CabinetThicknessControlEdit.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CabinetThicknessControlEdit.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.1">
+    <value>Combo</value>
+  </data>
+  
+  <data name="PlateThicknessControl.Caption" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="PlateThicknessControlEdit.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PlateThicknessControlEdit.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.1">
+    <value>Combo</value>
+  </data>
+  
+  <data name="itemCollisionCheck.Caption" xml:space="preserve">
+    <value>Check Collision</value>
+  </data>
+  
+  <data name="itemShowMountingBox.Caption" xml:space="preserve">
+    <value>Show Mounting Box</value>
+  </data>
+  
+  <data name="itemSelectWire.Caption" xml:space="preserve">
+    <value>Select Wire</value>
+  </data>
+  
+  <data name="itemRouteWireNet.Caption" xml:space="preserve">
+    <value>Create Net</value>
+  </data>
+  
+  <data name="WiresCheckbox.Caption" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="checkItemNets.Caption" xml:space="preserve">
+    <value>Nets</value>
+  </data>
+  <data name="itemShowDrillHoles.Caption" xml:space="preserve">
+    <value>Show Drill Holes</value>
+  </data>
+  <data name="itemDrillHolesSteinhauer.Caption" xml:space="preserve">
+    <value>Generate Drill Holes(Steinhauer)</value>
+  </data>
+  <data name="subItemWires.Caption" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="itemRerouteSelected.Caption" xml:space="preserve">
+    <value>Re-route selected wires</value>
+  </data>
+  <data name="itemChangeRoutePath.Caption" xml:space="preserve">
+    <value>Change route path</value>
+  </data>
+  <data name="subItemRailTools.Caption" xml:space="preserve">
+    <value>Rail Tools</value>
+  </data>
+  <data name="itemSwapComponentLeft.Caption" xml:space="preserve">
+    <value>Swap Left</value>
+  </data>
+  <data name="itemSwapComponentRight.Caption" xml:space="preserve">
+    <value>Swap Right</value>
+  </data>
+  <data name="itemOffsetComponentLeft.Caption" xml:space="preserve">
+    <value>Offset Left</value>
+  </data>
+  <data name="itemOffsetComponentRight.Caption" xml:space="preserve">
+    <value>Offset Right</value>
+  </data>
+  <data name="itemOrganizeLeftComp.Caption" xml:space="preserve">
+    <value>Organize Left</value>
+  </data>
+  <data name="itemOrganizeRightComp.Caption" xml:space="preserve">
+    <value>Organize Right</value>
+  </data>
+  <data name="itemOrganizeLeftRail.Caption" xml:space="preserve">
+    <value>Organize Left</value>
+  </data>
+  <data name="itemOrganizeRightRail.Caption" xml:space="preserve">
+    <value>Organize Right</value>
+  </data>
+  <metadata name="drillContourMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>978, 17</value>
+  </metadata>
+  <data name="itemDrillHole.Caption" xml:space="preserve">
+    <value>Create Drill Contour</value>
+  </data>
+  
+  <data name="itemCreateDrillContour.Caption" xml:space="preserve">
+    <value>Create Drill Contour</value>
+  </data>
+  <data name="itemDynamicScale.Caption" xml:space="preserve">
+    <value>Dynamic scale</value>
+  </data>
+  <data name="itemAlignCompEvenlyRail.Caption" xml:space="preserve">
+    <value>Align Components Evenly</value>
+  </data>
+  <data name="itemShowConnectedChannels.Caption" xml:space="preserve">
+    <value>Show Connected Channels</value>
+  </data>
+  
+  <data name="itemCreatePlateFromSurface.Caption" xml:space="preserve">
+    <value>Create From Surface</value>
+  </data>
+  
+  <metadata name="popupChannelMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>815, 17</value>
+  </metadata>
+  <data name="itemDrawChannel.Caption" xml:space="preserve">
+    <value>Draw channel</value>
+  </data>
+  
+  <data name="channelColorControl.Caption" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="repositoryItemColorEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemColorEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.1">
+    <value>Combo</value>
+  </data>
+  <data name="itemDrillHolesCharts.Caption" xml:space="preserve">
+    <value>Generate Drill Holes Charts</value>
+  </data>
+  <data name="circleDrillContour.Caption" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="rectangleDrillContur.Caption" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="polylineDrillContour.Caption" xml:space="preserve">
+    <value>Polyline</value>
+  </data>
+  <data name="itemCableChannelCheckOverload.Caption" xml:space="preserve">
+    <value>Check Overload</value>
+  </data>
+  
+  <data name="itemDrillHolesPerforex.Caption" xml:space="preserve">
+    <value>Generate Drill Holes(Perforex)</value>
+  </data>
+  <data name="itemRerouteWireConnections.Caption" xml:space="preserve">
+    <value>Change connection point</value>
+  </data>
+  <data name="itemHideRoutePath.Caption" xml:space="preserve">
+    <value>Hide Route Path</value>
+  </data>
+  
+  <data name="subItemThreadDrill.Caption" xml:space="preserve">
+    <value>Threaded Hole</value>
+  </data>
+  <data name="itemCreateHarness.Caption" xml:space="preserve">
+    <value>Create Sleeve</value>
+  </data>
+  
+  <data name="itemMergeHarness.Caption" xml:space="preserve">
+    <value>Merge Sleeves</value>
+  </data>
+  
+  <data name="itemCreateControlPoint.Caption" xml:space="preserve">
+    <value>Create Control Point</value>
+  </data>
+  
+  <data name="itemModifyControlPoint.Caption" xml:space="preserve">
+    <value>Modify Control Point</value>
+  </data>
+  
+  <data name="itemDeleteControlPoint.Caption" xml:space="preserve">
+    <value>Delete Control Point</value>
+  </data>
+  
+  <data name="itemCheckBendRadius.Caption" xml:space="preserve">
+    <value>Check Bend Radius</value>
+  </data>
+  <data name="itemUpdateBendRadiusFromWires.Caption" xml:space="preserve">
+    <value>Update Bend Radius From Wires</value>
+  </data>
+  <data name="itemSaveAsWiring.Caption" xml:space="preserve">
+    <value>Save 3D Panel Shop Floor Drawing</value>
+  </data>
+  <data name="itemImportWiringDrawing.Caption" xml:space="preserve">
+    <value>Load 3D Panel Shop Floor Information</value>
+  </data>
+  <data name="itemComponentInfo.Caption" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  
+  <data name="checkItemCables.Caption" xml:space="preserve">
+    <value>Cables</value>
+  </data>
+  <data name="itemCreateCable.Caption" xml:space="preserve">
+    <value>Create Cable</value>
+  </data>
+  
+  <data name="itemDrillHolesXML.Caption" xml:space="preserve">
+    <value>Generate Drill Holes XML</value>
+  </data>
+  <data name="itemSaveAsProduction.Caption" xml:space="preserve">
+    <value>Panel Production Model</value>
+  </data>
+  <data name="itemDrillHolesAutoCAD.Caption" xml:space="preserve">
+    <value>Generate Drill Holes AutoCAD</value>
+  </data>
+  <data name="createBusBarButtonItem.Caption" xml:space="preserve">
+    <value>Create Busbar</value>
+  </data>
+  
+  <data name="bendBusBarButtonItem.Caption" xml:space="preserve">
+    <value>Bend Busbar</value>
+  </data>
+  
+  <data name="extendBusBarBarButtonItem.Caption" xml:space="preserve">
+    <value>Extend Busbar</value>
+  </data>
+  
+  <data name="showConnectedBusBarsButtonItem.Caption" xml:space="preserve">
+    <value>Show Connected Busbars</value>
+  </data>
+  
+  <data name="subItemCables.Caption" xml:space="preserve">
+    <value>Cables</value>
+  </data>
+  <data name="itemRerouteSelectedCables.Caption" xml:space="preserve">
+    <value>Re-route selected cables</value>
+  </data>
+  <data name="itemChangeRoutePathCable.Caption" xml:space="preserve">
+    <value>Change route path</value>
+  </data>
+  <data name="itemModifyCableEndPoints.Caption" xml:space="preserve">
+    <value>Modify end points</value>
+  </data>
+  <data name="itemFlipComponentVertical.Caption" xml:space="preserve">
+    <value>Flip Vertical</value>
+  </data>
+  <data name="generateDrillHolesButtonItem.Caption" xml:space="preserve">
+    <value>Generate Drill Holes</value>
+  </data>
+  
+  <metadata name="popupBusbarMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1126, 17</value>
+  </metadata>
+  <data name="predefinedBusbarsBarButtonItem.Caption" xml:space="preserve">
+    <value>Predefined Busbars</value>
+  </data>
+  
+  <data name="itemDrillHolesPolygon.Caption" xml:space="preserve">
+    <value>Polygon</value>
+  </data>
+  <data name="itemDrillPolygonSegment.Caption" xml:space="preserve">
+    <value>Polygon By Segment</value>
+  </data>
+  <data name="itemDrillPolygonOutsideCircle.Caption" xml:space="preserve">
+    <value>Polygon Circumscribed Around Circle</value>
+  </data>
+  <data name="itemDrillPolygonInsideCircle.Caption" xml:space="preserve">
+    <value>Polygon Inscribed In Circle</value>
+  </data>
+  <data name="generateBusbarDrawingBarButtonItem.Caption" xml:space="preserve">
+    <value>Generate Manufacturing Drawing</value>
+  </data>
+  <data name="itemMachiningDefinitions.Caption" xml:space="preserve">
+    <value>Machining Definitions</value>
+  </data>
+  <data name="itemCreateBusBarGuide.Caption" xml:space="preserve">
+    <value>Create Busbar Connector Guide</value>
+  </data>
+  <data name="itemWireNumbering.Caption" xml:space="preserve">
+    <value>Wire Numbering</value>
+  </data>
+  
+  <data name="itemComponentDuplicateTag.Caption" xml:space="preserve">
+    <value>Check Duplicate Tags</value>
+  </data>
+  
+  <data name="itemProClima.Caption" xml:space="preserve">
+    <value>ProClima</value>
+  </data>
+  
+  <data name="itemCubic.Caption" xml:space="preserve">
+    <value>CUBIC</value>
+  </data>
+  
+  <data name="itemMountingCheck.Caption" xml:space="preserve">
+    <value>Check Mounting Regions</value>
+  </data>
+  
+  <data name="subItemShopFloor.Caption" xml:space="preserve">
+    <value>Panel Shop Floor</value>
+  </data>
+  <data name="itemCheckInShopFloor.Caption" xml:space="preserve">
+    <value>Check In</value>
+  </data>
+  <data name="subItemLocal.Caption" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="subItemServer.Caption" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="itemUndoCheckOutShopFloor.Caption" xml:space="preserve">
+    <value>Undo Check Out</value>
+  </data>
+  <data name="itemAddToServer.Caption" xml:space="preserve">
+    <value>Add to Server</value>
+  </data>
+  <data name="itemUpdateToServer.Caption" xml:space="preserve">
+    <value>Update to Server</value>
+  </data>
+  <data name="subItemManufacturing.Caption" xml:space="preserve">
+    <value>Manufacturing</value>
+  </data>
+  <data name="itemDoorCollisionCheck.Caption" xml:space="preserve">
+    <value>Check Door Collision</value>
+  </data>
+  
+  <data name="itemShowDrillHolesControl.Caption" xml:space="preserve">
+    <value>Show Drill Holes</value>
+  </data>
+  
+  <data name="SnapVertexControl.Caption" xml:space="preserve">
+    <value>Snap to Point</value>
+  </data>
+  <data name="SnapVertexControl.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="SnapIntersectControl.Caption" xml:space="preserve">
+    <value>Snap to Route Path</value>
+  </data>
+  <data name="SnapIntersectControl.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="HideWiresControl.Caption" xml:space="preserve">
+    <value>Hide Wires</value>
+  </data>
+  
+  <data name="itemShowRoutePath.Caption" xml:space="preserve">
+    <value>Show Route Path</value>
+  </data>
+  
+  <data name="itemShowCableChannel.Caption" xml:space="preserve">
+    <value>Show Cable Channel</value>
+  </data>
+  
+  <data name="itemTangentBend.Caption" xml:space="preserve">
+    <value>Tangent Bend</value>
+  </data>
+  <data name="itemTangentBend.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="itemChangePlane.Caption" xml:space="preserve">
+    <value>Change Plane</value>
+  </data>
+  <data name="itemChangePlane.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="itemLineMode.Caption" xml:space="preserve">
+    <value>Line Mode</value>
+  </data>
+  <data name="itemLineMode.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="itemSubNets.Caption" xml:space="preserve">
+    <value>Nets</value>
+  </data>
+  <data name="itemSetSegregationCode.Caption" xml:space="preserve">
+    <value>Define the Segregation Code on Selected Wires</value>
+  </data>
+  <data name="itemUpdateSegregationCode.Caption" xml:space="preserve">
+    <value>Set All Net Segregation Codes to Match the Signal Names</value>
+  </data>
+  <data name="itemSegregationCodeBySignalType.Caption" xml:space="preserve">
+    <value>Set All Net Segregation Codes to Match the Signal Types</value>
+  </data>
+  <data name="itemSelectNetsBySegregation.Caption" xml:space="preserve">
+    <value>Highlight All Nets with a Defined Segregation Group</value>
+  </data>
+  <data name="itemSubBundles.Caption" xml:space="preserve">
+    <value>Bundles</value>
+  </data>
+  <data name="itemDefineBundleGroup.Caption" xml:space="preserve">
+    <value>Define the Bundle Code on Selected Wires</value>
+  </data>
+  <data name="itemNetTypeBundleGroup.Caption" xml:space="preserve">
+    <value>Set All Net Bundle Codes to Match the Signal Types</value>
+  </data>
+  <data name="itemWireTypeBundleGroup.Caption" xml:space="preserve">
+    <value>Set All Wire Bundle Codes to Match the Signal Types</value>
+  </data>
+  <data name="itemHighlightNetsBundleGroup.Caption" xml:space="preserve">
+    <value>Highlight All Nets with a Defined Bundle group</value>
+  </data>
+  <data name="itemHighlightWiresBundleGroup.Caption" xml:space="preserve">
+    <value>Highlight All Wires with a Defined Bundle group</value>
+  </data>
+  <data name="itemSegCodeOnSelectedPaths.Caption" xml:space="preserve">
+    <value>Define the Segregation Code on Selected Route Paths</value>
+  </data>
+  <data name="itemSubRouting.Caption" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="barSubItem1.Caption" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="itemRemoveInvalidWires.Caption" xml:space="preserve">
+    <value>Remove Invalid Wires</value>
+  </data>
+  <data name="itemSwapSignalWiresNotInNet.Caption" xml:space="preserve">
+    <value>Swap Signal Attributes for Wires not in Net</value>
+  </data>
+  <data name="itemSwapSignalCableCores.Caption" xml:space="preserve">
+    <value>Swap Signal Attributes for Cable Cores</value>
+  </data>
+  <data name="itemSegCodeMatchNumberWire.Caption" xml:space="preserve">
+    <value>Set All Segregation Codes to Match the Wire Numbers</value>
+  </data>
+  <data name="itemSegCodeMatchTypesWire.Caption" xml:space="preserve">
+    <value>Set All Segregation Codes to Match the Signal Types</value>
+  </data>
+  <data name="itemDefineSegCodeWire.Caption" xml:space="preserve">
+    <value>Define the Segregation Code on Selected Wires</value>
+  </data>
+  <data name="itemHighlightSegCodeWire.Caption" xml:space="preserve">
+    <value>Highlight All Wires with a Defined Segregation Group</value>
+  </data>
+  <data name="CabinetGroup.Text" xml:space="preserve">
+    <value>Cabinet</value>
+  </data>
+  <data name="MountingPlateGroup.Text" xml:space="preserve">
+    <value>Mounting Plate</value>
+  </data>
+  <data name="RailGroup.Text" xml:space="preserve">
+    <value>Rail</value>
+  </data>
+  <data name="channelPageGroup.Text" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="groupComponent.Text" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="CabinetPage.Text" xml:space="preserve">
+    <value>Cabinet</value>
+  </data>
+  <data name="wiringPage.Text" xml:space="preserve">
+    <value>Wiring</value>
+  </data>
+  <data name="harnessPage.Text" xml:space="preserve">
+    <value>Sleeve</value>
+  </data>
+  <data name="copperPage.Text" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="externalPage.Text" xml:space="preserve">
+    <value>External</value>
+  </data>
+  <data name="repositoryItemTextEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemTextEdit2.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonControl1.SearchEditItem.AccessibleName" xml:space="preserve">
+    <value>Search Item</value>
+  </data>
+  <data name="ribbonControl1.SearchEditItem.EditWidth" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1396, 158</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ribbonStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 628</value>
+  </data>
+  <data name="ribbonStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1396, 24</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.Name" xml:space="preserve">
+    <value>ribbonStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="seeComponentControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 561</value>
+  </data>
+  <data name="&gt;&gt;seeComponentControl1.Name" xml:space="preserve">
+    <value>seeComponentControl1</value>
+  </data>
+  <data name="&gt;&gt;seeComponentControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeComponentControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeComponentControl1.Parent" xml:space="preserve">
+    <value>dockContainerComponent</value>
+  </data>
+  <data name="&gt;&gt;seeComponentControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="seePlaneControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 561</value>
+  </data>
+  <data name="&gt;&gt;seePlaneControl1.Name" xml:space="preserve">
+    <value>seePlaneControl1</value>
+  </data>
+  <data name="&gt;&gt;seePlaneControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeePlaneControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seePlaneControl1.Parent" xml:space="preserve">
+    <value>controlContainer2</value>
+  </data>
+  <data name="&gt;&gt;seePlaneControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LayerDockPanel.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAALtJREFUOE9jwAa4Ejf/x4VDJp76D1WGHYAU3XzzFSsGyUGVYQcgBWuuPv+/5gom
+        JkrztluvsGKQXHJmERhPmjYX0yCQgoP332LFILkfP3+BMcgAqBYEAAUKSBEu/O7DJzDGqhkZgBTgAjDn
+        gzBWLxDSjNcLIBPdvIOwYpAGXF6wn8+PahghV0CVgQFIMwyDBfBpfvDwMX7N2Lxw6/YdMIYrggIMzfgA
+        umJ0PlEAWRPJmmGAIs0wgFszAwMAZqmFth9BEosAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="LayerDockPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1120, 83</value>
+  </data>
+  <data name="&gt;&gt;LayerDockPanel.Name" xml:space="preserve">
+    <value>LayerDockPanel</value>
+  </data>
+  <data name="&gt;&gt;LayerDockPanel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LayerDockPanel.Parent" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="&gt;&gt;LayerDockPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="seeLayerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1120, 83</value>
+  </data>
+  <data name="&gt;&gt;seeLayerControl1.Name" xml:space="preserve">
+    <value>seeLayerControl1</value>
+  </data>
+  <data name="&gt;&gt;seeLayerControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeLayerControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeLayerControl1.Parent" xml:space="preserve">
+    <value>controlContainer3</value>
+  </data>
+  <data name="&gt;&gt;seeLayerControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="seeTreeExplorerControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 561</value>
+  </data>
+  <data name="&gt;&gt;seeTreeExplorerControl.Name" xml:space="preserve">
+    <value>seeTreeExplorerControl</value>
+  </data>
+  <data name="&gt;&gt;seeTreeExplorerControl.Type" xml:space="preserve">
+    <value>See3DEditor.SeeTreeExplorerControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeTreeExplorerControl.Parent" xml:space="preserve">
+    <value>controlContainerTreeExplorer</value>
+  </data>
+  <data name="&gt;&gt;seeTreeExplorerControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="seeSymbolControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 561</value>
+  </data>
+  <data name="&gt;&gt;seeSymbolControl1.Name" xml:space="preserve">
+    <value>seeSymbolControl1</value>
+  </data>
+  <data name="&gt;&gt;seeSymbolControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeSymbolControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeSymbolControl1.Parent" xml:space="preserve">
+    <value>controlContainer1</value>
+  </data>
+  <data name="&gt;&gt;seeSymbolControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="popupSelectionMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 17</value>
+  </metadata>
+  <metadata name="popupNotSelectionMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>319, 17</value>
+  </metadata>
+  <metadata name="applicationMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>508, 17</value>
+  </metadata>
+  <data name="subItemSaveAs.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        fO0AlUMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="subItemImport.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="seeCabinetPaperControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="seeCabinetPaperControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 143</value>
+  </data>
+  <data name="seeCabinetPaperControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1126, 485</value>
+  </data>
+  <data name="seeCabinetPaperControl.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;seeCabinetPaperControl.Name" xml:space="preserve">
+    <value>seeCabinetPaperControl</value>
+  </data>
+  <data name="&gt;&gt;seeCabinetPaperControl.Type" xml:space="preserve">
+    <value>See3DCabinet.SeeCabinetPaper, See3DCabinet.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=de92a1d638cc9715</value>
+  </data>
+  <data name="&gt;&gt;seeCabinetPaperControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;seeCabinetPaperControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="popupDinRailMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>658, 17</value>
+  </metadata>
+  <metadata name="popupChannelMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>815, 17</value>
+  </metadata>
+  <data name="CableChannelGroup.Text" xml:space="preserve">
+    <value>Check Channels</value>
+  </data>
+  <data name="groupCable.Text" xml:space="preserve">
+    <value>Cable</value>
+  </data>
+  <data name="WireGroup.Text" xml:space="preserve">
+    <value>Wire</value>
+  </data>
+  <data name="groupCableChannelPath.Text" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="busBarGroup.Text" xml:space="preserve">
+    <value>Busbar</value>
+  </data>
+  <metadata name="popupBusbarMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1126, 17</value>
+  </metadata>
+  <data name="WireDockPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="WireDockPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 200</value>
+  </data>
+  <data name="&gt;&gt;WireDockPanel.Name" xml:space="preserve">
+    <value>WireDockPanel</value>
+  </data>
+  <data name="&gt;&gt;WireDockPanel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.Name" xml:space="preserve">
+    <value>seeWireControl1</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeWireControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.Parent" xml:space="preserve">
+    <value>controlContainer4</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="controlContainer4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="controlContainer4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="controlContainer4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 200</value>
+  </data>
+  <data name="controlContainer4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;controlContainer4.Name" xml:space="preserve">
+    <value>controlContainer4</value>
+  </data>
+  <data name="&gt;&gt;controlContainer4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="seeWireControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="seeWireControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="seeWireControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 200</value>
+  </data>
+  <data name="seeWireControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.Name" xml:space="preserve">
+    <value>seeWireControl1</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeWireControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.Parent" xml:space="preserve">
+    <value>controlContainer4</value>
+  </data>
+  <data name="&gt;&gt;seeWireControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NetDockPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="NetDockPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 200</value>
+  </data>
+  <data name="&gt;&gt;NetDockPanel.Name" xml:space="preserve">
+    <value>NetDockPanel</value>
+  </data>
+  <data name="&gt;&gt;NetDockPanel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.Name" xml:space="preserve">
+    <value>seeNetControl1</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeNetControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.Parent" xml:space="preserve">
+    <value>controlContainer7</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="controlContainer7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="controlContainer7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="controlContainer7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;controlContainer7.Name" xml:space="preserve">
+    <value>controlContainer7</value>
+  </data>
+  <data name="&gt;&gt;controlContainer7.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;controlContainer7.Parent" xml:space="preserve">
+    <value>dockPanelCables</value>
+  </data>
+  <data name="&gt;&gt;controlContainer7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="seeNetControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="seeNetControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1296, 250</value>
+  </data>
+  <data name="seeNetControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.Name" xml:space="preserve">
+    <value>seeNetControl1</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeNetControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.Parent" xml:space="preserve">
+    <value>controlContainer7</value>
+  </data>
+  <data name="&gt;&gt;seeNetControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonGroupDrillHoles.Text" xml:space="preserve">
+    <value>Drill Holes</value>
+  </data>
+  <metadata name="drillContourMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>978, 17</value>
+  </metadata>
+  <data name="harnessGroup.Text" xml:space="preserve">
+    <value>Sleeve</value>
+  </data>
+  <data name="dockPanelCables.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dockPanelCables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 200</value>
+  </data>
+  <data name="&gt;&gt;dockPanelCables.Name" xml:space="preserve">
+    <value>dockPanelCables</value>
+  </data>
+  <data name="&gt;&gt;dockPanelCables.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.Name" xml:space="preserve">
+    <value>seeCableControl1</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeCableControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.Parent" xml:space="preserve">
+    <value>controlContainer8</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="controlContainer8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="controlContainer8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="controlContainer8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;controlContainer8.Name" xml:space="preserve">
+    <value>controlContainer8</value>
+  </data>
+  <data name="&gt;&gt;controlContainer8.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="seeCableControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="seeCableControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 220</value>
+  </data>
+  <data name="seeCableControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.Name" xml:space="preserve">
+    <value>seeCableControl1</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.Type" xml:space="preserve">
+    <value>See3DEditor.SeeCableControl, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.Parent" xml:space="preserve">
+    <value>controlContainer8</value>
+  </data>
+  <data name="&gt;&gt;seeCableControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ThermalManagementGroup.Text" xml:space="preserve">
+    <value>Thermal Management</value>
+  </data>
+  <data name="ConfiguratorOutputsGroup.Text" xml:space="preserve">
+    <value>Configurator Outputs</value>
+  </data>
+  <data name="CommandsGroup.Text" xml:space="preserve">
+    <value>Utilities</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>126</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1396, 799</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupConnection.Name" xml:space="preserve">
+    <value>ribbonGroupConnection</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemGoTo.Name" xml:space="preserve">
+    <value>subItemGoTo</value>
+  </data>
+  <data name="&gt;&gt;subItemGoTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DockGroup.Name" xml:space="preserve">
+    <value>DockGroup</value>
+  </data>
+  <data name="&gt;&gt;DockGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AssemblyPage.Name" xml:space="preserve">
+    <value>AssemblyPage</value>
+  </data>
+  <data name="&gt;&gt;AssemblyPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemAssembly.Name" xml:space="preserve">
+    <value>subItemAssembly</value>
+  </data>
+  <data name="&gt;&gt;subItemAssembly.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItelTools.Name" xml:space="preserve">
+    <value>subItelTools</value>
+  </data>
+  <data name="&gt;&gt;subItelTools.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupSelectionMenu.Name" xml:space="preserve">
+    <value>popupSelectionMenu</value>
+  </data>
+  <data name="&gt;&gt;popupSelectionMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupNotSelectionMenu.Name" xml:space="preserve">
+    <value>popupNotSelectionMenu</value>
+  </data>
+  <data name="&gt;&gt;popupNotSelectionMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;WindowsPage.Name" xml:space="preserve">
+    <value>WindowsPage</value>
+  </data>
+  <data name="&gt;&gt;WindowsPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;applicationMenu1.Name" xml:space="preserve">
+    <value>applicationMenu1</value>
+  </data>
+  <data name="&gt;&gt;applicationMenu1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.ApplicationMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemSaveAs.Name" xml:space="preserve">
+    <value>subItemSaveAs</value>
+  </data>
+  <data name="&gt;&gt;subItemSaveAs.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemImport.Name" xml:space="preserve">
+    <value>subItemImport</value>
+  </data>
+  <data name="&gt;&gt;subItemImport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonLabelGroup.Name" xml:space="preserve">
+    <value>ribbonLabelGroup</value>
+  </data>
+  <data name="&gt;&gt;ribbonLabelGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MainPage.Name" xml:space="preserve">
+    <value>MainPage</value>
+  </data>
+  <data name="&gt;&gt;MainPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbon2DLayoutGroup.Name" xml:space="preserve">
+    <value>ribbon2DLayoutGroup</value>
+  </data>
+  <data name="&gt;&gt;ribbon2DLayoutGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetPage.Name" xml:space="preserve">
+    <value>CabinetPage</value>
+  </data>
+  <data name="&gt;&gt;CabinetPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetGroup.Name" xml:space="preserve">
+    <value>CabinetGroup</value>
+  </data>
+  <data name="&gt;&gt;CabinetGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetControl.Name" xml:space="preserve">
+    <value>CabinetControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetColorControl.Name" xml:space="preserve">
+    <value>CabinetColorControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetColorControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetColorEditControl.Name" xml:space="preserve">
+    <value>CabinetColorEditControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetColorEditControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetDepthControl.Name" xml:space="preserve">
+    <value>CabinetDepthControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetDepthControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetDepthEditControl.Name" xml:space="preserve">
+    <value>CabinetDepthEditControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetDepthEditControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetThicknessControl.Name" xml:space="preserve">
+    <value>CabinetThicknessControl</value>
+  </data>
+  <data name="&gt;&gt;CabinetThicknessControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CabinetThicknessControlEdit.Name" xml:space="preserve">
+    <value>CabinetThicknessControlEdit</value>
+  </data>
+  <data name="&gt;&gt;CabinetThicknessControlEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MountingPlateGroup.Name" xml:space="preserve">
+    <value>MountingPlateGroup</value>
+  </data>
+  <data name="&gt;&gt;MountingPlateGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateControl.Name" xml:space="preserve">
+    <value>FrontPlateControl</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreatePlateFromSurface.Name" xml:space="preserve">
+    <value>itemCreatePlateFromSurface</value>
+  </data>
+  <data name="&gt;&gt;itemCreatePlateFromSurface.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateColorControl.Name" xml:space="preserve">
+    <value>FrontPlateColorControl</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateColorControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateColorEditControl.Name" xml:space="preserve">
+    <value>FrontPlateColorEditControl</value>
+  </data>
+  <data name="&gt;&gt;FrontPlateColorEditControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PlateThicknessControl.Name" xml:space="preserve">
+    <value>PlateThicknessControl</value>
+  </data>
+  <data name="&gt;&gt;PlateThicknessControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PlateThicknessControlEdit.Name" xml:space="preserve">
+    <value>PlateThicknessControlEdit</value>
+  </data>
+  <data name="&gt;&gt;PlateThicknessControlEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RailGroup.Name" xml:space="preserve">
+    <value>RailGroup</value>
+  </data>
+  <data name="&gt;&gt;RailGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RailControl.Name" xml:space="preserve">
+    <value>RailControl</value>
+  </data>
+  <data name="&gt;&gt;RailControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupDinRailMenu.Name" xml:space="preserve">
+    <value>popupDinRailMenu</value>
+  </data>
+  <data name="&gt;&gt;popupDinRailMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RailColorControl.Name" xml:space="preserve">
+    <value>RailColorControl</value>
+  </data>
+  <data name="&gt;&gt;RailColorControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RailColorEditControl.Name" xml:space="preserve">
+    <value>RailColorEditControl</value>
+  </data>
+  <data name="&gt;&gt;RailColorEditControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;channelPageGroup.Name" xml:space="preserve">
+    <value>channelPageGroup</value>
+  </data>
+  <data name="&gt;&gt;channelPageGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrawChannel.Name" xml:space="preserve">
+    <value>itemDrawChannel</value>
+  </data>
+  <data name="&gt;&gt;itemDrawChannel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupChannelMenu.Name" xml:space="preserve">
+    <value>popupChannelMenu</value>
+  </data>
+  <data name="&gt;&gt;popupChannelMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;channelColorControl.Name" xml:space="preserve">
+    <value>channelColorControl</value>
+  </data>
+  <data name="&gt;&gt;channelColorControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemColorEdit1.Name" xml:space="preserve">
+    <value>repositoryItemColorEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemColorEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupComponent.Name" xml:space="preserve">
+    <value>groupComponent</value>
+  </data>
+  <data name="&gt;&gt;groupComponent.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCollisionCheck.Name" xml:space="preserve">
+    <value>itemCollisionCheck</value>
+  </data>
+  <data name="&gt;&gt;itemCollisionCheck.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDoorCollisionCheck.Name" xml:space="preserve">
+    <value>itemDoorCollisionCheck</value>
+  </data>
+  <data name="&gt;&gt;itemDoorCollisionCheck.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemMountingCheck.Name" xml:space="preserve">
+    <value>itemMountingCheck</value>
+  </data>
+  <data name="&gt;&gt;itemMountingCheck.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemComponentDuplicateTag.Name" xml:space="preserve">
+    <value>itemComponentDuplicateTag</value>
+  </data>
+  <data name="&gt;&gt;itemComponentDuplicateTag.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowMountingBox.Name" xml:space="preserve">
+    <value>itemShowMountingBox</value>
+  </data>
+  <data name="&gt;&gt;itemShowMountingBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemComponentInfo.Name" xml:space="preserve">
+    <value>itemComponentInfo</value>
+  </data>
+  <data name="&gt;&gt;itemComponentInfo.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CableChannelGroup.Name" xml:space="preserve">
+    <value>CableChannelGroup</value>
+  </data>
+  <data name="&gt;&gt;CableChannelGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowConnectedChannels.Name" xml:space="preserve">
+    <value>itemShowConnectedChannels</value>
+  </data>
+  <data name="&gt;&gt;itemShowConnectedChannels.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCableChannelCheckOverload.Name" xml:space="preserve">
+    <value>itemCableChannelCheckOverload</value>
+  </data>
+  <data name="&gt;&gt;itemCableChannelCheckOverload.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CableChannelInfoControl.Name" xml:space="preserve">
+    <value>CableChannelInfoControl</value>
+  </data>
+  <data name="&gt;&gt;CableChannelInfoControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupCable.Name" xml:space="preserve">
+    <value>groupCable</value>
+  </data>
+  <data name="&gt;&gt;groupCable.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateCable.Name" xml:space="preserve">
+    <value>itemCreateCable</value>
+  </data>
+  <data name="&gt;&gt;itemCreateCable.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;WireGroup.Name" xml:space="preserve">
+    <value>WireGroup</value>
+  </data>
+  <data name="&gt;&gt;WireGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ShowWiresControl.Name" xml:space="preserve">
+    <value>ShowWiresControl</value>
+  </data>
+  <data name="&gt;&gt;ShowWiresControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;HideWiresControl.Name" xml:space="preserve">
+    <value>HideWiresControl</value>
+  </data>
+  <data name="&gt;&gt;HideWiresControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSelectWire.Name" xml:space="preserve">
+    <value>itemSelectWire</value>
+  </data>
+  <data name="&gt;&gt;itemSelectWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AutoRouteControl.Name" xml:space="preserve">
+    <value>AutoRouteControl</value>
+  </data>
+  <data name="&gt;&gt;AutoRouteControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Wire2PointsControl.Name" xml:space="preserve">
+    <value>Wire2PointsControl</value>
+  </data>
+  <data name="&gt;&gt;Wire2PointsControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRouteWireNet.Name" xml:space="preserve">
+    <value>itemRouteWireNet</value>
+  </data>
+  <data name="&gt;&gt;itemRouteWireNet.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemWireNumbering.Name" xml:space="preserve">
+    <value>itemWireNumbering</value>
+  </data>
+  <data name="&gt;&gt;itemWireNumbering.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupCableChannelPath.Name" xml:space="preserve">
+    <value>groupCableChannelPath</value>
+  </data>
+  <data name="&gt;&gt;groupCableChannelPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RoutePathControl.Name" xml:space="preserve">
+    <value>RoutePathControl</value>
+  </data>
+  <data name="&gt;&gt;RoutePathControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SnapVertexControl.Name" xml:space="preserve">
+    <value>SnapVertexControl</value>
+  </data>
+  <data name="&gt;&gt;SnapVertexControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SnapIntersectControl.Name" xml:space="preserve">
+    <value>SnapIntersectControl</value>
+  </data>
+  <data name="&gt;&gt;SnapIntersectControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowRoutePath.Name" xml:space="preserve">
+    <value>itemShowRoutePath</value>
+  </data>
+  <data name="&gt;&gt;itemShowRoutePath.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHideRoutePath.Name" xml:space="preserve">
+    <value>itemHideRoutePath</value>
+  </data>
+  <data name="&gt;&gt;itemHideRoutePath.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowCableChannel.Name" xml:space="preserve">
+    <value>itemShowCableChannel</value>
+  </data>
+  <data name="&gt;&gt;itemShowCableChannel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHideCableChannel.Name" xml:space="preserve">
+    <value>itemHideCableChannel</value>
+  </data>
+  <data name="&gt;&gt;itemHideCableChannel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSubRouting.Name" xml:space="preserve">
+    <value>itemSubRouting</value>
+  </data>
+  <data name="&gt;&gt;itemSubRouting.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeOnSelectedPaths.Name" xml:space="preserve">
+    <value>itemSegCodeOnSelectedPaths</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeOnSelectedPaths.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;busBarGroup.Name" xml:space="preserve">
+    <value>busBarGroup</value>
+  </data>
+  <data name="&gt;&gt;busBarGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;createBusBarButtonItem.Name" xml:space="preserve">
+    <value>createBusBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;createBusBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bendBusBarButtonItem.Name" xml:space="preserve">
+    <value>bendBusBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;bendBusBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;extendBusBarBarButtonItem.Name" xml:space="preserve">
+    <value>extendBusBarBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;extendBusBarBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;showConnectedBusBarsButtonItem.Name" xml:space="preserve">
+    <value>showConnectedBusBarsButtonItem</value>
+  </data>
+  <data name="&gt;&gt;showConnectedBusBarsButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;generateDrillHolesButtonItem.Name" xml:space="preserve">
+    <value>generateDrillHolesButtonItem</value>
+  </data>
+  <data name="&gt;&gt;generateDrillHolesButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;predefinedBusbarsBarButtonItem.Name" xml:space="preserve">
+    <value>predefinedBusbarsBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;predefinedBusbarsBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupBusbarMenu.Name" xml:space="preserve">
+    <value>popupBusbarMenu</value>
+  </data>
+  <data name="&gt;&gt;popupBusbarMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;mapItem.Name" xml:space="preserve">
+    <value>mapItem</value>
+  </data>
+  <data name="&gt;&gt;mapItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;WiresCheckbox.Name" xml:space="preserve">
+    <value>WiresCheckbox</value>
+  </data>
+  <data name="&gt;&gt;WiresCheckbox.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;checkItemNets.Name" xml:space="preserve">
+    <value>checkItemNets</value>
+  </data>
+  <data name="&gt;&gt;checkItemNets.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowDrillHoles.Name" xml:space="preserve">
+    <value>itemShowDrillHoles</value>
+  </data>
+  <data name="&gt;&gt;itemShowDrillHoles.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesSteinhauer.Name" xml:space="preserve">
+    <value>itemDrillHolesSteinhauer</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesSteinhauer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemWires.Name" xml:space="preserve">
+    <value>subItemWires</value>
+  </data>
+  <data name="&gt;&gt;subItemWires.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteSelected.Name" xml:space="preserve">
+    <value>itemRerouteSelected</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteSelected.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteWireConnections.Name" xml:space="preserve">
+    <value>itemRerouteWireConnections</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteWireConnections.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemChangeRoutePath.Name" xml:space="preserve">
+    <value>itemChangeRoutePath</value>
+  </data>
+  <data name="&gt;&gt;itemChangeRoutePath.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemRailTools.Name" xml:space="preserve">
+    <value>subItemRailTools</value>
+  </data>
+  <data name="&gt;&gt;subItemRailTools.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSwapComponentLeft.Name" xml:space="preserve">
+    <value>itemSwapComponentLeft</value>
+  </data>
+  <data name="&gt;&gt;itemSwapComponentLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSwapComponentRight.Name" xml:space="preserve">
+    <value>itemSwapComponentRight</value>
+  </data>
+  <data name="&gt;&gt;itemSwapComponentRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOffsetComponentLeft.Name" xml:space="preserve">
+    <value>itemOffsetComponentLeft</value>
+  </data>
+  <data name="&gt;&gt;itemOffsetComponentLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOffsetComponentRight.Name" xml:space="preserve">
+    <value>itemOffsetComponentRight</value>
+  </data>
+  <data name="&gt;&gt;itemOffsetComponentRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemFlipComponentVertical.Name" xml:space="preserve">
+    <value>itemFlipComponentVertical</value>
+  </data>
+  <data name="&gt;&gt;itemFlipComponentVertical.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeLeftComp.Name" xml:space="preserve">
+    <value>itemOrganizeLeftComp</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeLeftComp.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeRightComp.Name" xml:space="preserve">
+    <value>itemOrganizeRightComp</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeRightComp.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeLeftRail.Name" xml:space="preserve">
+    <value>itemOrganizeLeftRail</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeLeftRail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeRightRail.Name" xml:space="preserve">
+    <value>itemOrganizeRightRail</value>
+  </data>
+  <data name="&gt;&gt;itemOrganizeRightRail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemAlignCompEvenlyRail.Name" xml:space="preserve">
+    <value>itemAlignCompEvenlyRail</value>
+  </data>
+  <data name="&gt;&gt;itemAlignCompEvenlyRail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupDrillHoles.Name" xml:space="preserve">
+    <value>ribbonGroupDrillHoles</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupDrillHoles.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHole.Name" xml:space="preserve">
+    <value>itemDrillHole</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHole.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;drillContourMenu.Name" xml:space="preserve">
+    <value>drillContourMenu</value>
+  </data>
+  <data name="&gt;&gt;drillContourMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;circleDrillContour.Name" xml:space="preserve">
+    <value>circleDrillContour</value>
+  </data>
+  <data name="&gt;&gt;circleDrillContour.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rectangleDrillContur.Name" xml:space="preserve">
+    <value>rectangleDrillContur</value>
+  </data>
+  <data name="&gt;&gt;rectangleDrillContur.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;polylineDrillContour.Name" xml:space="preserve">
+    <value>polylineDrillContour</value>
+  </data>
+  <data name="&gt;&gt;polylineDrillContour.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesPolygon.Name" xml:space="preserve">
+    <value>itemDrillHolesPolygon</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesPolygon.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonInsideCircle.Name" xml:space="preserve">
+    <value>itemDrillPolygonInsideCircle</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonInsideCircle.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonOutsideCircle.Name" xml:space="preserve">
+    <value>itemDrillPolygonOutsideCircle</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonOutsideCircle.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonSegment.Name" xml:space="preserve">
+    <value>itemDrillPolygonSegment</value>
+  </data>
+  <data name="&gt;&gt;itemDrillPolygonSegment.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemThreadDrill.Name" xml:space="preserve">
+    <value>subItemThreadDrill</value>
+  </data>
+  <data name="&gt;&gt;subItemThreadDrill.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemShowDrillHolesControl.Name" xml:space="preserve">
+    <value>itemShowDrillHolesControl</value>
+  </data>
+  <data name="&gt;&gt;itemShowDrillHolesControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateDrillContour.Name" xml:space="preserve">
+    <value>itemCreateDrillContour</value>
+  </data>
+  <data name="&gt;&gt;itemCreateDrillContour.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDynamicScale.Name" xml:space="preserve">
+    <value>itemDynamicScale</value>
+  </data>
+  <data name="&gt;&gt;itemDynamicScale.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit2.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesCharts.Name" xml:space="preserve">
+    <value>itemDrillHolesCharts</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesCharts.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesPerforex.Name" xml:space="preserve">
+    <value>itemDrillHolesPerforex</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesPerforex.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;harnessPage.Name" xml:space="preserve">
+    <value>harnessPage</value>
+  </data>
+  <data name="&gt;&gt;harnessPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;harnessGroup.Name" xml:space="preserve">
+    <value>harnessGroup</value>
+  </data>
+  <data name="&gt;&gt;harnessGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateHarness.Name" xml:space="preserve">
+    <value>itemCreateHarness</value>
+  </data>
+  <data name="&gt;&gt;itemCreateHarness.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemLineMode.Name" xml:space="preserve">
+    <value>itemLineMode</value>
+  </data>
+  <data name="&gt;&gt;itemLineMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemTangentBend.Name" xml:space="preserve">
+    <value>itemTangentBend</value>
+  </data>
+  <data name="&gt;&gt;itemTangentBend.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemChangePlane.Name" xml:space="preserve">
+    <value>itemChangePlane</value>
+  </data>
+  <data name="&gt;&gt;itemChangePlane.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemMergeHarness.Name" xml:space="preserve">
+    <value>itemMergeHarness</value>
+  </data>
+  <data name="&gt;&gt;itemMergeHarness.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateControlPoint.Name" xml:space="preserve">
+    <value>itemCreateControlPoint</value>
+  </data>
+  <data name="&gt;&gt;itemCreateControlPoint.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemModifyControlPoint.Name" xml:space="preserve">
+    <value>itemModifyControlPoint</value>
+  </data>
+  <data name="&gt;&gt;itemModifyControlPoint.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDeleteControlPoint.Name" xml:space="preserve">
+    <value>itemDeleteControlPoint</value>
+  </data>
+  <data name="&gt;&gt;itemDeleteControlPoint.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCheckBendRadius.Name" xml:space="preserve">
+    <value>itemCheckBendRadius</value>
+  </data>
+  <data name="&gt;&gt;itemCheckBendRadius.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateBendRadiusFromWires.Name" xml:space="preserve">
+    <value>itemUpdateBendRadiusFromWires</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateBendRadiusFromWires.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSaveAsWiring.Name" xml:space="preserve">
+    <value>itemSaveAsWiring</value>
+  </data>
+  <data name="&gt;&gt;itemSaveAsWiring.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemImportWiringDrawing.Name" xml:space="preserve">
+    <value>itemImportWiringDrawing</value>
+  </data>
+  <data name="&gt;&gt;itemImportWiringDrawing.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;checkItemCables.Name" xml:space="preserve">
+    <value>checkItemCables</value>
+  </data>
+  <data name="&gt;&gt;checkItemCables.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesXML.Name" xml:space="preserve">
+    <value>itemDrillHolesXML</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesXML.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSaveAsProduction.Name" xml:space="preserve">
+    <value>itemSaveAsProduction</value>
+  </data>
+  <data name="&gt;&gt;itemSaveAsProduction.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesAutoCAD.Name" xml:space="preserve">
+    <value>itemDrillHolesAutoCAD</value>
+  </data>
+  <data name="&gt;&gt;itemDrillHolesAutoCAD.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemCables.Name" xml:space="preserve">
+    <value>subItemCables</value>
+  </data>
+  <data name="&gt;&gt;subItemCables.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteSelectedCables.Name" xml:space="preserve">
+    <value>itemRerouteSelectedCables</value>
+  </data>
+  <data name="&gt;&gt;itemRerouteSelectedCables.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemChangeRoutePathCable.Name" xml:space="preserve">
+    <value>itemChangeRoutePathCable</value>
+  </data>
+  <data name="&gt;&gt;itemChangeRoutePathCable.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemModifyCableEndPoints.Name" xml:space="preserve">
+    <value>itemModifyCableEndPoints</value>
+  </data>
+  <data name="&gt;&gt;itemModifyCableEndPoints.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;copperPage.Name" xml:space="preserve">
+    <value>copperPage</value>
+  </data>
+  <data name="&gt;&gt;copperPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;generateBusbarDrawingBarButtonItem.Name" xml:space="preserve">
+    <value>generateBusbarDrawingBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;generateBusbarDrawingBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemMachiningDefinitions.Name" xml:space="preserve">
+    <value>itemMachiningDefinitions</value>
+  </data>
+  <data name="&gt;&gt;itemMachiningDefinitions.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCreateBusBarGuide.Name" xml:space="preserve">
+    <value>itemCreateBusBarGuide</value>
+  </data>
+  <data name="&gt;&gt;itemCreateBusBarGuide.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;externalPage.Name" xml:space="preserve">
+    <value>externalPage</value>
+  </data>
+  <data name="&gt;&gt;externalPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ThermalManagementGroup.Name" xml:space="preserve">
+    <value>ThermalManagementGroup</value>
+  </data>
+  <data name="&gt;&gt;ThermalManagementGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemProClima.Name" xml:space="preserve">
+    <value>itemProClima</value>
+  </data>
+  <data name="&gt;&gt;itemProClima.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ConfiguratorOutputsGroup.Name" xml:space="preserve">
+    <value>ConfiguratorOutputsGroup</value>
+  </data>
+  <data name="&gt;&gt;ConfiguratorOutputsGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCubic.Name" xml:space="preserve">
+    <value>itemCubic</value>
+  </data>
+  <data name="&gt;&gt;itemCubic.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemShopFloor.Name" xml:space="preserve">
+    <value>subItemShopFloor</value>
+  </data>
+  <data name="&gt;&gt;subItemShopFloor.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemLocal.Name" xml:space="preserve">
+    <value>subItemLocal</value>
+  </data>
+  <data name="&gt;&gt;subItemLocal.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemServer.Name" xml:space="preserve">
+    <value>subItemServer</value>
+  </data>
+  <data name="&gt;&gt;subItemServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemCheckInShopFloor.Name" xml:space="preserve">
+    <value>itemCheckInShopFloor</value>
+  </data>
+  <data name="&gt;&gt;itemCheckInShopFloor.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateToServer.Name" xml:space="preserve">
+    <value>itemUpdateToServer</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateToServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemUndoCheckOutShopFloor.Name" xml:space="preserve">
+    <value>itemUndoCheckOutShopFloor</value>
+  </data>
+  <data name="&gt;&gt;itemUndoCheckOutShopFloor.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemAddToServer.Name" xml:space="preserve">
+    <value>itemAddToServer</value>
+  </data>
+  <data name="&gt;&gt;itemAddToServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;subItemManufacturing.Name" xml:space="preserve">
+    <value>subItemManufacturing</value>
+  </data>
+  <data name="&gt;&gt;subItemManufacturing.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;wiringPage.Name" xml:space="preserve">
+    <value>wiringPage</value>
+  </data>
+  <data name="&gt;&gt;wiringPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandsGroup.Name" xml:space="preserve">
+    <value>CommandsGroup</value>
+  </data>
+  <data name="&gt;&gt;CommandsGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Name" xml:space="preserve">
+    <value>barSubItem1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemRemoveInvalidWires.Name" xml:space="preserve">
+    <value>itemRemoveInvalidWires</value>
+  </data>
+  <data name="&gt;&gt;itemRemoveInvalidWires.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSwapSignalWiresNotInNet.Name" xml:space="preserve">
+    <value>itemSwapSignalWiresNotInNet</value>
+  </data>
+  <data name="&gt;&gt;itemSwapSignalWiresNotInNet.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSwapSignalCableCores.Name" xml:space="preserve">
+    <value>itemSwapSignalCableCores</value>
+  </data>
+  <data name="&gt;&gt;itemSwapSignalCableCores.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeMatchNumberWire.Name" xml:space="preserve">
+    <value>itemSegCodeMatchNumberWire</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeMatchNumberWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeMatchTypesWire.Name" xml:space="preserve">
+    <value>itemSegCodeMatchTypesWire</value>
+  </data>
+  <data name="&gt;&gt;itemSegCodeMatchTypesWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDefineSegCodeWire.Name" xml:space="preserve">
+    <value>itemDefineSegCodeWire</value>
+  </data>
+  <data name="&gt;&gt;itemDefineSegCodeWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightSegCodeWire.Name" xml:space="preserve">
+    <value>itemHighlightSegCodeWire</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightSegCodeWire.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSubNets.Name" xml:space="preserve">
+    <value>itemSubNets</value>
+  </data>
+  <data name="&gt;&gt;itemSubNets.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSetSegregationCode.Name" xml:space="preserve">
+    <value>itemSetSegregationCode</value>
+  </data>
+  <data name="&gt;&gt;itemSetSegregationCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateSegregationCode.Name" xml:space="preserve">
+    <value>itemUpdateSegregationCode</value>
+  </data>
+  <data name="&gt;&gt;itemUpdateSegregationCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSegregationCodeBySignalType.Name" xml:space="preserve">
+    <value>itemSegregationCodeBySignalType</value>
+  </data>
+  <data name="&gt;&gt;itemSegregationCodeBySignalType.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSelectNetsBySegregation.Name" xml:space="preserve">
+    <value>itemSelectNetsBySegregation</value>
+  </data>
+  <data name="&gt;&gt;itemSelectNetsBySegregation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemSubBundles.Name" xml:space="preserve">
+    <value>itemSubBundles</value>
+  </data>
+  <data name="&gt;&gt;itemSubBundles.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemDefineBundleGroup.Name" xml:space="preserve">
+    <value>itemDefineBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemDefineBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemNetTypeBundleGroup.Name" xml:space="preserve">
+    <value>itemNetTypeBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemNetTypeBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemWireTypeBundleGroup.Name" xml:space="preserve">
+    <value>itemWireTypeBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemWireTypeBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightNetsBundleGroup.Name" xml:space="preserve">
+    <value>itemHighlightNetsBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightNetsBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightWiresBundleGroup.Name" xml:space="preserve">
+    <value>itemHighlightWiresBundleGroup</value>
+  </data>
+  <data name="&gt;&gt;itemHighlightWiresBundleGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Cabinet3DForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>See3DEditor.CAD3DForm, See3DEditor.v3.1, Version=3.1.1.1, Culture=neutral, PublicKeyToken=e2fef3bb4df33344</value>
+  </data>
+</root>

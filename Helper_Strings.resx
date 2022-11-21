@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Helper_" xml:space="preserve">
+    <value>Minimize the Ribbon (Ctrl+F1)Only show tab names on the Ribbon</value>
+  </data>
+  <data name="Helper_SelectAllControl" xml:space="preserve">
+    <value>Select all elements123 and objects in drawing which have not been made unselectable</value>
+  </data>
+  <data name="Helper_SelectSingleControl" xml:space="preserve">
+    <value>Select separate objects and elements</value>
+  </data>
+  <data name="Helper_DeleteSelectedControl" xml:space="preserve">
+    <value>Delete the selected element</value>
+  </data>
+  <data name="Helper_SelectWindowControl" xml:space="preserve">
+    <value>Select all elements and objects in rectangle area</value>
+  </data>
+  <data name="Helper_ModifySelected" xml:space="preserve">
+    <value>Opens the Modify tool the enables modifying the position and/or rotation of selected elements</value>
+  </data>
+  <data name="Helper_RemoveSelectionControl" xml:space="preserve">
+    <value>Cancel the current selection and fobid any further selection of elements</value>
+  </data>
+  <data name="Helper_DrawLineControl" xml:space="preserve">
+    <value>Draw lines from two points.
+
+Create polygons by continuing until you obtain the desired shape</value>
+  </data>
+  <data name="Helper_SmoothCurveControl" xml:space="preserve">
+    <value>Make polygons look smooth after execution of some particular operations</value>
+  </data>
+  <data name="Helper_CircleControl" xml:space="preserve">
+    <value>Draw Circle on the active plane</value>
+  </data>
+  <data name="Helper_RectangleControl" xml:space="preserve">
+    <value>Draw Rectangle from two points on the active plane</value>
+  </data>
+  <data name="Helper_BlockControl" xml:space="preserve">
+    <value>Create Block from selected elements
+
+Block is a group of objects without intelligence</value>
+  </data>
+  <data name="Helper_CylinderControl" xml:space="preserve">
+    <value>Draw Cylinder from extruded circle on active plane</value>
+  </data>
+  <data name="Helper_ExtrudeControl" xml:space="preserve">
+    <value>Transforms a closed 2D contour (circle, rectange, closed polyline, etc) into a 3D object</value>
+  </data>
+  <data name="Helper_UnionControl" xml:space="preserve">
+    <value>Merge intersecting 3D objects into a single object</value>
+  </data>
+  <data name="Helper_DiffControl" xml:space="preserve">
+    <value>Remove part of a 3D object, which intersects with another object, and deleting the latter at the same time</value>
+  </data>
+  <data name="Helper_BoxControl" xml:space="preserve">
+    <value>Draw Box from extruded rectangle on active plane</value>
+  </data>
+  <data name="Helper_ComponentControl" xml:space="preserve">
+    <value>Create a 3D component from selected Elements, which represent kind of blocks with intelligence and a particular purpose.
+
+The different 3D components bear different information, depending on their designation.</value>
+  </data>
+  <data name="Helper_ConnectionControl" xml:space="preserve">
+    <value>Define Connections of selected graphics 
+
+Relevant routing directions must be indicated (i.e. created)</value>
+  </data>
+  <data name="Helper_DirectionControl" xml:space="preserve">
+    <value>Used on components' connection points, to indicate the initial (primary) routing direction, which is to be followed by the wire routing process for a minimum of 5 mm.
+
+Must define appropriate planes on which the respective connection points are to be present.
+</value>
+  </data>
+  <data name="Helper_UnBlockControl" xml:space="preserve">
+    <value>Decompose a previously created block or component.</value>
+  </data>
+  <data name="Helper_CreateAttributeControl" xml:space="preserve">
+    <value>Create various text attributes, a.k.a. text placeholders, assigned to the blocks and/or components.</value>
+  </data>
+  <data name="Helper_ArcControl" xml:space="preserve">
+    <value>Draw Arc on the active plane</value>
+  </data>
+  <data name="Helper_RelationControl" xml:space="preserve">
+    <value>Define parent-children relations of the selected parent element</value>
+  </data>
+  <data name="Helper_barButtonMeasure" xml:space="preserve">
+    <value>Measure distance between two points</value>
+  </data>
+  <data name="Helper_CircleCenterRadius" xml:space="preserve">
+    <value>Create Circle from center and a radius</value>
+  </data>
+  <data name="Helper_Circle2pts" xml:space="preserve">
+    <value>Create Circle from 2 points</value>
+  </data>
+  <data name="Helper_Circle3pts" xml:space="preserve">
+    <value>Create Circle from 3 points</value>
+  </data>
+  <data name="Helper_EllipseAxes" xml:space="preserve">
+    <value>Draw Elilipse by defining its axes</value>
+  </data>
+  <data name="Helper_PolylineControl" xml:space="preserve">
+    <value>Draw a contour, containing lines and arcs, on the currently active plane 
+
+&lt;b&gt;Right-Click:&lt;/b&gt; change drawing mode to either Arc or Line</value>
+  </data>
+  <data name="Helper_CircleCenterDiameter" xml:space="preserve">
+    <value>Create Circle from center and diameter</value>
+  </data>
+  <data name="Helper_itemSnapCenter" xml:space="preserve">
+    <value>Snap to the centre of a circle, arc or polyline arc segment.</value>
+  </data>
+  <data name="Helper_itemSnapEndPoint" xml:space="preserve">
+    <value>Snap to end points of lines on contours or 3D objects</value>
+  </data>
+  <data name="Helper_itemSnapGrid" xml:space="preserve">
+    <value>Snap to current grid pointsGrid snap is definied in the Status Bar</value>
+  </data>
+  <data name="Helper_itemSnapIntersection" xml:space="preserve">
+    <value>Snap to intersection between two drawing objects</value>
+  </data>
+  <data name="Helper_itemSnapMidPoint" xml:space="preserve">
+    <value>Snap to mid point of lines on contours or 3D objects</value>
+  </data>
+  <data name="Helper_itemSnapQuadrant" xml:space="preserve">
+    <value>Snap to one of the four circle quadrant points</value>
+  </data>
+  <data name="Helper_itemShowBlockPlane" xml:space="preserve">
+    <value>Visualize planes within a selected element, which allow snapping to rail or mounting plate.
+
+Planes are automatically highlighted in the colours assigned in their definition</value>
+  </data>
+  <data name="Helper_itemEntityProperties" xml:space="preserve">
+    <value>Displays the Property Card of selected element. Or the properties of the current 3D page, if nothing is selected</value>
+  </data>
+  <data name="Helper_itemScaleSelected" xml:space="preserve">
+    <value>Scale and displace selected elements</value>
+  </data>
+  <data name="Helper_IntersectControl" xml:space="preserve">
+    <value>Remove two intersecting 3D objects, by keeping the part that intersects</value>
+  </data>
+  <data name="Helper_CutByPlaneControl" xml:space="preserve">
+    <value>Use a suitable plane to split a 3D object into two pieces</value>
+  </data>
+  <data name="Helper_ConeControl" xml:space="preserve">
+    <value>Draw Cone from a circle on the active plane</value>
+  </data>
+  <data name="Helper_Sphere" xml:space="preserve">
+    <value>Draw Sphere from circle on the active plane</value>
+  </data>
+  <data name="Helper_TorusControl" xml:space="preserve">
+    <value>Draw Torus from two circles specifying the inner and outer diameter of the torus</value>
+  </data>
+  <data name="Helper_itemCopyBasePoint" xml:space="preserve">
+    <value>Copy with a specified point that is to be used as refernce point when element(s) is/are pasted</value>
+  </data>
+  <data name="Helper_itemSweep" xml:space="preserve">
+    <value>Create a relevant 3D object by using a 2D contour to define its shape and another one (usually, a polyline) – to extend and possibly displace accordingly the 3D shape.</value>
+  </data>
+  <data name="Helper_itemRevolve" xml:space="preserve">
+    <value>Create a 3D object through a rotation of a 2D contour around a defined axis</value>
+  </data>
+  <data name="Helper_itemSpline" xml:space="preserve">
+    <value>Draw Splines on the active plane</value>
+  </data>
+  <data name="Helper_itemDrawText" xml:space="preserve">
+    <value>Insert fixed texts on the current planeRecommended that the plane used is a bit in front of construction plane being used for drawing</value>
+  </data>
+  <data name="Helper_TrimControl" xml:space="preserve">
+    <value>Remove parts of geometrical elements at their intersections with another element</value>
+  </data>
+  <data name="Helper_ExtendControl" xml:space="preserve">
+    <value>Extend geometrical element to join to another one</value>
+  </data>
+  <data name="Helper_JoinControl" xml:space="preserve">
+    <value>Join two geometrical lines</value>
+  </data>
+  <data name="Helper_BreakControl" xml:space="preserve">
+    <value>Cut out part of geometrical element</value>
+  </data>
+  <data name="Helper_OffsetControl" xml:space="preserve">
+    <value>Create new geometrical elements from an offset of a selected simple 2D geometrical element (line, circle, arc, etc.)</value>
+  </data>
+  <data name="Helper_Dimension2Pts" xml:space="preserve">
+    <value>Calculate and display linear distance between two points on the current plane</value>
+  </data>
+  <data name="Helper_btnMakeSelectable" xml:space="preserve">
+    <value>Make alle objects selectedable</value>
+  </data>
+  <data name="Helper_btnMakeUnselectable" xml:space="preserve">
+    <value>Make selected objects unselectable</value>
+  </data>
+  <data name="Helper_itemAboutShow" xml:space="preserve">
+    <value>Credits of SEE Electrical 3D Panel+, as well as to obtain advanced software and system information.</value>
+  </data>
+  <data name="Helper_itemSnapMidBetween2Pt" xml:space="preserve">
+    <value>Select the middle point between 2 points. Use in combination with other snap point tools</value>
+  </data>
+  <data name="Helper_itemRemoveRelation" xml:space="preserve">
+    <value>Cancel a previously defined parent-children relation between selected components</value>
+  </data>
+  <data name="Helper_componentWizardItem" xml:space="preserve">
+    <value>Opens the Component Generation Wizard, enabling you to create components automatically</value>
+  </data>
+  <data name="Helper_itemHelpShow" xml:space="preserve">
+    <value>Access the SEE Electrical 3D Panel+ help, which contains all the necessary information concerning the use of the application.</value>
+  </data>
+  <data name="Helper_barButtonDimensionNc" xml:space="preserve">
+    <value>Calculate and display the horizontal or vertical distance between two points</value>
+  </data>
+  <data name="Helper_itemRelativeSnapPoint" xml:space="preserve">
+    <value>Snap to point located a fixed distance from a specified refernce point</value>
+  </data>
+  <data name="Helper_barButtonOrthogonalDimension" xml:space="preserve">
+    <value>Calculate and display the othogonal (on X or Y axis) distance between two points on the current plane</value>
+  </data>
+  <data name="Helper_itemAddToBlock" xml:space="preserve">
+    <value>Add a selected element to an already created block or component.
+Especially beneficial if you need to additionally affix a connection point or drill contour to an existing component.</value>
+  </data>
+  <data name="Helper_FilletControl" xml:space="preserve">
+    <value>Connect two geometrical lines with a tangent arc</value>
+  </data>
+  <data name="Helper_ChamferControl" xml:space="preserve">
+    <value>Create a 45 degrees chamfer from intersection of two lines</value>
+  </data>
+  <data name="Helper_ItemShowAll" xml:space="preserve">
+    <value>Displays all elements which have been made invisible</value>
+  </data>
+  <data name="Helper_itemSelectAssembly" xml:space="preserve">
+    <value>Select all elements which belongs to same Label Group as selected element</value>
+  </data>
+  <data name="Helper_itemShowConnections" xml:space="preserve">
+    <value>Shows all Connections</value>
+  </data>
+  <data name="Helper_itemValidateCompDefinition" xml:space="preserve">
+    <value>Validate the selected componentChecks several parameters that are crucial for the proper use of the component in the 3D model</value>
+  </data>
+  <data name="Helper_itemAddConnection" xml:space="preserve">
+    <value>Add an already defined connection point</value>
+  </data>
+  <data name="Helper_itemHideTextTag" xml:space="preserve">
+    <value>Hide all Text Attributes (such as description, equipment, function, location etc) of all components inserted in the drawing window</value>
+  </data>
+  <data name="Helper_itemBlockEditor" xml:space="preserve">
+    <value>Modify the definition of the selected block. Change all block references contained in the block definition. Edit the definition of the symbol if the the block is connected to a symbol</value>
+  </data>
+  <data name="Helper_itemDiscardBlockEdit" xml:space="preserve">
+    <value>Discard all changes in Edit Block and exit the Block Editor</value>
+  </data>
+  <data name="Helper_itemSaveBlockEdit" xml:space="preserve">
+    <value>Save changes made in the Block Editor</value>
+  </data>
+  <data name="Helper_itemChangeBlockReference" xml:space="preserve">
+    <value>Change reference point of block</value>
+  </data>
+  <data name="Helper_itemShortCuts" xml:space="preserve">
+    <value>Show list of generic hotkeys and shortcuts</value>
+  </data>
+  <data name="Helper_barButtonDiameterDimension" xml:space="preserve">
+    <value>Display the diameter of selected circle/arc</value>
+  </data>
+  <data name="Helper_barButtonRadialDim" xml:space="preserve">
+    <value>Display the radius of the selected circle/arc</value>
+  </data>
+  <data name="Helper_barButtonAngularDim" xml:space="preserve">
+    <value>Display angle between two lines, or angle of a selected arc</value>
+  </data>
+  <data name="Helper_itemCreateDirectionPath" xml:space="preserve">
+    <value>Create direction path is used when making guide lines for use in the sleeves module</value>
+  </data>
+  <data name="Helper_itemSnapObject" xml:space="preserve">
+    <value>Alings object being inserted with other objects</value>
+  </data>
+  <data name="Helper_itemDefineClipping" xml:space="preserve">
+    <value>Define a clipping view from selected side on component</value>
+  </data>
+  <data name="Helper_itemShowClippingView" xml:space="preserve">
+    <value>Switch between the clipping view and the standard view</value>
+  </data>
+  <data name="Helper_itemSnapPlane" xml:space="preserve">
+    <value>Objects are automatically rotated to match the active plane</value>
+  </data>
+  <data name="Helper_itemCreatePicture" xml:space="preserve">
+    <value>Insert image into the current drawing</value>
+  </data>
+  <data name="Helper_itemSnapMate" xml:space="preserve">
+    <value>Automactically matches a device or accessory that is being inserted to a corresponding plane, allowing for an easy 
+"drag and drop" insertion</value>
+  </data>
+  <data name="Helper_barButtonLabelGroup" xml:space="preserve">
+    <value>Shows a list of all label groups present in the project</value>
+  </data>
+  <data name="Helper_itemPolygon" xml:space="preserve">
+    <value>Draw Polygon from number of edges on the active plane</value>
+  </data>
+  <data name="Helper_itemNews" xml:space="preserve">
+    <value>Information about the new and improved features of the software.</value>
+  </data>
+  <data name="Helper_itemSnapObjectIntersectPlane" xml:space="preserve">
+    <value>Alings object being inserted with other objects on the active plane</value>
+  </data>
+  <data name="Helper_itemSearchReplaceAttributes" xml:space="preserve">
+    <value>Find and replace values of specific attributes (such as description, equipment, etc.) of some or all components inserted in the drawing window.</value>
+  </data>
+  <data name="Helper_snap2EdgesIntersectionBarButtonItem" xml:space="preserve">
+    <value>Snap to point at intersection of two edges on a defined plane</value>
+  </data>
+  <data name="Helper_snapToEdgePointBarButtonItem" xml:space="preserve">
+    <value>Snap to point a fixed distance from a specified reference point along an edge projected on the active plane</value>
+  </data>
+  <data name="Helper_itemCopyVector" xml:space="preserve">
+    <value>Copy and paste element(s) by specifying a vectors initial point, length and direction</value>
+  </data>
+  <data name="Helper_itemExplodeBlockRecursive" xml:space="preserve">
+    <value>Decompose block or component to its ultimate level beyond which it cannot be further decomposed.
+
+And it becomes possible to access the particular elements separately
+</value>
+  </data>
+  <data name="Helper_item2DLayout" xml:space="preserve">
+    <value>Opens the Documentation Designer, which is a 2D view editor where you can create any type of documentation from a 3D workspace in 2D format.  For example:  create documents containing information on how to drill holes, how to assemble components with respect to dimensions, etc.</value>
+  </data>
+  <data name="Helper_Draw3dLineControl" xml:space="preserve">
+    <value>Draw a 3D line</value>
+  </data>
+  <data name="Helper_itemHideSelected" xml:space="preserve">
+    <value>Hide selected elements</value>
+  </data>
+  <data name="Helper_itemHideAllExceptSelected" xml:space="preserve">
+    <value>Hide all except selected</value>
+  </data>
+  <data name="Helper_itemFrontView" xml:space="preserve">
+    <value>Front view</value>
+  </data>
+  <data name="Helper_itemBackView" xml:space="preserve">
+    <value>Back view</value>
+  </data>
+  <data name="Helper_itemRightView" xml:space="preserve">
+    <value>Right view</value>
+  </data>
+  <data name="Helper_itemLeftView" xml:space="preserve">
+    <value>Left view</value>
+  </data>
+  <data name="Helper_itemTopView" xml:space="preserve">
+    <value>Top view</value>
+  </data>
+  <data name="Helper_itemBottomView" xml:space="preserve">
+    <value>Bottom view</value>
+  </data>
+  <data name="Helper_itemShowClippingViewList" xml:space="preserve">
+    <value>Accessible provided a clipping view is defined
+Switch between the clipping view and the standard view of defined clipping views</value>
+  </data>
+  <data name="Helper_itemMoveCameraFrontActivePlane" xml:space="preserve">
+    <value>Move Camera in front of active plane</value>
+  </data>
+  <data name="Helper_btnUpdateTextAttributes" xml:space="preserve">
+    <value>Update all Text Attributes from selected Text Templates in the Update Text Attributes window.</value>
+  </data>
+  <data name="Helper_itemCheckAskAspectsOnInsert" xml:space="preserve">
+    <value>Override default aspect assignment when inserting or copying components</value>
+  </data>
+  <data name="Helper_itemInverteShowHide" xml:space="preserve">
+    <value>Inverts visibility of all elements</value>
+  </data>
+  <data name="Helper_itemCheckDynamicSelection" xml:space="preserve">
+    <value>Highlights hovered objects and elements</value>
+  </data>
+  <data name="Helper_itemRenderView" xml:space="preserve">
+    <value>View of current 3D page</value>
+  </data>
+  <data name="Helper_btnTextTemplates" xml:space="preserve">
+    <value>Edit Text Templates</value>
+  </data>
+  <data name="Helper_itemShowTextTag" xml:space="preserve">
+    <value>Show all Text Attributes (such as description, equipment, function, location etc) of all components inserted in the drawing window</value>
+  </data>
+  <data name="Helper_barButtonItem1" xml:space="preserve">
+    <value>Hides all Connections</value>
+  </data>
+  <data name="Helper_itemShowDimensions" xml:space="preserve">
+    <value>Show all dimensioning lines and linear distances inserted in the drawing</value>
+  </data>
+  <data name="Helper_itemHideDimensions" xml:space="preserve">
+    <value>Hide all dimensioning lines and linear distances inserted in the drawing</value>
+  </data>
+  <data name="Helper_CabinetDepthControl" xml:space="preserve">
+    <value>Depth of cabinet to draw</value>
+  </data>
+  <data name="Helper_CabinetControl" xml:space="preserve">
+    <value>Draw cabinet from rectangle on current plane</value>
+  </data>
+  <data name="Helper_CabinetColorControl" xml:space="preserve">
+    <value>Color to use when drawing cabinet</value>
+  </data>
+  <data name="Helper_FrontPlateControl" xml:space="preserve">
+    <value>Draw mounting plate from rectangle on active plane</value>
+  </data>
+  <data name="Helper_FrontPlateColorControl" xml:space="preserve">
+    <value>Color of mounting plate to draw</value>
+  </data>
+  <data name="Helper_RailControl" xml:space="preserve">
+    <value>Insert a predefined rail from list of predefined rails
+
+Predefined rails can be edited in the Rail Settings</value>
+  </data>
+  <data name="Helper_RailColorControl" xml:space="preserve">
+    <value>Color to use when drawing rail</value>
+  </data>
+  <data name="Helper_Wire2PointsControl" xml:space="preserve">
+    <value>Create wire directly between two components without passing through cable channels and route paths</value>
+  </data>
+  <data name="Helper_RoutePathControl" xml:space="preserve">
+    <value>Define routing paths used by the wire routing process</value>
+  </data>
+  <data name="Helper_AutoRouteControl" xml:space="preserve">
+    <value>Create automatically routed wire between two connections using a predefined list
+
+Predefined wires can be modified in the Wire Settings</value>
+  </data>
+  <data name="Helper_CableChannelInfoControl" xml:space="preserve">
+    <value>Perfom capacity check on selected cable channe, in order to obtain space reservation information concering the cable ducts</value>
+  </data>
+  <data name="Helper_itemHideCableChannel" xml:space="preserve">
+    <value>Hide cable channels</value>
+  </data>
+  <data name="Helper_CabinetThicknessControl" xml:space="preserve">
+    <value>Thickness of cabinet to draw</value>
+  </data>
+  <data name="Helper_PlateThicknessControl" xml:space="preserve">
+    <value>Thickness of mounting plate to draw</value>
+  </data>
+  <data name="Helper_itemCollisionCheck" xml:space="preserve">
+    <value>Will highlight any pieces of equipment in the cabinet that overlaps with eachother</value>
+  </data>
+  <data name="Helper_itemShowMountingBox" xml:space="preserve">
+    <value>Display the boxes defining the mounting spaces occupied by the selected pieces of equipment in the cabinet</value>
+  </data>
+  <data name="Helper_itemSelectWire" xml:space="preserve">
+    <value>Select wire to highlight and check its entire route</value>
+  </data>
+  <data name="Helper_itemRouteWireNet" xml:space="preserve">
+    <value>Create net of wires from a list of predefined wires. Which are automatically routed between chosen connection points</value>
+  </data>
+  <data name="Helper_itemDrillHole" xml:space="preserve">
+    <value>Create drill contours for the selected object on which drill holes are to be created</value>
+  </data>
+  <data name="Helper_itemShowConnectedChannels" xml:space="preserve">
+    <value>Highlights channels that connect to the selected channelConnected channels allow wires to pass freely between the different channels in the routing process</value>
+  </data>
+  <data name="Helper_itemCreatePlateFromSurface" xml:space="preserve">
+    <value>Create mounting plate by selecting a planar face of a component</value>
+  </data>
+  <data name="Helper_itemDrawChannel" xml:space="preserve">
+    <value>Insert channel from list of predefined channels</value>
+  </data>
+  <data name="Helper_itemCableChannelCheckOverload" xml:space="preserve">
+    <value>Check if any channel inserted in the drawing window is overloaded</value>
+  </data>
+  <data name="Helper_itemHideRoutePath" xml:space="preserve">
+    <value>Hide all route paths</value>
+  </data>
+  <data name="Helper_itemCreateHarness" xml:space="preserve">
+    <value>Create sleeve for wires to run through in the routing process</value>
+  </data>
+  <data name="Helper_itemMergeHarness" xml:space="preserve">
+    <value>Merge sleeves</value>
+  </data>
+  <data name="Helper_itemCreateControlPoint" xml:space="preserve">
+    <value>Add point on sleeve to control the path of the sleeve</value>
+  </data>
+  <data name="Helper_itemModifyControlPoint" xml:space="preserve">
+    <value>Modify control point to change path of sleeve</value>
+  </data>
+  <data name="Helper_itemDeleteControlPoint" xml:space="preserve">
+    <value>Remove control point from sleeve path</value>
+  </data>
+  <data name="Helper_itemComponentInfo" xml:space="preserve">
+    <value>Hover over elements to get information about it</value>
+  </data>
+  <data name="Helper_itemCreateCable" xml:space="preserve">
+    <value>Create a cable out of wires in the 3D drawing</value>
+  </data>
+  <data name="Helper_createBusBarButtonItem" xml:space="preserve">
+    <value>Create and insert busbar into drawingPress the  X ,  Y  or  Z  keys to change the busbar orientation along the x, y or z axis</value>
+  </data>
+  <data name="Helper_bendBusBarButtonItem" xml:space="preserve">
+    <value>Bend a busbar so that it connects to another element in the drawing</value>
+  </data>
+  <data name="Helper_extendBusBarBarButtonItem" xml:space="preserve">
+    <value>Extend a busbar element, so that it can connect to another element</value>
+  </data>
+  <data name="Helper_showConnectedBusBarsButtonItem" xml:space="preserve">
+    <value>Highlight busbars connected to the selected busbar element</value>
+  </data>
+  <data name="Helper_generateDrillHolesButtonItem" xml:space="preserve">
+    <value>Automatically generate drill holes on a busbar overlapping with another busbar or connected component</value>
+  </data>
+  <data name="Helper_predefinedBusbarsBarButtonItem" xml:space="preserve">
+    <value>Insert busbar from list of predefined busbars.
+
+Predefined list can be modified in the Copper Settings</value>
+  </data>
+  <data name="Helper_itemWireNumbering" xml:space="preserve">
+    <value>Automatically renumber all wires in the current drawing</value>
+  </data>
+  <data name="Helper_itemComponentDuplicateTag" xml:space="preserve">
+    <value>Display all duplicate components, i.e. all components having duplicate tags in the current drawing</value>
+  </data>
+  <data name="Helper_itemProClima" xml:space="preserve">
+    <value>Provides information about the heat balance, ventilation, cooling, heating and control of your panel in order to optimise its thermal management.</value>
+  </data>
+  <data name="Helper_itemCubic" xml:space="preserve">
+    <value>Connect to the CUBIC panel design software where you can directly create electrical panels</value>
+  </data>
+  <data name="Helper_itemMountingCheck" xml:space="preserve">
+    <value>Validate mounting regions </value>
+  </data>
+  <data name="Helper_itemDoorCollisionCheck" xml:space="preserve">
+    <value>Will highlight any pieces of equipment in the cabinet that overlaps/gets in the way of the cabinet doors</value>
+  </data>
+  <data name="Helper_itemShowDrillHolesControl" xml:space="preserve">
+    <value>Display defined drill holes on the selected element</value>
+  </data>
+  <data name="Helper_HideWiresControl" xml:space="preserve">
+    <value>Hide all visible wires</value>
+  </data>
+  <data name="Helper_itemShowRoutePath" xml:space="preserve">
+    <value>Show all route paths</value>
+  </data>
+  <data name="Helper_itemShowCableChannel" xml:space="preserve">
+    <value>Show cable channels</value>
+  </data>
+</root>

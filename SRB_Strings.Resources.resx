@@ -1,0 +1,3625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Empty_xml_path" xml:space="preserve">
+    <value>Empty xml path.</value>
+  </data>
+  <data name="Empty_xml_text" xml:space="preserve">
+    <value>Empty xml text.</value>
+  </data>
+  <data name="ToolTip_FixView" xml:space="preserve">
+    <value>Fix View, Press CTRL to set</value>
+  </data>
+  <data name="Msg_EmptyPlaneName" xml:space="preserve">
+    <value>Plane name can not be empty.</value>
+  </data>
+  <data name="Plane_name_exists" xml:space="preserve">
+    <value>Plane with name '{0}' already exists.</value>
+  </data>
+  <data name="MsgDeletePlane" xml:space="preserve">
+    <value>Are you sure you want to delete plane '{0}'?</value>
+  </data>
+  <data name="Title_DeletePlane" xml:space="preserve">
+    <value>Delete Plane</value>
+  </data>
+  <data name="Msg_Invalid_font_height" xml:space="preserve">
+    <value>Invalid font height.</value>
+  </data>
+  <data name="Select_Symbol_Database" xml:space="preserve">
+    <value>Select Symbol Database</value>
+  </data>
+  <data name="Select_Symbol_Template_Database" xml:space="preserve">
+    <value>Select Symbol Template Database</value>
+  </data>
+  <data name="Msg_Error_DataBaseNotSupported" xml:space="preserve">
+    <value>The version of Symbol Template Database is not supported.</value>
+  </data>
+  <data name="MsgDeleteFolder" xml:space="preserve">
+    <value>Are you sure you want to delete folder '{0}'?</value>
+  </data>
+  <data name="Delete_Folder" xml:space="preserve">
+    <value>Delete Folder</value>
+  </data>
+  <data name="MsgDeleteSymbol" xml:space="preserve">
+    <value>Are you sure you want to delete symbol '{0}'?</value>
+  </data>
+  <data name="Delete_Symbol" xml:space="preserve">
+    <value>Delete Symbol</value>
+  </data>
+  <data name="Symbol_0_already_exist" xml:space="preserve">
+    <value>Symbol '{0}' already exist.</value>
+  </data>
+  <data name="Folder_0_already_exist" xml:space="preserve">
+    <value>Folder '{0}' already exist.</value>
+  </data>
+  <data name="Name_can_not_be_empty" xml:space="preserve">
+    <value>Name can not be empty.</value>
+  </data>
+  <data name="Name_already_exists" xml:space="preserve">
+    <value>Name already exists.</value>
+  </data>
+  <data name="Symbol_name_can_not_be_empty" xml:space="preserve">
+    <value>Symbol name can not be empty.</value>
+  </data>
+  <data name="WrongDataMsg" xml:space="preserve">
+    <value>Error writing data: {0}.</value>
+  </data>
+  <data name="Add_snap_plane" xml:space="preserve">
+    <value>Add snap plane?</value>
+  </data>
+  <data name="Please_select_entity" xml:space="preserve">
+    <value>Please select entity.</value>
+  </data>
+  <data name="This_entity_is_already_a_block" xml:space="preserve">
+    <value>This entity is already a block.</value>
+  </data>
+  <data name="You_can_not_block_a_component" xml:space="preserve">
+    <value>You can not block a component.</value>
+  </data>
+  <data name="Please_select_valid_component_offset" xml:space="preserve">
+    <value>Please select valid component offset.</value>
+  </data>
+  <data name="You_can_not_have_component_inside_block" xml:space="preserve">
+    <value>You can not have component inside block.</value>
+  </data>
+  <data name="Select_Arc_or_Circle" xml:space="preserve">
+    <value>Select Arc or Circle</value>
+  </data>
+  <data name="Select_Object_To_Extend_To" xml:space="preserve">
+    <value>Select object to extend to</value>
+  </data>
+  <data name="Select_Object_To_Extend" xml:space="preserve">
+    <value>Select object to extend</value>
+  </data>
+  <data name="Remove_2D_elements" xml:space="preserve">
+    <value>Remove 2D elements?</value>
+  </data>
+  <data name="Delete_2D_Elements" xml:space="preserve">
+    <value>Delete 2D Elements</value>
+  </data>
+  <data name="Select_Line_To_Join_To_" xml:space="preserve">
+    <value>Select first line</value>
+  </data>
+  <data name="Select_Line_To_Join" xml:space="preserve">
+    <value>Select second line</value>
+  </data>
+  <data name="This_is_same_geometry" xml:space="preserve">
+    <value>This is same geometry!</value>
+  </data>
+  <data name="This_component_has_already_a_parent" xml:space="preserve">
+    <value>This component has already a parent.</value>
+  </data>
+  <data name="Define_Relation" xml:space="preserve">
+    <value>Define Relation</value>
+  </data>
+  <data name="This_component_can_not_be_parent_and_child_at_the_same_time" xml:space="preserve">
+    <value>This component can not be parent and child at the same time.</value>
+  </data>
+  <data name="select_parent" xml:space="preserve">
+    <value>select parent</value>
+  </data>
+  <data name="select_children" xml:space="preserve">
+    <value>select children</value>
+  </data>
+  <data name="Select_Routepath" xml:space="preserve">
+    <value>Select Routepath</value>
+  </data>
+  <data name="Select_entities_to_revolve" xml:space="preserve">
+    <value>Select entities to revolve</value>
+  </data>
+  <data name="Select_axis_start_point" xml:space="preserve">
+    <value>Select axis start point</value>
+  </data>
+  <data name="Select_axis_end_point" xml:space="preserve">
+    <value>Select axis end point</value>
+  </data>
+  <data name="Select_Object_To_Cut" xml:space="preserve">
+    <value>Select object to cut</value>
+  </data>
+  <data name="Select_Cutter_Object" xml:space="preserve">
+    <value>Select cutter object</value>
+  </data>
+  <data name="Select_entities_to_sweep" xml:space="preserve">
+    <value>Select entities to sweep</value>
+  </data>
+  <data name="Select_sweep_paths" xml:space="preserve">
+    <value>Select sweep paths</value>
+  </data>
+  <data name="Select_first_entity" xml:space="preserve">
+    <value>Select first entity</value>
+  </data>
+  <data name="Select_entities_to_union" xml:space="preserve">
+    <value>Select entities to union</value>
+  </data>
+  <data name="Select_second_entity" xml:space="preserve">
+    <value>Select second entity</value>
+  </data>
+  <data name="Select_entities_to_diff" xml:space="preserve">
+    <value>Select entities to diff</value>
+  </data>
+  <data name="Not_able_to_Split_selected_solid" xml:space="preserve">
+    <value>Not able to Split selected solid</value>
+  </data>
+  <data name="Please_select_block" xml:space="preserve">
+    <value>Please select block.</value>
+  </data>
+  <data name="Selected_block_doesnt_have_defined_plane" xml:space="preserve">
+    <value>Selected block doesn't have defined plane.</value>
+  </data>
+  <data name="Select_plane" xml:space="preserve">
+    <value>Select plane</value>
+  </data>
+  <data name="The_value_is_out_of_range" xml:space="preserve">
+    <value>The value is out of range.</value>
+  </data>
+  <data name="Path_name" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Drawing_Size" xml:space="preserve">
+    <value>Drawing Size</value>
+  </data>
+  <data name="X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Z" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="Routing" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="RoutePathSearchDistance" xml:space="preserve">
+    <value>RoutePathSearchDistance</value>
+  </data>
+  <data name="RoutePathPreferredAngle" xml:space="preserve">
+    <value>Route Path Preferred Angle</value>
+  </data>
+  <data name="Undoredo" xml:space="preserve">
+    <value>Undo/redo</value>
+  </data>
+  <data name="MaxUndoSteps" xml:space="preserve">
+    <value>MaxUndoSteps</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="OptimizeForPerformance" xml:space="preserve">
+    <value>OptimizeForPerformance</value>
+  </data>
+  <data name="Wires" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="AutoRouteWires" xml:space="preserve">
+    <value>AutoRouteWires</value>
+  </data>
+  <data name="Coordinates" xml:space="preserve">
+    <value>Coordinates</value>
+  </data>
+  <data name="ShowCoordinatesInfo" xml:space="preserve">
+    <value>ShowCoordinatesInfo</value>
+  </data>
+  <data name="Snap" xml:space="preserve">
+    <value>Snap</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Quadrant" xml:space="preserve">
+    <value>Quadrant</value>
+  </data>
+  <data name="EndPoint" xml:space="preserve">
+    <value>EndPoint</value>
+  </data>
+  <data name="MidPoint" xml:space="preserve">
+    <value>MidPoint</value>
+  </data>
+  <data name="Intersection" xml:space="preserve">
+    <value>Intersection</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ColorMethod" xml:space="preserve">
+    <value>ColorMethod</value>
+  </data>
+  <data name="LineWeight" xml:space="preserve">
+    <value>LineWeight</value>
+  </data>
+  <data name="LineWeightMethod" xml:space="preserve">
+    <value>LineWeightMethod</value>
+  </data>
+  <data name="LineType" xml:space="preserve">
+    <value>LineType</value>
+  </data>
+  <data name="LineTypeMethod" xml:space="preserve">
+    <value>LineTypeMethod</value>
+  </data>
+  <data name="LineTypeScale" xml:space="preserve">
+    <value>LineTypeScale</value>
+  </data>
+  <data name="Selectable" xml:space="preserve">
+    <value>Selectable</value>
+  </data>
+  <data name="LayerName" xml:space="preserve">
+    <value>Layer Name</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="MaterialName" xml:space="preserve">
+    <value>MaterialName</value>
+  </data>
+  <data name="MaterialMappingType" xml:space="preserve">
+    <value>MaterialMappingType</value>
+  </data>
+  <data name="MaterialScalingX" xml:space="preserve">
+    <value>MaterialScalingX</value>
+  </data>
+  <data name="MaterialScalingY" xml:space="preserve">
+    <value>MaterialScalingY</value>
+  </data>
+  <data name="Dimension" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="BoxMin" xml:space="preserve">
+    <value>BoxMin</value>
+  </data>
+  <data name="BoxMax" xml:space="preserve">
+    <value>BoxMax</value>
+  </data>
+  <data name="BoxSize" xml:space="preserve">
+    <value>BoxSize</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="BlockName" xml:space="preserve">
+    <value>BlockName</value>
+  </data>
+  <data name="InsertionPoint" xml:space="preserve">
+    <value>InsertionPoint</value>
+  </data>
+  <data name="ScaleFactorX" xml:space="preserve">
+    <value>ScaleFactor X</value>
+  </data>
+  <data name="ScaleFactorY" xml:space="preserve">
+    <value>ScaleFactor Y</value>
+  </data>
+  <data name="ScaleFactorZ" xml:space="preserve">
+    <value>ScaleFactor Z</value>
+  </data>
+  <data name="Connections" xml:space="preserve">
+    <value>Connections</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="SegregationCode" xml:space="preserve">
+    <value>Segregation Code</value>
+  </data>
+  <data name="ExtraLength" xml:space="preserve">
+    <value>Extra Length</value>
+  </data>
+  <data name="RoutePath" xml:space="preserve">
+    <value>Route Path</value>
+  </data>
+  <data name="ToolTip_BackView" xml:space="preserve">
+    <value>Back View</value>
+  </data>
+  <data name="ToolTip_BottomView" xml:space="preserve">
+    <value>Bottom View</value>
+  </data>
+  <data name="ToolTip_FrontView" xml:space="preserve">
+    <value>Front View</value>
+  </data>
+  <data name="ToolTip_LeftView" xml:space="preserve">
+    <value>Left View</value>
+  </data>
+  <data name="ToolTip_RightView" xml:space="preserve">
+    <value>Right View</value>
+  </data>
+  <data name="ToolTip_TopView" xml:space="preserve">
+    <value>Top View</value>
+  </data>
+  <data name="Select_first_point" xml:space="preserve">
+    <value>Select first point</value>
+  </data>
+  <data name="Select_second_point" xml:space="preserve">
+    <value>Select second point</value>
+  </data>
+  <data name="ToolTip_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ToolTip_ButtonOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="New_Print_View" xml:space="preserve">
+    <value>New Print View</value>
+  </data>
+  <data name="Msg_EmptyPrintViewName" xml:space="preserve">
+    <value>Print view name can not be empty.</value>
+  </data>
+  <data name="Print_view_name_exists" xml:space="preserve">
+    <value>Print view with name '{0}' already exists.</value>
+  </data>
+  <data name="Print_view_delete" xml:space="preserve">
+    <value>Are you sure you want to delete print view '{0}'?</value>
+  </data>
+  <data name="Delete_print_view" xml:space="preserve">
+    <value>Delete Print View</value>
+  </data>
+  <data name="Select_entity" xml:space="preserve">
+    <value>Select Entity</value>
+  </data>
+  <data name="Select_point1" xml:space="preserve">
+    <value>Point1</value>
+  </data>
+  <data name="Select_point2" xml:space="preserve">
+    <value>Point2</value>
+  </data>
+  <data name="Group_selected" xml:space="preserve">
+    <value>Group Selected</value>
+  </data>
+  <data name="Group_warning_relation" xml:space="preserve">
+    <value>You can not group component, which has relations with other components. </value>
+  </data>
+  <data name="Relation_warning_group" xml:space="preserve">
+    <value>You can not define relation for component, which is part of a group.</value>
+  </data>
+  <data name="ReferencePoint" xml:space="preserve">
+    <value>Referencepoint</value>
+  </data>
+  <data name="SnapPoint" xml:space="preserve">
+    <value>Snappoint</value>
+  </data>
+  <data name="Filter_none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Component_child_warning" xml:space="preserve">
+    <value>The selected component '{0}' has one or more children, which are already part of the component filter. Do you want to add this component and remove all its children from the filter?</value>
+  </data>
+  <data name="Component_exist_warning" xml:space="preserve">
+    <value>The selected component '{0}' is already part of the component filter.</value>
+  </data>
+  <data name="Component_parent_warning" xml:space="preserve">
+    <value>The selected component '{0}' can not be added to the component filter, because its parent is already a part of it.</value>
+  </data>
+  <data name="Delete_all_components" xml:space="preserve">
+    <value>Are you sure you want to delete all components?</value>
+  </data>
+  <data name="Delete_not_existing_components" xml:space="preserve">
+    <value>Are you sure you want to delete all not existing components?</value>
+  </data>
+  <data name="Delete_selected_components" xml:space="preserve">
+    <value>Are you sure you want to delete selected components?</value>
+  </data>
+  <data name="Not_found" xml:space="preserve">
+    <value>(Not found)</value>
+  </data>
+  <data name="Select_component" xml:space="preserve">
+    <value>Select Component</value>
+  </data>
+  <data name="Select_mounting_plate" xml:space="preserve">
+    <value>Select Mounting Plate</value>
+  </data>
+  <data name="Add_to_block" xml:space="preserve">
+    <value>Add to Block</value>
+  </data>
+  <data name="Select_block" xml:space="preserve">
+    <value>Select Block</value>
+  </data>
+  <data name="Incorrect_filter" xml:space="preserve">
+    <value>Incorrect filter definition.</value>
+  </data>
+  <data name="Enter_an_unsigned_number" xml:space="preserve">
+    <value>Enter an unsigned number</value>
+  </data>
+  <data name="Enter_an_number" xml:space="preserve">
+    <value>Enter an number</value>
+  </data>
+  <data name="Select_Object_to_break" xml:space="preserve">
+    <value>Select object to break</value>
+  </data>
+  <data name="select_start_point" xml:space="preserve">
+    <value>select start point</value>
+  </data>
+  <data name="select_end_point" xml:space="preserve">
+    <value>select end point</value>
+  </data>
+  <data name="Delete_Component" xml:space="preserve">
+    <value>Delete Component</value>
+  </data>
+  <data name="Create_Rectangle" xml:space="preserve">
+    <value>Create Rectangle</value>
+  </data>
+  <data name="Create_Line" xml:space="preserve">
+    <value>Create Line</value>
+  </data>
+  <data name="Create_Arc" xml:space="preserve">
+    <value>Create Arc</value>
+  </data>
+  <data name="Create_Block" xml:space="preserve">
+    <value>Create Block</value>
+  </data>
+  <data name="Offset_3D_Object" xml:space="preserve">
+    <value>Offset 3D Object</value>
+  </data>
+  <data name="Click_to_start_offset" xml:space="preserve">
+    <value>Click to start offset</value>
+  </data>
+  <data name="Select_entity_to_offset" xml:space="preserve">
+    <value>Select entity to offset</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="Join_2D_Lines" xml:space="preserve">
+    <value>Join 2D Lines</value>
+  </data>
+  <data name="Fillet_Curves" xml:space="preserve">
+    <value>Fillet Curves</value>
+  </data>
+  <data name="Extrude" xml:space="preserve">
+    <value>Extrude</value>
+  </data>
+  <data name="Extend_3D_Object" xml:space="preserve">
+    <value>Extend 3D Object</value>
+  </data>
+  <data name="Explode" xml:space="preserve">
+    <value>Explode</value>
+  </data>
+  <data name="Create_Ellipse" xml:space="preserve">
+    <value>Create Ellipse</value>
+  </data>
+  <data name="Create_Box" xml:space="preserve">
+    <value>Create Box</value>
+  </data>
+  <data name="Create_Attribute" xml:space="preserve">
+    <value>Create Attribute</value>
+  </data>
+  <data name="Angle__" xml:space="preserve">
+    <value>Angle = </value>
+  </data>
+  <data name="Angle__00" xml:space="preserve">
+    <value>Angle = {0:0.##}</value>
+  </data>
+  <data name="Symbol_Drag_and_Drop" xml:space="preserve">
+    <value>Symbol Drag and Drop</value>
+  </data>
+  <data name="Create_Direction" xml:space="preserve">
+    <value>Create Direction</value>
+  </data>
+  <data name="Delete_Selected_Elements" xml:space="preserve">
+    <value>Delete Selected Elements</value>
+  </data>
+  <data name="Create_Cylinder" xml:space="preserve">
+    <value>Create Cylinder</value>
+  </data>
+  <data name="Cut_Selected_Elements" xml:space="preserve">
+    <value>Cut Selected Elements</value>
+  </data>
+  <data name="Create_Cone" xml:space="preserve">
+    <value>Create_Cone</value>
+  </data>
+  <data name="Create_Component" xml:space="preserve">
+    <value>Create Component</value>
+  </data>
+  <data name="Component_Load" xml:space="preserve">
+    <value>Component Load</value>
+  </data>
+  <data name="Create_Circle" xml:space="preserve">
+    <value>Create Circle</value>
+  </data>
+  <data name="Tangent_1" xml:space="preserve">
+    <value>Tangent 1</value>
+  </data>
+  <data name="Tangent_2" xml:space="preserve">
+    <value>Tangent 2</value>
+  </data>
+  <data name="Tangent_3" xml:space="preserve">
+    <value>Tangent 3</value>
+  </data>
+  <data name="Circle" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="R__" xml:space="preserve">
+    <value>R = </value>
+  </data>
+  <data name="Chamfer_Curves" xml:space="preserve">
+    <value>Chamfer Curves</value>
+  </data>
+  <data name="Break_3D_Object" xml:space="preserve">
+    <value>Break 3D Object</value>
+  </data>
+  <data name="Revolve" xml:space="preserve">
+    <value>Revolve</value>
+  </data>
+  <data name="Define_Route_Path" xml:space="preserve">
+    <value>Define Route Path</value>
+  </data>
+  <data name="Startpoint" xml:space="preserve">
+    <value>Startpoint</value>
+  </data>
+  <data name="Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="CutByPlane" xml:space="preserve">
+    <value>CutByPlane</value>
+  </data>
+  <data name="Difference" xml:space="preserve">
+    <value>Difference</value>
+  </data>
+  <data name="Intersect" xml:space="preserve">
+    <value>Intersect</value>
+  </data>
+  <data name="Union" xml:space="preserve">
+    <value>Union</value>
+  </data>
+  <data name="Create_Sphere" xml:space="preserve">
+    <value>Create Sphere</value>
+  </data>
+  <data name="Create_Spline" xml:space="preserve">
+    <value>Create Spline</value>
+  </data>
+  <data name="Sweep" xml:space="preserve">
+    <value>Sweep</value>
+  </data>
+  <data name="Symbol_Load" xml:space="preserve">
+    <value>Symbol Load</value>
+  </data>
+  <data name="Create_Text" xml:space="preserve">
+    <value>Create Text</value>
+  </data>
+  <data name="Trim_Object" xml:space="preserve">
+    <value>Trim Object</value>
+  </data>
+  <data name="Create_Torus" xml:space="preserve">
+    <value>Create Torus</value>
+  </data>
+  <data name="UnGroup_Selected" xml:space="preserve">
+    <value>UnGroup Selected</value>
+  </data>
+  <data name="Move_Element" xml:space="preserve">
+    <value>Move Element</value>
+  </data>
+  <data name="Please_select_the_entities_that_should_be_made_unselectable" xml:space="preserve">
+    <value>Please select the entities that should be made un-selectable</value>
+  </data>
+  <data name="_00" xml:space="preserve">
+    <value>{0:0.##}</value>
+  </data>
+  <data name="Route_Nets" xml:space="preserve">
+    <value>Route Nets</value>
+  </data>
+  <data name="Msg_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Not_enough_memory" xml:space="preserve">
+    <value>Not able to store such large amount of data to the Clipboard content.</value>
+  </data>
+  <data name="mountingSpaceRegex" xml:space="preserve">
+    <value>[0-9]*([.,][0-9]{1,2})?-[0-9]*([.,][0-9]{1,2})?-[0-9]*([.,][0-9]{1,2})?-[0-9]*([.,][0-9]{1,2})?-[0-9]*([.,][0-9]{1,2})?-[0-9]*([.,][0-9]{1,2})?</value>
+  </data>
+  <data name="Incorrect_Symbol_Version" xml:space="preserve">
+    <value>Symbol library {0} has incorrect version.</value>
+  </data>
+  <data name="Msg_find_symbol" xml:space="preserve">
+    <value>Find Symbol</value>
+  </data>
+  <data name="Warning_too_many_symbols" xml:space="preserve">
+    <value>{0}  returned more than 100 symbols, only the first 100 will be shown.</value>
+  </data>
+  <data name="Block_Plane" xml:space="preserve">
+    <value>Block Plane</value>
+  </data>
+  <data name="Create_Connection" xml:space="preserve">
+    <value>Create Connection</value>
+  </data>
+  <data name="Scale_Factor" xml:space="preserve">
+    <value>Scale Factor X;Y;Z</value>
+  </data>
+  <data name="Apply_Filter" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="Create_Symbol" xml:space="preserve">
+    <value>Create Symbol</value>
+  </data>
+  <data name="Folder_Properties" xml:space="preserve">
+    <value>Folder Properties</value>
+  </data>
+  <data name="Symbol_Properties" xml:space="preserve">
+    <value>Symbol Properties</value>
+  </data>
+  <data name="Symbol_Template_Database" xml:space="preserve">
+    <value>Symbol Template Database</value>
+  </data>
+  <data name="Unselect_Entities" xml:space="preserve">
+    <value>Unselect Entities</value>
+  </data>
+  <data name="Material_does_not_exist" xml:space="preserve">
+    <value>Material does not exist</value>
+  </data>
+  <data name="alignmentType_BaselineCenter" xml:space="preserve">
+    <value>Baseline Center</value>
+  </data>
+  <data name="alignmentType_BaselineLeft" xml:space="preserve">
+    <value>Baseline Left</value>
+  </data>
+  <data name="alignmentType_BaselineRight" xml:space="preserve">
+    <value>Baseline Right</value>
+  </data>
+  <data name="alignmentType_BottomCenter" xml:space="preserve">
+    <value>Bottom Center</value>
+  </data>
+  <data name="alignmentType_BottomLeft" xml:space="preserve">
+    <value>Bottom Left</value>
+  </data>
+  <data name="alignmentType_BottomRight" xml:space="preserve">
+    <value>Bottom Right</value>
+  </data>
+  <data name="alignmentType_MiddleCenter" xml:space="preserve">
+    <value>Middle Center</value>
+  </data>
+  <data name="alignmentType_MiddleLeft" xml:space="preserve">
+    <value>Middle Left</value>
+  </data>
+  <data name="alignmentType_MiddleRight" xml:space="preserve">
+    <value>Middle Right</value>
+  </data>
+  <data name="alignmentType_TopCenter" xml:space="preserve">
+    <value>Top Center</value>
+  </data>
+  <data name="alignmentType_TopLeft" xml:space="preserve">
+    <value>Top Left</value>
+  </data>
+  <data name="alignmentType_TopRight" xml:space="preserve">
+    <value>Top Right</value>
+  </data>
+  <data name="FontStyle_Bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="FontStyle_Italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="FontStyle_Regular" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="FontStyle_Strikeout" xml:space="preserve">
+    <value>Strikeout</value>
+  </data>
+  <data name="FontStyle_Underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="colorMethodType_byEntity" xml:space="preserve">
+    <value>by Entity</value>
+  </data>
+  <data name="colorMethodType_byLayer" xml:space="preserve">
+    <value>by Layer</value>
+  </data>
+  <data name="colorMethodType_byParent" xml:space="preserve">
+    <value>by Parent</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>BOTTOM</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>FRONT</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>LEFT</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>RIGHT</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="Component_label_group_caption" xml:space="preserve">
+    <value>Component Label Group</value>
+  </data>
+  <data name="Different_component_label_group" xml:space="preserve">
+    <value>The selected components are part of different label groups. If you create a new label group the components will be no longer part of these label groups. Do you want to continue?</value>
+  </data>
+  <data name="Button_create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Msg_delete_label_group" xml:space="preserve">
+    <value>Are you sure you want to delete this label group? All components attached to it will be no longer combined together. Do you want to continue?</value>
+  </data>
+  <data name="Alu" xml:space="preserve">
+    <value>Alu</value>
+  </data>
+  <data name="Brick" xml:space="preserve">
+    <value>Brick</value>
+  </data>
+  <data name="Carbon" xml:space="preserve">
+    <value>Carbon</value>
+  </data>
+  <data name="Chrome" xml:space="preserve">
+    <value>Chrome</value>
+  </data>
+  <data name="Concrete" xml:space="preserve">
+    <value>Concrete</value>
+  </data>
+  <data name="Copper" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="DarkWood" xml:space="preserve">
+    <value>DarkWood</value>
+  </data>
+  <data name="Gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="Grass" xml:space="preserve">
+    <value>Grass</value>
+  </data>
+  <data name="IGE" xml:space="preserve">
+    <value>IGE</value>
+  </data>
+  <data name="PolishSteel" xml:space="preserve">
+    <value>PolishSteel</value>
+  </data>
+  <data name="Rubber" xml:space="preserve">
+    <value>Rubber</value>
+  </data>
+  <data name="Stone" xml:space="preserve">
+    <value>Stone</value>
+  </data>
+  <data name="Wood" xml:space="preserve">
+    <value>Wood</value>
+  </data>
+  <data name="WoodFloor" xml:space="preserve">
+    <value>Wood Floor</value>
+  </data>
+  <data name="Component_node_caption" xml:space="preserve">
+    <value>Component (Name = {0}, Equipment = {1})</value>
+  </data>
+  <data name="Text_none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Wire_node_caption" xml:space="preserve">
+    <value>Wire (Number = {0}, From = {1}, To = {2})</value>
+  </data>
+  <data name="ColorColumn" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="LayerNumberColumn" xml:space="preserve">
+    <value>Layer Number</value>
+  </data>
+  <data name="LineTypeColumn" xml:space="preserve">
+    <value>Line Type</value>
+  </data>
+  <data name="LineWeightColumn" xml:space="preserve">
+    <value>Line Weight</value>
+  </data>
+  <data name="MaterialColumn" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="NameColumn" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PrintableColumn" xml:space="preserve">
+    <value>Printable</value>
+  </data>
+  <data name="SelectableColumn" xml:space="preserve">
+    <value>Selectable</value>
+  </data>
+  <data name="TransparencyColumn" xml:space="preserve">
+    <value>Transparency</value>
+  </data>
+  <data name="visibleLayerColumn" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="Layer_name_already_exist" xml:space="preserve">
+    <value>Layer name already exist.</value>
+  </data>
+  <data name="DrillPatternDistance" xml:space="preserve">
+    <value>Drill Pattern Distance</value>
+  </data>
+  <data name="DrillRepeatTimes" xml:space="preserve">
+    <value>Drill Repeat Times</value>
+  </data>
+  <data name="DrillStartPosition" xml:space="preserve">
+    <value>Drill Start Position</value>
+  </data>
+  <data name="DrillToolType" xml:space="preserve">
+    <value>Drill Tool Type</value>
+  </data>
+  <data name="Symmetric" xml:space="preserve">
+    <value>Symmetric</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>YES</value>
+  </data>
+  <data name="Drill_start_position_format" xml:space="preserve">
+    <value>Value of drill start position should be 'X(double);Y(double)'.</value>
+  </data>
+  <data name="Drawing" xml:space="preserve">
+    <value>Drawing</value>
+  </data>
+  <data name="Net_name_already_exist" xml:space="preserve">
+    <value>Net name already exist</value>
+  </data>
+  <data name="Wire_number_already_exist" xml:space="preserve">
+    <value>Wire number already exist</value>
+  </data>
+  <data name="Quantity_can_not_be_empty" xml:space="preserve">
+    <value>Quantity can not be empty.</value>
+  </data>
+  <data name="Copy_N_Entities" xml:space="preserve">
+    <value>N-Copy</value>
+  </data>
+  <data name="orientationType_UpAxisY" xml:space="preserve">
+    <value>Up Axis Y</value>
+  </data>
+  <data name="orientationType_UpAxisZ" xml:space="preserve">
+    <value>Up Axis Z</value>
+  </data>
+  <data name="Not_able_to_create_folder_0" xml:space="preserve">
+    <value>Not able to create folder {0}</value>
+  </data>
+  <data name="Active_plane_is_not_parallel_to_xyzPlane" xml:space="preserve">
+    <value>Active Plane is not parallel to XYZ Plane.</value>
+  </data>
+  <data name="Component_wizard_generation" xml:space="preserve">
+    <value>Component Wizard Generation</value>
+  </data>
+  <data name="Do_you_really_want_to_discard_changes" xml:space="preserve">
+    <value>Do you really want to discard changes ?</value>
+  </data>
+  <data name="Do_you_want_to_save_your_changes" xml:space="preserve">
+    <value>Do you want to save your changes to {0}?</value>
+  </data>
+  <data name="File_Not_Found" xml:space="preserve">
+    <value>File {0} not found.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Save_As" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="Select_print_view" xml:space="preserve">
+    <value>Please select valid print view.</value>
+  </data>
+  <data name="Place_terminal_strip" xml:space="preserve">
+    <value>Do you want to insert entire assembly {0} ?</value>
+  </data>
+  <data name="Title_Terminal" xml:space="preserve">
+    <value>Assembly</value>
+  </data>
+  <data name="Err_launch" xml:space="preserve">
+    <value>(couldn't launch '</value>
+  </data>
+  <data name="IGE_contact" xml:space="preserve">
+    <value>info@ige-xao.com</value>
+  </data>
+  <data name="IGE_website" xml:space="preserve">
+    <value>Website: http://www.ige-xao.com/en/</value>
+  </data>
+  <data name="MS_Path_Sys_Info" xml:space="preserve">
+    <value>(couldn't find path for Microsoft System Information Tool in the registry.)</value>
+  </data>
+  <data name="See3DEditor_description" xml:space="preserve">
+    <value>3D Designer</value>
+  </data>
+  <data name="SYS_info" xml:space="preserve">
+    <value>System Information is unavailable at this time</value>
+  </data>
+  <data name="report_filter" xml:space="preserve">
+    <value>SEE 3D report design File</value>
+  </data>
+  <data name="symbol_filter" xml:space="preserve">
+    <value>See 3D Symbol</value>
+  </data>
+  <data name="text_contact" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="MsgConfirmDeleteComponentChildren" xml:space="preserve">
+    <value>Are you sure you want to delete this component's children</value>
+  </data>
+  <data name="Diff" xml:space="preserve">
+    <value>*DIFF*</value>
+  </data>
+  <data name="Cable_node_caption" xml:space="preserve">
+    <value>Cable (Product = {0}, From = {1}, To = {2})</value>
+  </data>
+  <data name="FileAccessDeniedMsg" xml:space="preserve">
+    <value>We could not delete this library. check if file is used by another process</value>
+  </data>
+  <data name="DeleteLibraryMsg" xml:space="preserve">
+    <value>Are you sure you want to delete library '{0}'?</value>
+  </data>
+  <data name="Delete_Library" xml:space="preserve">
+    <value>Delete Library</value>
+  </data>
+  <data name="wireColorColumn" xml:space="preserve">
+    <value>Wire color</value>
+  </data>
+  <data name="ConnectorType" xml:space="preserve">
+    <value>Connector Type</value>
+  </data>
+  <data name="Please_select_component" xml:space="preserve">
+    <value>Please select component</value>
+  </data>
+  <data name="Color_by_parent" xml:space="preserve">
+    <value>Color by parent: </value>
+  </data>
+  <data name="Connection_names_on_component" xml:space="preserve">
+    <value>Connection names on component:  </value>
+  </data>
+  <data name="Connection_points_defined" xml:space="preserve">
+    <value>Connection points defined: </value>
+  </data>
+  <data name="Definition_node" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="Drill_holes_defined" xml:space="preserve">
+    <value>Drill holes defined: </value>
+  </data>
+  <data name="MsgNo" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="MsgNOTOK" xml:space="preserve">
+    <value>NOT OK</value>
+  </data>
+  <data name="MsgOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MsgYes" xml:space="preserve">
+    <value>YES</value>
+  </data>
+  <data name="Planes_defined" xml:space="preserve">
+    <value>Planes defined: </value>
+  </data>
+  <data name="Snap_points_defined" xml:space="preserve">
+    <value>Snap points defined: </value>
+  </data>
+  <data name="Please_select_one_and_only_one_channel_segment" xml:space="preserve">
+    <value>Please select one and only one channel segment</value>
+  </data>
+  <data name="Show_connected_channels" xml:space="preserve">
+    <value>Show connected channels</value>
+  </data>
+  <data name="only_one_component" xml:space="preserve">
+    <value>Please select only one component</value>
+  </data>
+  <data name="Validate_definition" xml:space="preserve">
+    <value>Validate Definition</value>
+  </data>
+  <data name="New_plane" xml:space="preserve">
+    <value>New Plane</value>
+  </data>
+  <data name="Origin" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="Label_North" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Label_South" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Label_West" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Label_East" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Zoom_Window" xml:space="preserve">
+    <value>Zoom Window</value>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Pan" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="Rotate" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="Zoom_Fit" xml:space="preserve">
+    <value>Zoom Fit</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="Select_external_project" xml:space="preserve">
+    <value>Select External CAD Project</value>
+  </data>
+  <data name="NewSymbolDb" xml:space="preserve">
+    <value>New Symbol Db</value>
+  </data>
+  <data name="NewSymbolFolder" xml:space="preserve">
+    <value>New Folder</value>
+  </data>
+  <data name="RenameSymbolDb" xml:space="preserve">
+    <value>Rename Symbol Db</value>
+  </data>
+  <data name="SymbolFolderProperties" xml:space="preserve">
+    <value>Folder Properties</value>
+  </data>
+  <data name="SymbolNewerVersion" xml:space="preserve">
+    <value>This 3D symbol was generated in a newer version than this one. Please upgrade to be able to work with this 3D symbol.</value>
+  </data>
+  <data name="VersionCheck" xml:space="preserve">
+    <value>Version Check</value>
+  </data>
+  <data name="ExportSymbol" xml:space="preserve">
+    <value>Export Symbol</value>
+  </data>
+  <data name="ImportSymbol" xml:space="preserve">
+    <value>Import Symbol</value>
+  </data>
+  <data name="Already_in_block_edit_mode" xml:space="preserve">
+    <value>You are already in a block edit mode.</value>
+  </data>
+  <data name="BlockEditorCaption" xml:space="preserve">
+    <value>Block Editor</value>
+  </data>
+  <data name="Block_node_caption" xml:space="preserve">
+    <value>Block (Name = {0})</value>
+  </data>
+  <data name="Component_node_text" xml:space="preserve">
+    <value>Component (Name = {0})</value>
+  </data>
+  <data name="Connection_node_caption" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Please_select_only_one_block" xml:space="preserve">
+    <value>Please select one and only one block.</value>
+  </data>
+  <data name="Discard_changes_block_edit" xml:space="preserve">
+    <value>All references edits will be discarded. Do you want to continue?</value>
+  </data>
+  <data name="Not_in_block_edit_mode" xml:space="preserve">
+    <value>You are not in a block edit mode.</value>
+  </data>
+  <data name="Only_one_block_reference" xml:space="preserve">
+    <value>You need to have only one Block Reference on the drawing to run this command.</value>
+  </data>
+  <data name="Selected_entities_added_edit_block" xml:space="preserve">
+    <value>Selected entities are added to the edit block.</value>
+  </data>
+  <data name="Min_one_entity_in_edit_block" xml:space="preserve">
+    <value>You need to have minimum one entity inside the edit block to save the changes.</value>
+  </data>
+  <data name="Same_block_exist" xml:space="preserve">
+    <value>You can not have the same block on different levels inside the block.</value>
+  </data>
+  <data name="WireMarking" xml:space="preserve">
+    <value>Wire Marking</value>
+  </data>
+  <data name="Front_text" xml:space="preserve">
+    <value>Front:</value>
+  </data>
+  <data name="Data_exported_successfully" xml:space="preserve">
+    <value>Data exported successfully</value>
+  </data>
+  <data name="Export_data_canceled" xml:space="preserve">
+    <value>Export data canceled</value>
+  </data>
+  <data name="title_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Data_exported_failed" xml:space="preserve">
+    <value>Data exported failed</value>
+  </data>
+  <data name="Error_in_loading" xml:space="preserve">
+    <value>Error in loading</value>
+  </data>
+  <data name="Data_imported_successfully" xml:space="preserve">
+    <value>Data imported successfully</value>
+  </data>
+  <data name="Import_data_canceled" xml:space="preserve">
+    <value>Import data canceled</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Connection_text" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="End_fitting_condition_exist" xml:space="preserve">
+    <value>Condition with these values already exists.</value>
+  </data>
+  <data name="Create_Branch" xml:space="preserve">
+    <value>Create Branch</value>
+  </data>
+  <data name="Create_Control_Point" xml:space="preserve">
+    <value>Create Control Point</value>
+  </data>
+  <data name="Select_control_point" xml:space="preserve">
+    <value>Select control point</value>
+  </data>
+  <data name="Plane_Offset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="Create_Direction_Path" xml:space="preserve">
+    <value>Create Direction Path</value>
+  </data>
+  <data name="Direction_Path_Passthrough" xml:space="preserve">
+    <value>Create direction path as passthrough?</value>
+  </data>
+  <data name="Select_branch" xml:space="preserve">
+    <value>Select branch</value>
+  </data>
+  <data name="Select_clip" xml:space="preserve">
+    <value>Select clip</value>
+  </data>
+  <data name="MsgNoUpdateAvailable" xml:space="preserve">
+    <value>No updates available</value>
+  </data>
+  <data name="Select_first_branch" xml:space="preserve">
+    <value>Select first branch</value>
+  </data>
+  <data name="Select_second_branch" xml:space="preserve">
+    <value>Select second branch</value>
+  </data>
+  <data name="Merge_Branch" xml:space="preserve">
+    <value>Merge Branch</value>
+  </data>
+  <data name="Create_Protection_Device" xml:space="preserve">
+    <value>Create Protection Device</value>
+  </data>
+  <data name="TxtLockLibrary" xml:space="preserve">
+    <value>Lock Library</value>
+  </data>
+  <data name="TxtUnLockLibrary" xml:space="preserve">
+    <value>UnLock Library</value>
+  </data>
+  <data name="Delete_branch_port" xml:space="preserve">
+    <value>Delete Control Point</value>
+  </data>
+  <data name="Delete_branch_port_msg" xml:space="preserve">
+    <value>Are you sure you want to delete selected control points?</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Wrong_type" xml:space="preserve">
+    <value>All selected entities must be of same type.</value>
+  </data>
+  <data name="Title_Select_Label_Group" xml:space="preserve">
+    <value>Select Label Group</value>
+  </data>
+  <data name="Symbol_Move" xml:space="preserve">
+    <value>Move Symbol</value>
+  </data>
+  <data name="Create_Picture" xml:space="preserve">
+    <value>Create Picture</value>
+  </data>
+  <data name="Image_can_not_be_loaded" xml:space="preserve">
+    <value>Image can not be loaded</value>
+  </data>
+  <data name="Image_filepath_can_not_be_empty" xml:space="preserve">
+    <value>Image filepath can not be empty</value>
+  </data>
+  <data name="Edit_Picture" xml:space="preserve">
+    <value>Edit Picture</value>
+  </data>
+  <data name="Resize_Picture" xml:space="preserve">
+    <value>Resize Picture</value>
+  </data>
+  <data name="XML_dialog_filter" xml:space="preserve">
+    <value>XML File|*.xml</value>
+  </data>
+  <data name="Incorrect_step_file" xml:space="preserve">
+    <value>Incorrect STEP file.</value>
+  </data>
+  <data name="Error_loading_symbol" xml:space="preserve">
+    <value>Could not create the symbol.</value>
+  </data>
+  <data name="Missing_step_file" xml:space="preserve">
+    <value>STEP file does not exist.</value>
+  </data>
+  <data name="Incorrect_box_format" xml:space="preserve">
+    <value>Incorrect definition for box format.</value>
+  </data>
+  <data name="Do_you_want_to_remove_references_to_it_from_recent_lists" xml:space="preserve">
+    <value>Do you want to remove references to it from recent lists ?</value>
+  </data>
+  <data name="File_cannot_be_opened" xml:space="preserve">
+    <value>The file '{0}' cannot be opened. </value>
+  </data>
+  <data name="Recent_files" xml:space="preserve">
+    <value>Recent Files</value>
+  </data>
+  <data name="Templates_folder_does_not_exist" xml:space="preserve">
+    <value>Templates folder does not exist</value>
+  </data>
+  <data name="positionType_HorizontalBottomCenter" xml:space="preserve">
+    <value>Horizontal Bottom Center</value>
+  </data>
+  <data name="positionType_HorizontalBottomLeft" xml:space="preserve">
+    <value>Horizontal Bottom Left</value>
+  </data>
+  <data name="positionType_HorizontalBottomRight" xml:space="preserve">
+    <value>Horizontal Bottom Right</value>
+  </data>
+  <data name="positionType_HorizontalTopCenter" xml:space="preserve">
+    <value>Horizontal Top Center</value>
+  </data>
+  <data name="positionType_HorizontalTopLeft" xml:space="preserve">
+    <value>Horizontal Top Left</value>
+  </data>
+  <data name="positionType_HorizontalTopRight" xml:space="preserve">
+    <value>Horizontal Top Right</value>
+  </data>
+  <data name="positionType_VerticalBottomLeft" xml:space="preserve">
+    <value>Vertical Bottom Left</value>
+  </data>
+  <data name="positionType_VerticalBottomRight" xml:space="preserve">
+    <value>Vertical Bottom Right</value>
+  </data>
+  <data name="positionType_VerticalMiddleLeft" xml:space="preserve">
+    <value>Vertical Middle Left</value>
+  </data>
+  <data name="positionType_VerticalMiddleRight" xml:space="preserve">
+    <value>Vertical Middle Right</value>
+  </data>
+  <data name="positionType_VerticalTopLeft" xml:space="preserve">
+    <value>Vertical Top Left</value>
+  </data>
+  <data name="positionType_VerticalTopRight" xml:space="preserve">
+    <value>Vertical Top Right</value>
+  </data>
+  <data name="AluID" xml:space="preserve">
+    <value>Alu</value>
+  </data>
+  <data name="AngleID" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="AttributeID" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="AttributesID" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="AutoCreateTerminalID" xml:space="preserve">
+    <value>Method for terminal strip creation</value>
+  </data>
+  <data name="AutoRouteWiresID" xml:space="preserve">
+    <value>Auto Route Wires</value>
+  </data>
+  <data name="BaselineCenterID" xml:space="preserve">
+    <value>Baseline Center</value>
+  </data>
+  <data name="BaselineLeftID" xml:space="preserve">
+    <value>Baseline Left</value>
+  </data>
+  <data name="BaselineRightID" xml:space="preserve">
+    <value>Baseline Right</value>
+  </data>
+  <data name="BendRadiusID" xml:space="preserve">
+    <value>Bend Radius</value>
+  </data>
+  <data name="BlockDescriptionID" xml:space="preserve">
+    <value>Block Description</value>
+  </data>
+  <data name="BlockNameID" xml:space="preserve">
+    <value>Block Name</value>
+  </data>
+  <data name="BoldID" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="BottomCenterID" xml:space="preserve">
+    <value>Bottom Center</value>
+  </data>
+  <data name="BottomLeftID" xml:space="preserve">
+    <value>Bottom Left</value>
+  </data>
+  <data name="BottomRightID" xml:space="preserve">
+    <value>Bottom Right</value>
+  </data>
+  <data name="BoxMaxID" xml:space="preserve">
+    <value>Box Max</value>
+  </data>
+  <data name="BoxMinID" xml:space="preserve">
+    <value>Box Min</value>
+  </data>
+  <data name="BoxSizeID" xml:space="preserve">
+    <value>Box Size</value>
+  </data>
+  <data name="BranchID" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="BrickID" xml:space="preserve">
+    <value>Brick</value>
+  </data>
+  <data name="byEntityID" xml:space="preserve">
+    <value>by Entity</value>
+  </data>
+  <data name="byLayerID" xml:space="preserve">
+    <value>by Layer</value>
+  </data>
+  <data name="byParentID" xml:space="preserve">
+    <value>by Parent</value>
+  </data>
+  <data name="CablePassthroughID" xml:space="preserve">
+    <value>Cable Passthrough</value>
+  </data>
+  <data name="CarbonID" xml:space="preserve">
+    <value>Carbon</value>
+  </data>
+  <data name="CC_MaxNumberID" xml:space="preserve">
+    <value>Max Number</value>
+  </data>
+  <data name="CC_MaxSpareID" xml:space="preserve">
+    <value>Max Spare</value>
+  </data>
+  <data name="CenterXID" xml:space="preserve">
+    <value>Center X</value>
+  </data>
+  <data name="CenterYID" xml:space="preserve">
+    <value>Center Y</value>
+  </data>
+  <data name="ChannelAreaSizeID" xml:space="preserve">
+    <value>Channel Area Size</value>
+  </data>
+  <data name="ChannelDensityFactorID" xml:space="preserve">
+    <value>Channel Density Factor</value>
+  </data>
+  <data name="ChannelOccupationID" xml:space="preserve">
+    <value>Channel Occupation</value>
+  </data>
+  <data name="ChromeID" xml:space="preserve">
+    <value>Chrome</value>
+  </data>
+  <data name="ColorID" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ColorMethodID" xml:space="preserve">
+    <value>Color Method</value>
+  </data>
+  <data name="ComponentTypeID" xml:space="preserve">
+    <value>Component Type</value>
+  </data>
+  <data name="ConcreteID" xml:space="preserve">
+    <value>Concrete</value>
+  </data>
+  <data name="ConnectionsID" xml:space="preserve">
+    <value>Connections</value>
+  </data>
+  <data name="ConstantID" xml:space="preserve">
+    <value>Constant</value>
+  </data>
+  <data name="CoordinatesID" xml:space="preserve">
+    <value>Coordinates</value>
+  </data>
+  <data name="CopperID" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="CubicID" xml:space="preserve">
+    <value>Cubic</value>
+  </data>
+  <data name="CuttingLengthID" xml:space="preserve">
+    <value>Cutting Length</value>
+  </data>
+  <data name="CylindricalID" xml:space="preserve">
+    <value>Cylindrical</value>
+  </data>
+  <data name="DarkWoodID" xml:space="preserve">
+    <value>DarkWood</value>
+  </data>
+  <data name="DescriptionID" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DiameterID" xml:space="preserve">
+    <value>Diameter</value>
+  </data>
+  <data name="DimensionID" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="DirectLinkID" xml:space="preserve">
+    <value>Direct Link</value>
+  </data>
+  <data name="DrawingSizeID" xml:space="preserve">
+    <value>Drawing Size</value>
+  </data>
+  <data name="DrillDiameterID" xml:space="preserve">
+    <value>Drill Diameter</value>
+  </data>
+  <data name="DrillHolesID" xml:space="preserve">
+    <value>Drill Holes</value>
+  </data>
+  <data name="DrillPatternDistanceID" xml:space="preserve">
+    <value>Drill Pattern Distance</value>
+  </data>
+  <data name="DrillRepeatTimesID" xml:space="preserve">
+    <value>Drill Repeat Times</value>
+  </data>
+  <data name="DrillStartPositionID" xml:space="preserve">
+    <value>Drill Start Position</value>
+  </data>
+  <data name="DrillSymmetricID" xml:space="preserve">
+    <value>Drill Symmetric</value>
+  </data>
+  <data name="DrillToolTypeID" xml:space="preserve">
+    <value>Drill Tool Type</value>
+  </data>
+  <data name="EndXID" xml:space="preserve">
+    <value>End X</value>
+  </data>
+  <data name="EndYID" xml:space="preserve">
+    <value>End Y</value>
+  </data>
+  <data name="EquipmentID" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="FontID" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="FontStyleID" xml:space="preserve">
+    <value>Font Style</value>
+  </data>
+  <data name="FunctionID" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="GeneralID" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="GeometricalID" xml:space="preserve">
+    <value>Geometrical</value>
+  </data>
+  <data name="GoldID" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="GrassID" xml:space="preserve">
+    <value>Grass</value>
+  </data>
+  <data name="HeightID" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="IGEID" xml:space="preserve">
+    <value>IGE</value>
+  </data>
+  <data name="InsertionPointID" xml:space="preserve">
+    <value>Insertion Point</value>
+  </data>
+  <data name="InvisibleID" xml:space="preserve">
+    <value>Invisible</value>
+  </data>
+  <data name="ItalicID" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="JustificationID" xml:space="preserve">
+    <value>Justififcation</value>
+  </data>
+  <data name="LayerNameID" xml:space="preserve">
+    <value>Layer Name</value>
+  </data>
+  <data name="LengthID" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="LineTypeID" xml:space="preserve">
+    <value>Line Type</value>
+  </data>
+  <data name="LineTypeMethodID" xml:space="preserve">
+    <value>Line Type Method</value>
+  </data>
+  <data name="LineTypeScaleID" xml:space="preserve">
+    <value>Line Type Scale</value>
+  </data>
+  <data name="LineWeightID" xml:space="preserve">
+    <value>Line Weight</value>
+  </data>
+  <data name="LineWeightMethodID" xml:space="preserve">
+    <value>Line Weight Method</value>
+  </data>
+  <data name="LocationID" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LoopOfBranchID" xml:space="preserve">
+    <value>Loop of Branch</value>
+  </data>
+  <data name="MainID" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="MaterialID" xml:space="preserve">
+    <value>Material Name</value>
+  </data>
+  <data name="MaterialMappingTypeID" xml:space="preserve">
+    <value>Material Mapping Type</value>
+  </data>
+  <data name="MaterialNameID" xml:space="preserve">
+    <value>Material Name</value>
+  </data>
+  <data name="MaterialScalingXID" xml:space="preserve">
+    <value>Material Scaling X</value>
+  </data>
+  <data name="MaterialScalingYID" xml:space="preserve">
+    <value>Material Scaling Y</value>
+  </data>
+  <data name="MaxUndoStepsID" xml:space="preserve">
+    <value>Max Undo Steps</value>
+  </data>
+  <data name="MiddleCenterID" xml:space="preserve">
+    <value>Middle Center</value>
+  </data>
+  <data name="MiddleLeftID" xml:space="preserve">
+    <value>Middle Left</value>
+  </data>
+  <data name="MiddleRightID" xml:space="preserve">
+    <value>Middle Right</value>
+  </data>
+  <data name="MountingSpaceID" xml:space="preserve">
+    <value>Mounting Space</value>
+  </data>
+  <data name="NotInListID" xml:space="preserve">
+    <value>Not In List</value>
+  </data>
+  <data name="NumberPrefixID" xml:space="preserve">
+    <value>Number Prefix</value>
+  </data>
+  <data name="OptimizeForPerformanceID" xml:space="preserve">
+    <value>Optimize For Performance</value>
+  </data>
+  <data name="OrientationModeID" xml:space="preserve">
+    <value>Orientation Mode</value>
+  </data>
+  <data name="OtherID" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="PlateID" xml:space="preserve">
+    <value>Plate</value>
+  </data>
+  <data name="PolishSteelID" xml:space="preserve">
+    <value>PolishSteel</value>
+  </data>
+  <data name="PresetID" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="PrintableID" xml:space="preserve">
+    <value>Printable</value>
+  </data>
+  <data name="ProductID" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="PromptID" xml:space="preserve">
+    <value>Prompt</value>
+  </data>
+  <data name="RadiusID" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="RadiusXID" xml:space="preserve">
+    <value>Radius X</value>
+  </data>
+  <data name="RadiusYID" xml:space="preserve">
+    <value>Radius Y</value>
+  </data>
+  <data name="RailMarginLeftID" xml:space="preserve">
+    <value>Margin Left</value>
+  </data>
+  <data name="RailMarginRightID" xml:space="preserve">
+    <value>Margin Right</value>
+  </data>
+  <data name="RailMountingID" xml:space="preserve">
+    <value>Rail Mounting</value>
+  </data>
+  <data name="RegularID" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="RoutePathID" xml:space="preserve">
+    <value>Route Path</value>
+  </data>
+  <data name="RoutePathSegregationCodeID" xml:space="preserve">
+    <value>Segregation Code</value>
+  </data>
+  <data name="RubberID" xml:space="preserve">
+    <value>Rubber</value>
+  </data>
+  <data name="ScalableID" xml:space="preserve">
+    <value>Scalable</value>
+  </data>
+  <data name="ScaleFactorXID" xml:space="preserve">
+    <value>Scale Factor X</value>
+  </data>
+  <data name="ScaleFactorYID" xml:space="preserve">
+    <value>Scale Factor Y</value>
+  </data>
+  <data name="ScaleFactorZID" xml:space="preserve">
+    <value>Scale Factor Z</value>
+  </data>
+  <data name="SegregationCodeID" xml:space="preserve">
+    <value>Segregation Code</value>
+  </data>
+  <data name="SelectableID" xml:space="preserve">
+    <value>Selectable</value>
+  </data>
+  <data name="SensibleID" xml:space="preserve">
+    <value>Sensible</value>
+  </data>
+  <data name="ShowCoordinatesInfoID" xml:space="preserve">
+    <value>Show Coordinates Info</value>
+  </data>
+  <data name="ShowOriginSymbolID" xml:space="preserve">
+    <value>Show Origin Symbol</value>
+  </data>
+  <data name="SphericalID" xml:space="preserve">
+    <value>Spherical</value>
+  </data>
+  <data name="StartXID" xml:space="preserve">
+    <value>Start X</value>
+  </data>
+  <data name="StartYID" xml:space="preserve">
+    <value>Start Y</value>
+  </data>
+  <data name="StoneID" xml:space="preserve">
+    <value>Stone</value>
+  </data>
+  <data name="StrikeoutID" xml:space="preserve">
+    <value>Strikeout</value>
+  </data>
+  <data name="TagID" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="TextID" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TopCenterID" xml:space="preserve">
+    <value>Top Center</value>
+  </data>
+  <data name="TopRightID" xml:space="preserve">
+    <value>Top Right</value>
+  </data>
+  <data name="TransparencyID" xml:space="preserve">
+    <value>Transparency</value>
+  </data>
+  <data name="UnderlineID" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="UndoredoID" xml:space="preserve">
+    <value>Undo/redo</value>
+  </data>
+  <data name="UpAxisYID" xml:space="preserve">
+    <value>Up Axis Y</value>
+  </data>
+  <data name="UpAxisZID" xml:space="preserve">
+    <value>Up Axis Z</value>
+  </data>
+  <data name="UseComposedCablesID" xml:space="preserve">
+    <value>Use Composed Cables</value>
+  </data>
+  <data name="ValueID" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="VerifyID" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="VisibleID" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="WireBundleGroupID" xml:space="preserve">
+    <value>Bundle Group</value>
+  </data>
+  <data name="WireColorID" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="WireCommentID" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="ExternalID" xml:space="preserve">
+    <value>External</value>
+  </data>
+  <data name="WireFromID" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="WireIsInNetID" xml:space="preserve">
+    <value>Is In Net</value>
+  </data>
+  <data name="WireLengthID" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="WireLinkTypeID" xml:space="preserve">
+    <value>LinkType</value>
+  </data>
+  <data name="LockRouteID" xml:space="preserve">
+    <value>Lock Route</value>
+  </data>
+  <data name="WireNumberID" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="WireOuterDiameterID" xml:space="preserve">
+    <value>Outer Diameter</value>
+  </data>
+  <data name="WireOuterSizeID" xml:space="preserve">
+    <value>Outer Size</value>
+  </data>
+  <data name="WireSignalTypeID" xml:space="preserve">
+    <value>Signal Type</value>
+  </data>
+  <data name="WireSegregationCodeID" xml:space="preserve">
+    <value>Segregation Code</value>
+  </data>
+  <data name="WiresID" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="WireSignalNameID" xml:space="preserve">
+    <value>Signal Name</value>
+  </data>
+  <data name="WireSizeID" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="WireToID" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="WoodFloorID" xml:space="preserve">
+    <value>Wood Floor</value>
+  </data>
+  <data name="WoodID" xml:space="preserve">
+    <value>Wood</value>
+  </data>
+  <data name="WorkInstructionID" xml:space="preserve">
+    <value>Work Instruction</value>
+  </data>
+  <data name="XID" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="YID" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="ZID" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="WireID" xml:space="preserve">
+    <value>Wire</value>
+  </data>
+  <data name="ToolTip_MoveCameraFrontActivePlane" xml:space="preserve">
+    <value>Move camera front of active plane</value>
+  </data>
+  <data name="Tab_for_other_options" xml:space="preserve">
+    <value>Tab for other options</value>
+  </data>
+  <data name="Component_info" xml:space="preserve">
+    <value>Tag: {0}
+Full Tag: {1}
+Description: {2}
+Equipment: {3}</value>
+  </data>
+  <data name="Connection_info" xml:space="preserve">
+    <value>Connection ({0})</value>
+  </data>
+  <data name="WireEndlessDistanceBetweenTextID" xml:space="preserve">
+    <value>Endless Distance Between Text</value>
+  </data>
+  <data name="WireMarkingEndlessDirectionID" xml:space="preserve">
+    <value>Marking Endless Direction</value>
+  </data>
+  <data name="WireMarkingEndlessTextID" xml:space="preserve">
+    <value>Marking Endless Text</value>
+  </data>
+  <data name="ConnectionID" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="DimText" xml:space="preserve">
+    <value>Dimension Text</value>
+  </data>
+  <data name="Color_code_removal_not_allowed_because_in_use" xml:space="preserve">
+    <value>The selected color can not been removed because it is used in the end fitting mapping</value>
+  </data>
+  <data name="EndFitting_can_not_be_created_because_no_available_color" xml:space="preserve">
+    <value>Unable to create new end fitting because there is no available color</value>
+  </data>
+  <data name="CableID" xml:space="preserve">
+    <value>Cable</value>
+  </data>
+  <data name="CableFromID" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="CableOuterDiameterID" xml:space="preserve">
+    <value>Outer Diameter</value>
+  </data>
+  <data name="CableToID" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="PartNumberID" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="The_value_must_be_positive" xml:space="preserve">
+    <value>The value must be positive</value>
+  </data>
+  <data name="File_format_version_newer_than_software" xml:space="preserve">
+    <value>Cannot read this file because its format version is newer than your software version</value>
+  </data>
+  <data name="Wire_caption" xml:space="preserve">
+    <value>Wire No.</value>
+  </data>
+  <data name="Select_Arc_or_Line" xml:space="preserve">
+    <value>Select Arc or Line</value>
+  </data>
+  <data name="Select_second_Line" xml:space="preserve">
+    <value>Select second Line</value>
+  </data>
+  <data name="Symbol_library_already_exist" xml:space="preserve">
+    <value>Symbol library '{0}' already exist.</value>
+  </data>
+  <data name="Not_able_to_print" xml:space="preserve">
+    <value>Not able to print</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Original_symbol_path" xml:space="preserve">
+    <value>Original path: {0}</value>
+  </data>
+  <data name="Original_symbol_missing" xml:space="preserve">
+    <value>Original symbol not found.</value>
+  </data>
+  <data name="Loading_data" xml:space="preserve">
+    <value>Loading data...</value>
+  </data>
+  <data name="Updating_data" xml:space="preserve">
+    <value>Updating data...</value>
+  </data>
+  <data name="Deleting_data" xml:space="preserve">
+    <value>Deleting data...</value>
+  </data>
+  <data name="Delete_Not_Valid_Shortcuts" xml:space="preserve">
+    <value>Are you sure you want to delete all not valid symbol shortcuts?</value>
+  </data>
+  <data name="Log_info_date" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="Log_info_time" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="Log_symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Log_symbols_info" xml:space="preserve">
+    <value>The following symbols can not be updated:</value>
+  </data>
+  <data name="Log_reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="See_macro_file" xml:space="preserve">
+    <value>See 3D Macro File</value>
+  </data>
+  <data name="Macro_empty_children" xml:space="preserve">
+    <value>Macro does not contain any components.</value>
+  </data>
+  <data name="Macro_ref_point_not_found" xml:space="preserve">
+    <value>Reference point for the macro not found.</value>
+  </data>
+  <data name="Macro_source_empty" xml:space="preserve">
+    <value>Source path can not be empty.</value>
+  </data>
+  <data name="Macro_source_incorrect" xml:space="preserve">
+    <value>Source path {0} is incorrect.</value>
+  </data>
+  <data name="Macro_symbol_incorrect" xml:space="preserve">
+    <value>Symbol {0} has incorrect structure. Macro can contain only components and only one parent component.</value>
+  </data>
+  <data name="Macro_symbol_not_loaded" xml:space="preserve">
+    <value>Symbol {0} can not be loaded.</value>
+  </data>
+  <data name="Macro_diskfile_incorrect" xml:space="preserve">
+    <value>Macro disk file {0} has incorrect structure.</value>
+  </data>
+  <data name="Macro_symbol_new_version" xml:space="preserve">
+    <value>Symbol {0} was generated in a newer version than this one.</value>
+  </data>
+  <data name="Macro_symbol_not_found" xml:space="preserve">
+    <value>Symbol {0} not found.</value>
+  </data>
+  <data name="Macro_used_parent" xml:space="preserve">
+    <value>Macro {0} is already used in some of the parents.</value>
+  </data>
+  <data name="MacroPathID" xml:space="preserve">
+    <value>Macro Path</value>
+  </data>
+  <data name="SymbolDiskNameID" xml:space="preserve">
+    <value>Symbol Disk Name</value>
+  </data>
+  <data name="SymbolNameID" xml:space="preserve">
+    <value>Symbol Name</value>
+  </data>
+  <data name="Macro_wrong_children_amount" xml:space="preserve">
+    <value>Macro contains more than one children. You need to create macro component.</value>
+  </data>
+  <data name="Child" xml:space="preserve">
+    <value>Child</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Parent</value>
+  </data>
+  <data name="See_component_file" xml:space="preserve">
+    <value>See 3D Component File</value>
+  </data>
+  <data name="Import_components" xml:space="preserve">
+    <value>Import components...</value>
+  </data>
+  <data name="Working_on_file" xml:space="preserve">
+    <value>Working on file: {0}</value>
+  </data>
+  <data name="Import_macros" xml:space="preserve">
+    <value>Import macros...</value>
+  </data>
+  <data name="Log_file" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Log_files_info" xml:space="preserve">
+    <value>The following files can not be imported:</value>
+  </data>
+  <data name="Incorrect_field_value" xml:space="preserve">
+    <value>The value {0} is not supported for field {1}. </value>
+  </data>
+  <data name="MountedID" xml:space="preserve">
+    <value>Mounted</value>
+  </data>
+  <data name="PartNumberClassID" xml:space="preserve">
+    <value>Part Number Class</value>
+  </data>
+  <data name="Offset_X" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="Offset_Y" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="ApplicationBase" xml:space="preserve">
+    <value>Application Base</value>
+  </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>Application Name</value>
+  </data>
+  <data name="CachePath" xml:space="preserve">
+    <value>Cache Path</value>
+  </data>
+  <data name="CallingAssembly" xml:space="preserve">
+    <value>Calling Assembly</value>
+  </data>
+  <data name="ConfigurationFile" xml:space="preserve">
+    <value>Configuration File</value>
+  </data>
+  <data name="DynamicBase" xml:space="preserve">
+    <value>Dynamic Base</value>
+  </data>
+  <data name="EntryAssembly" xml:space="preserve">
+    <value>Entry Assembly</value>
+  </data>
+  <data name="ExecutingAssembly" xml:space="preserve">
+    <value>Executing Assembly</value>
+  </data>
+  <data name="FriendlyName" xml:space="preserve">
+    <value>Friendly Name</value>
+  </data>
+  <data name="LicenseFile" xml:space="preserve">
+    <value>License File</value>
+  </data>
+  <data name="PrivateBinPath" xml:space="preserve">
+    <value>Private Bin Path</value>
+  </data>
+  <data name="ShadowCopyDirectories" xml:space="preserve">
+    <value>Shadow Copy Directories</value>
+  </data>
+  <data name="Error_create_symbol_folder" xml:space="preserve">
+    <value>Could not create the symbol folder.</value>
+  </data>
+  <data name="PartIndexID" xml:space="preserve">
+    <value>Part Index</value>
+  </data>
+  <data name="PartsCountID" xml:space="preserve">
+    <value>Parts Count</value>
+  </data>
+  <data name="Symbol_Properties_Read_Only" xml:space="preserve">
+    <value>Symbol Properties (read-only)</value>
+  </data>
+  <data name="Select_Aspect" xml:space="preserve">
+    <value>Select {0}</value>
+  </data>
+  <data name="Select_Tag" xml:space="preserve">
+    <value>Select Tag(s)</value>
+  </data>
+  <data name="Assembly_can_not_load" xml:space="preserve">
+    <value>Assembly {0} can not be loaded.</value>
+  </data>
+  <data name="Assembly_incorrect_structure" xml:space="preserve">
+    <value>Incorrect assembly {0}</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Program_assembly_not_load" xml:space="preserve">
+    <value>Program assembly can not be loaded.</value>
+  </data>
+  <data name="Directory_already_exists" xml:space="preserve">
+    <value>Directory {0} already exist.</value>
+  </data>
+  <data name="File_already_exists" xml:space="preserve">
+    <value>File {0} already exist.</value>
+  </data>
+  <data name="Rename_symbol_paths" xml:space="preserve">
+    <value>Renaming...</value>
+  </data>
+  <data name="Update_symbol_db_path_other_projects" xml:space="preserve">
+    <value>Updating symbol library path on all opened projects.</value>
+  </data>
+  <data name="Working_on_symbol_db" xml:space="preserve">
+    <value>Symbol library: {0}</value>
+  </data>
+  <data name="Error_reading_symbol_name" xml:space="preserve">
+    <value>Could not read symbol name.</value>
+  </data>
+  <data name="MsgSymbolAlreadyExist" xml:space="preserve">
+    <value>Symbol '{0}' already exist. Do you want to overwrite existing symbol?</value>
+  </data>
+  <data name="Selected_print_view_not_image" xml:space="preserve">
+    <value>The selected print view can not be printed as image. Please use print view, which have rendered print style.</value>
+  </data>
+  <data name="Msg_delete_selected_label_group" xml:space="preserve">
+    <value>Are you sure you want to delete the selected label groups? All components attached to them will be no longer combined together. Do you want to continue?</value>
+  </data>
+  <data name="DrawingInformationID" xml:space="preserve">
+    <value>Drawing Information</value>
+  </data>
+  <data name="DrawingInfoDefinitionID" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="Msg_delete_selected_model_property" xml:space="preserve">
+    <value>Are you sure you want to delete the selected properties?</value>
+  </data>
+  <data name="Block_edit_mode_close_project" xml:space="preserve">
+    <value>Currently you are in a block edit mode. Please exit the block editor before you can close the project.</value>
+  </data>
+  <data name="BusbarCoreMinBendRadiusID" xml:space="preserve">
+    <value>Core Min Bend Radius</value>
+  </data>
+  <data name="BusbarEdgewiseMinBendRadiusID" xml:space="preserve">
+    <value>Edgewise Min Bend Radius</value>
+  </data>
+  <data name="EquipmentClassID" xml:space="preserve">
+    <value>Equipment Class</value>
+  </data>
+  <data name="ManufacturerID" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Manufacturer_already_exists_err" xml:space="preserve">
+    <value>Manufacturer '{0}' already exist.</value>
+  </data>
+  <data name="Manufacturer_empty_err" xml:space="preserve">
+    <value>Manufacturer can not be empty.</value>
+  </data>
+  <data name="SymbolLibrary_empty_err" xml:space="preserve">
+    <value>Symbol library can not be empty.</value>
+  </data>
+  <data name="Msg_delete_selected_manufacturer" xml:space="preserve">
+    <value>Are you sure you want to delete the selected manufactures?</value>
+  </data>
+  <data name="Msg_save_manufacturer_mapping" xml:space="preserve">
+    <value>Templates folder has been changed. Do you want to save your changes made to manufacturer mapping? Changes will be saved to the previous templates folder.</value>
+  </data>
+  <data name="ComponentAlignment_Bottom" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="ComponentAlignment_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ComponentAlignment_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="ComponentAlignment_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="Msg_empty_filter_definition" xml:space="preserve">
+    <value>Filter definition can not be empty.</value>
+  </data>
+  <data name="MsgDeleteFilter" xml:space="preserve">
+    <value>Are you sure you want to delete filter '{0}'?</value>
+  </data>
+  <data name="Title_DeleteFilter" xml:space="preserve">
+    <value>Delete Filter</value>
+  </data>
+  <data name="Symbol_macro_filter" xml:space="preserve">
+    <value>See 3D Macro with symbols|*{0}|See 3D Macro only with links|*{1};*{2}</value>
+  </data>
+  <data name="Symbol_import_ige_filter" xml:space="preserve">
+    <value>See 3D Symbol|*{0}|See 3D Macro with symbols|*{1}|See 3D Macro only with links|*{2};*{3}|All supported files|*{0};*{1};*{2};*{3}</value>
+  </data>
+  <data name="Macro_contains_shortcut" xml:space="preserve">
+    <value>Symbol {0} is shortcut or link. You can not export macro which contains shortcut or link.</value>
+  </data>
+  <data name="Macro_symbol_different_source" xml:space="preserve">
+    <value>Symbol {0} points to different disk file than the one inside the macro definition. This is normally due to changed symbol name from the original one. Please update the macro definition before you can export it. </value>
+  </data>
+  <data name="Error_create_symbol_database" xml:space="preserve">
+    <value>Could not create the symbol database.</value>
+  </data>
+  <data name="Error_readonly_symbol_database" xml:space="preserve">
+    <value>Symbol library {0} is readonly.</value>
+  </data>
+  <data name="Create_Polygon" xml:space="preserve">
+    <value>Create Polygon</value>
+  </data>
+  <data name="Incorrect_numerical_value" xml:space="preserve">
+    <value>Incorrect numerical value.</value>
+  </data>
+  <data name="Value_can_not_be_empty" xml:space="preserve">
+    <value>Value can not be empty.</value>
+  </data>
+  <data name="Number_sides" xml:space="preserve">
+    <value>Number of sides:</value>
+  </data>
+  <data name="License_status_changed" xml:space="preserve">
+    <value>Your licence status has been changed. You must restart the program before the new setting will take place.</value>
+  </data>
+  <data name="License_status_changed_save_changes" xml:space="preserve">
+    <value>Your licence status has been changed. You must restart the program before the new setting will take place. Do you want to save changes before closing the program?</value>
+  </data>
+  <data name="Add_template_description" xml:space="preserve">
+    <value>Do you want to add description to the template?</value>
+  </data>
+  <data name="Add_template_description_caption" xml:space="preserve">
+    <value>Add Template Description</value>
+  </data>
+  <data name="Description_label" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="BusbarKFactorTableID" xml:space="preserve">
+    <value>K-factor Table</value>
+  </data>
+  <data name="EquipmentPropertiesID" xml:space="preserve">
+    <value>Equipment Properties</value>
+  </data>
+  <data name="Component_valid_symbol" xml:space="preserve">
+    <value>All components have valid 3D symbols.</value>
+  </data>
+  <data name="Log_component" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="Log_components_symbols_info" xml:space="preserve">
+    <value>The following components have invalid 3D symbol:</value>
+  </data>
+  <data name="Symbol_validation_caption" xml:space="preserve">
+    <value>Symbol Validation</value>
+  </data>
+  <data name="Autocad_full_dialog_filter" xml:space="preserve">
+    <value>AutoCAD DWG v2018 - v2021 file|*.dwg|AutoCAD DWG v2013 file|*.dwg|AutoCAD DWG v2010 - v2012 file|*.dwg|AutoCAD DWG v2007 - v2009 file|*.dwg|AutoCAD DWG v2004 - v2006 file|*.dwg|AutoCAD DXF v2018 - v2021 file|*.dxf|AutoCAD DXF v2013 file|*.dxf|AutoCAD DXF v2010 - v2012 file|*.dxf|AutoCAD DXF v2007 - v2009 file|*.dxf|AutoCAD DXF v2004 - v2006 file|*.dxf</value>
+  </data>
+  <data name="MaxWireSizeID" xml:space="preserve">
+    <value>Max Wire Size</value>
+  </data>
+  <data name="MaxWiresNumber" xml:space="preserve">
+    <value>Max Number of Wires</value>
+  </data>
+  <data name="MinWireSizeID" xml:space="preserve">
+    <value>Min Wire Size</value>
+  </data>
+  <data name="Components_no_visible_found" xml:space="preserve">
+    <value>No visible components found.</value>
+  </data>
+  <data name="Find_replace_text_same" xml:space="preserve">
+    <value>Find value is the same with replace value.</value>
+  </data>
+  <data name="Find_replace_total_count" xml:space="preserve">
+    <value>{0} occurrence(s) replaced.</value>
+  </data>
+  <data name="Component_caption" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="LayerDeletion_contains_entities" xml:space="preserve">
+    <value>Unable to delete layer because it contains entities.</value>
+  </data>
+  <data name="LayerDeletion_layer_not_found" xml:space="preserve">
+    <value>Unable to delete layer, invalid name.</value>
+  </data>
+  <data name="LayerDeletion_referenced_by_dimension_settings" xml:space="preserve">
+    <value>Unable to delete layer because it is referenced by dimensions settings.</value>
+  </data>
+  <data name="ImportSTEP_convert_block_to_component_question" xml:space="preserve">
+    <value>Do you want to convert imported blocks to components ?</value>
+  </data>
+  <data name="ImportSTEP_title" xml:space="preserve">
+    <value>Import STEP</value>
+  </data>
+  <data name="Converting_data" xml:space="preserve">
+    <value>Converting data...</value>
+  </data>
+  <data name="Error_msg" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Working_on_block" xml:space="preserve">
+    <value>Working on block: {0}</value>
+  </data>
+  <data name="Find_replace_ask_to_replace_found_elements" xml:space="preserve">
+    <value>{0} occurrence(s) found that match the criteria. Undo will not be available for these modifications. Continue replacing?</value>
+  </data>
+  <data name="Find_replace_no_occurrence_found" xml:space="preserve">
+    <value>No occurrence(s) found that match the criteria.</value>
+  </data>
+  <data name="EquipmentDatabaseID" xml:space="preserve">
+    <value>Equipment Database</value>
+  </data>
+  <data name="EquipmentDatabasePathID" xml:space="preserve">
+    <value>Equipment Database</value>
+  </data>
+  <data name="Equipment_database_caption" xml:space="preserve">
+    <value>Select Equipment Database</value>
+  </data>
+  <data name="Equipment_database_file" xml:space="preserve">
+    <value>See Equipment Database</value>
+  </data>
+  <data name="Symbols_folder_does_not_exist" xml:space="preserve">
+    <value>Symbols folder does not exist</value>
+  </data>
+  <data name="Equipment_path_empty" xml:space="preserve">
+    <value>Equipment database can not be empty.</value>
+  </data>
+  <data name="Equipment_path_not_found" xml:space="preserve">
+    <value>Equipment database does not exist.</value>
+  </data>
+  <data name="Equipment_path_incorrect" xml:space="preserve">
+    <value>Incorrect equipment database path.</value>
+  </data>
+  <data name="Incorrect_value" xml:space="preserve">
+    <value>Incorrect value</value>
+  </data>
+  <data name="Snap2EdgesIntersection_Select_edge1" xml:space="preserve">
+    <value>Select first edge</value>
+  </data>
+  <data name="Snap2EdgesIntersection_Select_edge2" xml:space="preserve">
+    <value>Select second edge</value>
+  </data>
+  <data name="Snap2EdgesIntersection_Select_plane_from_face" xml:space="preserve">
+    <value>Select projection plane from face</value>
+  </data>
+  <data name="Disconnect_external_project" xml:space="preserve">
+    <value>Disconnect External Project</value>
+  </data>
+  <data name="Disconnect_external_project_question" xml:space="preserve">
+    <value>Are you sure you want to disconnect from {0}?</value>
+  </data>
+  <data name="Snap2EdgePoint_Reference_point" xml:space="preserve">
+    <value>Reference point</value>
+  </data>
+  <data name="Snap2EdgePoint_Select_edge_and_ref_point" xml:space="preserve">
+    <value>Select an edge and reference point</value>
+  </data>
+  <data name="MaxLengthID" xml:space="preserve">
+    <value>Max Length</value>
+  </data>
+  <data name="MinLengthID" xml:space="preserve">
+    <value>Min Length</value>
+  </data>
+  <data name="NameID" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Msg_convert_old_template_file" xml:space="preserve">
+    <value>Template file {0} has an older version than the current. If you upgrade it you will no longer be able to open it in previous versions of See 3D. Do you want to upgrade it?</value>
+  </data>
+  <data name="MsgDeleteTemplate" xml:space="preserve">
+    <value>Are you sure you want to delete template '{0}'?</value>
+  </data>
+  <data name="Title_DeleteTemplate" xml:space="preserve">
+    <value>Delete Template</value>
+  </data>
+  <data name="Id_already_exists" xml:space="preserve">
+    <value>Id '{0}' already exist.</value>
+  </data>
+  <data name="Id_empty_error" xml:space="preserve">
+    <value>Id can not be empty.</value>
+  </data>
+  <data name="System_id_exists" xml:space="preserve">
+    <value>System property with id '{0}' already exist.</value>
+  </data>
+  <data name="Symbol_copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="IGESFilter" xml:space="preserve">
+    <value>IGES file|*.igs</value>
+  </data>
+  <data name="IGESFilterImport" xml:space="preserve">
+    <value>IGES file|*.igs;*.iges</value>
+  </data>
+  <data name="ImportAutoCAD" xml:space="preserve">
+    <value>Import AutoCAD file</value>
+  </data>
+  <data name="ImportAutoCADFilter" xml:space="preserve">
+    <value>AutoCAD DWG/DXF/DXB file|*.dwg;*.dxf;*.dxb</value>
+  </data>
+  <data name="ImportIGES" xml:space="preserve">
+    <value>Import IGES file</value>
+  </data>
+  <data name="ImportSTEP" xml:space="preserve">
+    <value>Import STEP file</value>
+  </data>
+  <data name="ImportSTL" xml:space="preserve">
+    <value>Import STL file</value>
+  </data>
+  <data name="PDFFilter" xml:space="preserve">
+    <value>PDF file|*.pdf</value>
+  </data>
+  <data name="STEPFilter" xml:space="preserve">
+    <value>STEP file|*.stp</value>
+  </data>
+  <data name="STEPFilterImport" xml:space="preserve">
+    <value>STEP file|*.stp;*.step</value>
+  </data>
+  <data name="STLFilterExport" xml:space="preserve">
+    <value>STL Ascii file|*.stl|STL Binary file|*.stl</value>
+  </data>
+  <data name="STLFilterImport" xml:space="preserve">
+    <value>STL file|*.stl</value>
+  </data>
+  <data name="WireBundleGroupOrderID" xml:space="preserve">
+    <value>Bundle Group Order</value>
+  </data>
+  <data name="External_project_path" xml:space="preserve">
+    <value>External Project Path</value>
+  </data>
+  <data name="TopLeftID" xml:space="preserve">
+    <value>Top Left</value>
+  </data>
+  <data name="Not_able_to_create_Enviromentfolder_0" xml:space="preserve">
+    <value>Not able to create Enviromentfolder {0}</value>
+  </data>
+  <data name="Generate_2D_views_caption" xml:space="preserve">
+    <value>Generate 2D Views</value>
+  </data>
+  <data name="Generate_2D_views_question" xml:space="preserve">
+    <value>Do you want to generate 2D views?</value>
+  </data>
+  <data name="EquipmentDescriptionID" xml:space="preserve">
+    <value>Equipment Description</value>
+  </data>
+  <data name="External_storage_directory_empty" xml:space="preserve">
+    <value>External storage directory is empty.</value>
+  </data>
+  <data name="External_storage_directory_not_exist" xml:space="preserve">
+    <value>External storage directory {0} does not exist.</value>
+  </data>
+  <data name="External_storage_empty_file_name" xml:space="preserve">
+    <value>File name for external storage is empty.</value>
+  </data>
+  <data name="Assembly_mismatch_graphic" xml:space="preserve">
+    <value>There is a mismatch between the number of components and assembly graphical definition.</value>
+  </data>
+  <data name="Component_empty_symbol_path" xml:space="preserve">
+    <value>Component {0} has empty symbol path.</value>
+  </data>
+  <data name="Macro_group_loading_error" xml:space="preserve">
+    <value>Some of the selected component(s) belong to an assembly, that can not be loaded, because of the following error(s):</value>
+  </data>
+  <data name="Macro_not_loaded" xml:space="preserve">
+    <value>Macro can not be loaded.</value>
+  </data>
+  <data name="Symbol_not_macro" xml:space="preserve">
+    <value>Symbol {0} is not macro.</value>
+  </data>
+  <data name="Macro_component_already_used" xml:space="preserve">
+    <value>Component {0} is already placed on model.</value>
+  </data>
+  <data name="Different_external_component_label_group" xml:space="preserve">
+    <value>The selected components are part of different label groups. Some of the components are external. You can not merge them with another label group.</value>
+  </data>
+  <data name="FunctionalDescriptionID" xml:space="preserve">
+    <value>Functional Description</value>
+  </data>
+  <data name="StreamType" xml:space="preserve">
+    <value>Stream Type</value>
+  </data>
+  <data name="WireFromStreamTypeID" xml:space="preserve">
+    <value>From Stream Type</value>
+  </data>
+  <data name="WireToStreamTypeID" xml:space="preserve">
+    <value>To Stream Type</value>
+  </data>
+  <data name="GroupID" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="Macro_group_id_empty" xml:space="preserve">
+    <value>Group Id can not be empty.</value>
+  </data>
+  <data name="Macro_group_not_loaded" xml:space="preserve">
+    <value>Macro can not be loaded for assembly group '{0}'</value>
+  </data>
+  <data name="Views_caption" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="Views_vector_warning" xml:space="preserve">
+    <value>Warning: Depending on the complexity of the view to render, vectors view generation can take more than an hour and will make the program unresponsive. We recommend you use "hidden lines".</value>
+  </data>
+  <data name="News_link" xml:space="preserve">
+    <value>https://www.ige-xao.com/en/client-area/notes-de-realisation/?product_to_show=see_electrical_3d_panel</value>
+  </data>
+  <data name="Loading_data_from" xml:space="preserve">
+    <value>Loading data from {0}</value>
+  </data>
+  <data name="Overwrite_file" xml:space="preserve">
+    <value>{0} already exists. Do you want to replace it?</value>
+  </data>
+  <data name="Confirm_save_as" xml:space="preserve">
+    <value>Confirm Save As</value>
+  </data>
+  <data name="Download_folder_does_not_exist" xml:space="preserve">
+    <value>Download folder does not exist</value>
+  </data>
+  <data name="Download_folder_not_empty" xml:space="preserve">
+    <value>Download folder is not empty</value>
+  </data>
+  <data name="AspectsDefinitionID" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="AspectsID" xml:space="preserve">
+    <value>Aspects</value>
+  </data>
+  <data name="Empty_product" xml:space="preserve">
+    <value>Product can not be empty.</value>
+  </data>
+  <data name="AspectsValuesID" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="FormulaTagID" xml:space="preserve">
+    <value>Tag Formula</value>
+  </data>
+  <data name="Formula_tag_caption" xml:space="preserve">
+    <value>Tag Formula</value>
+  </data>
+  <data name="Aspect_caption" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="RootAspectsID" xml:space="preserve">
+    <value>Root Aspects</value>
+  </data>
+  <data name="Request_model_empty" xml:space="preserve">
+    <value>Requested model for merging is empty.</value>
+  </data>
+  <data name="Wrong_merge_drawing_identifier" xml:space="preserve">
+    <value>Requested model is different from the original one. The current model can not be merged to it.</value>
+  </data>
+  <data name="Original_filter_component_not_found" xml:space="preserve">
+    <value>Filter component does not exist in the requested model.</value>
+  </data>
+  <data name="Error_merging_model" xml:space="preserve">
+    <value>Error occured, while merging current model to original one.</value>
+  </data>
+  <data name="NoneMaterialID" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Partial_drawing" xml:space="preserve">
+    <value>Partial Drawing</value>
+  </data>
+  <data name="AspectRulesFileID" xml:space="preserve">
+    <value>Aspect Rules File</value>
+  </data>
+  <data name="FormulaFullTagID" xml:space="preserve">
+    <value>Full Tag Formula</value>
+  </data>
+  <data name="FullTagID" xml:space="preserve">
+    <value>Full Tag</value>
+  </data>
+  <data name="Formula_fulltag_caption" xml:space="preserve">
+    <value>Full Tag Formula</value>
+  </data>
+  <data name="Number_code_empty" xml:space="preserve">
+    <value>Number code can not be empty.</value>
+  </data>
+  <data name="Number_key_empty" xml:space="preserve">
+    <value>Number key can not be empty.</value>
+  </data>
+  <data name="Component_has_incorrect_symbol" xml:space="preserve">
+    <value>Component {0} has incorrect or not existing symbol presentation.</value>
+  </data>
+  <data name="Create_Macro" xml:space="preserve">
+    <value>Create Macro</value>
+  </data>
+  <data name="Macro_only_components" xml:space="preserve">
+    <value>Macro can contain only components.</value>
+  </data>
+  <data name="BlockTextsID" xml:space="preserve">
+    <value>Block Texts</value>
+  </data>
+  <data name="ComponentDataID" xml:space="preserve">
+    <value>Component Data</value>
+  </data>
+  <data name="ConnectionDataID" xml:space="preserve">
+    <value>Connection Data</value>
+  </data>
+  <data name="IndexID" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Container_folder_does_not_exist" xml:space="preserve">
+    <value>Macros folder does not exist</value>
+  </data>
+  <data name="MacroItemIDID" xml:space="preserve">
+    <value>Macro Item ID</value>
+  </data>
+  <data name="MacroReferenceIDID" xml:space="preserve">
+    <value>Macro Reference ID</value>
+  </data>
+  <data name="MasterMacroPathID" xml:space="preserve">
+    <value>Master Macro Path</value>
+  </data>
+  <data name="Macro_block_caption" xml:space="preserve">
+    <value>Macro Block</value>
+  </data>
+  <data name="Macro_empty_name" xml:space="preserve">
+    <value>Macro name can not be empty.</value>
+  </data>
+  <data name="Macro_empty_version" xml:space="preserve">
+    <value>Macro version can not be empty.</value>
+  </data>
+  <data name="Msg_delete_selected_variables" xml:space="preserve">
+    <value>Are you sure you want to delete the selected variables?</value>
+  </data>
+  <data name="Variable_already_exist" xml:space="preserve">
+    <value>Variable '{0}' already exist.</value>
+  </data>
+  <data name="Variable_empty_name" xml:space="preserve">
+    <value>Variable name can not be empty.</value>
+  </data>
+  <data name="New_variable_set" xml:space="preserve">
+    <value>New Variable Set</value>
+  </data>
+  <data name="Add_some_variables_definitions" xml:space="preserve">
+    <value>Please add some variables definitions first.</value>
+  </data>
+  <data name="Delete_variable_value_set" xml:space="preserve">
+    <value>Are you sure you want to delete value set '{0}'?</value>
+  </data>
+  <data name="Keep_macro_variables_definitions" xml:space="preserve">
+    <value>Do you want to keep macro variables definitions?</value>
+  </data>
+  <data name="Macro_existing_version" xml:space="preserve">
+    <value>Macro with this version already exists. Please change the version.</value>
+  </data>
+  <data name="Macro_definition_not_exist" xml:space="preserve">
+    <value>Macro definition does not exist.</value>
+  </data>
+  <data name="Macro_no_variables_defined" xml:space="preserve">
+    <value>This macro does not have any variables defined for component attributes.</value>
+  </data>
+  <data name="Select_component_from_same_macro" xml:space="preserve">
+    <value>Please select components, which are part of same macro.</value>
+  </data>
+  <data name="Macro_components_not_visible" xml:space="preserve">
+    <value>There are some invisible components, which are part of a macro.</value>
+  </data>
+  <data name="Macro_info" xml:space="preserve">
+    <value>Macro Path: {0}
+Version: {1}</value>
+  </data>
+  <data name="No_macro_on_drawing" xml:space="preserve">
+    <value>There are no visible macros on this model.</value>
+  </data>
+  <data name="Select_macro" xml:space="preserve">
+    <value>Select Macro</value>
+  </data>
+  <data name="Ask_to_explode_macro" xml:space="preserve">
+    <value>Are you sure you want to explode selected macro? Undo will not be available for these modifications. Do you want to continue?</value>
+  </data>
+  <data name="Explode_macro_caption" xml:space="preserve">
+    <value>Explode Macro</value>
+  </data>
+  <data name="Select_entire_macro" xml:space="preserve">
+    <value>Please select all components, which are part of entire macro.</value>
+  </data>
+  <data name="AutoMergeExternalComponentID" xml:space="preserve">
+    <value>AutoMerge with External</value>
+  </data>
+  <data name="Ask_to_update_macro" xml:space="preserve">
+    <value>Are you sure you want to update selected macro?</value>
+  </data>
+  <data name="Update_macro" xml:space="preserve">
+    <value>Update Macro</value>
+  </data>
+  <data name="Macro_no_newer_version" xml:space="preserve">
+    <value>There is no newer version available for this macro.</value>
+  </data>
+  <data name="Macro_incorrect_structure" xml:space="preserve">
+    <value>Macro has incorrect structure.</value>
+  </data>
+  <data name="Macro_master_component_not_found" xml:space="preserve">
+    <value>Selected macro does not contain its master component.</value>
+  </data>
+  <data name="Ask_to_update_all_macros" xml:space="preserve">
+    <value>Are you sure you want to update all macro instances?</value>
+  </data>
+  <data name="Create_3dLine" xml:space="preserve">
+    <value>Create 3D Line</value>
+  </data>
+  <data name="Add_Virtual_Component" xml:space="preserve">
+    <value>Add Virtual Component</value>
+  </data>
+  <data name="3DLine_InfoText" xml:space="preserve">
+    <value>3D Line</value>
+  </data>
+  <data name="Line_InfoText" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="ActiveTool_InfoText" xml:space="preserve">
+    <value>Active Tool : </value>
+  </data>
+  <data name="Arc_InfoText" xml:space="preserve">
+    <value>Arc</value>
+  </data>
+  <data name="Arc3pts_InfoText" xml:space="preserve">
+    <value>Arc - 3 Points</value>
+  </data>
+  <data name="ArcCenterStartAngle_InfoText" xml:space="preserve">
+    <value>Arc - Center, Start, Angle</value>
+  </data>
+  <data name="ArcCenterStartLength_InfoText" xml:space="preserve">
+    <value>Arc - Center, Start, Length</value>
+  </data>
+  <data name="ArcCenterStartEnd_InfoText" xml:space="preserve">
+    <value>Arc - Center, Start, End</value>
+  </data>
+  <data name="CircleTanTanRadius_InfoText" xml:space="preserve">
+    <value>Circle - Tan, Tan, Radius</value>
+  </data>
+  <data name="CircleTanTanTan_InfoText" xml:space="preserve">
+    <value>Circle - Tan, Tan, Tan</value>
+  </data>
+  <data name="Cone_InfoText" xml:space="preserve">
+    <value>Cone</value>
+  </data>
+  <data name="Add_predefined_connection" xml:space="preserve">
+    <value>Add Predefined Connection</value>
+  </data>
+  <data name="CircleEllipseAxes_InfoText" xml:space="preserve">
+    <value>Circle - EllipseAxes</value>
+  </data>
+  <data name="Fillet_InfoText" xml:space="preserve">
+    <value>Fillet</value>
+  </data>
+  <data name="GridOffset_InfoText" xml:space="preserve">
+    <value>Grid Offset</value>
+  </data>
+  <data name="Join_InfoText" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="Polyline_InfoText" xml:space="preserve">
+    <value>Polyline</value>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="ScaleSelected_InfoText" xml:space="preserve">
+    <value>Scale Selected</value>
+  </data>
+  <data name="SelectBlockPlane_InfoText" xml:space="preserve">
+    <value>Select Block Plane</value>
+  </data>
+  <data name="SelectSingle_InfoText" xml:space="preserve">
+    <value>Single Entity Selection</value>
+  </data>
+  <data name="SelectWindow_InfoText" xml:space="preserve">
+    <value>Window Selection</value>
+  </data>
+  <data name="SetPlane_InfoText" xml:space="preserve">
+    <value>Define New Plane</value>
+  </data>
+  <data name="ShowBlockPlane_InfoText" xml:space="preserve">
+    <value>Show Block Plane</value>
+  </data>
+  <data name="EditText_InfoText" xml:space="preserve">
+    <value>Edit Text</value>
+  </data>
+  <data name="AutoRoute_InfoText" xml:space="preserve">
+    <value>Create Wire</value>
+  </data>
+  <data name="CopyToClipBoard_InfoText" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="MacroSave_InfoText" xml:space="preserve">
+    <value>Save Macro</value>
+  </data>
+  <data name="Extend_InfoText" xml:space="preserve">
+    <value>Extend</value>
+  </data>
+  <data name="AngularDim_InfoText" xml:space="preserve">
+    <value>Angular Dim</value>
+  </data>
+  <data name="ArcStartCenterAngle_InfoText" xml:space="preserve">
+    <value>Arc - Start, Center, Angle</value>
+  </data>
+  <data name="ArcStartCenterEnd_InfoText" xml:space="preserve">
+    <value>Arc - Start, Center, End</value>
+  </data>
+  <data name="ArcStartCenterLength_InfoText" xml:space="preserve">
+    <value>Arc - Start, Center, Length</value>
+  </data>
+  <data name="ArcStartEndAngle_InfoText" xml:space="preserve">
+    <value>Arc - Start, End, Angle</value>
+  </data>
+  <data name="ArcStartEndRadius_InfoText" xml:space="preserve">
+    <value>Arc - Start, End, Radius</value>
+  </data>
+  <data name="Break3D_InfoText" xml:space="preserve">
+    <value>Break</value>
+  </data>
+  <data name="Chamfer_Cap" xml:space="preserve">
+    <value>Chamfer</value>
+  </data>
+  <data name="ChangeColoronFace_InfoText" xml:space="preserve">
+    <value>Change Color on Face</value>
+  </data>
+  <data name="ChangeReferencePoint_InfoText" xml:space="preserve">
+    <value>Change Reference Point</value>
+  </data>
+  <data name="Change_variable_value_set" xml:space="preserve">
+    <value>Change Variable Value Set</value>
+  </data>
+  <data name="CreateBranchPort_InfoText" xml:space="preserve">
+    <value>Create Control Point</value>
+  </data>
+  <data name="CreateCircle2Pts_InfoText" xml:space="preserve">
+    <value>Circle - 2 Points</value>
+  </data>
+  <data name="CreateCircle3Pts_InfoText" xml:space="preserve">
+    <value>Circle - 3 Points</value>
+  </data>
+  <data name="CreateCircleCenterRadius_InfoText" xml:space="preserve">
+    <value>Circle - Center, Radius</value>
+  </data>
+  <data name="CreateCylinder_InfoText" xml:space="preserve">
+    <value>Cylinder</value>
+  </data>
+  <data name="CreatePicture_InfoText" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="CreatePlaneSurface_InfoText" xml:space="preserve">
+    <value>Create Plane from Surface</value>
+  </data>
+  <data name="CreateSleeve_InfoText" xml:space="preserve">
+    <value>Create Sleeve</value>
+  </data>
+  <data name="Create_BlockEditor" xml:space="preserve">
+    <value>Block Editor</value>
+  </data>
+  <data name="Create_BlockPlane" xml:space="preserve">
+    <value>Block Plane</value>
+  </data>
+  <data name="CutByPlane_InfoText" xml:space="preserve">
+    <value>Cut by Plane</value>
+  </data>
+  <data name="DefineClipView_InfoText" xml:space="preserve">
+    <value>Define Clip View</value>
+  </data>
+  <data name="DeleteBranchPort_InfoText" xml:space="preserve">
+    <value>Delete Control Point</value>
+  </data>
+  <data name="DimensionBtw2Pts_InfoText" xml:space="preserve">
+    <value>Dimension Between 2 Points</value>
+  </data>
+  <data name="DimensionDiametric_InfoText" xml:space="preserve">
+    <value>Diametric Dimension</value>
+  </data>
+  <data name="DimensionLinear_InfoText" xml:space="preserve">
+    <value>Linear Dimension</value>
+  </data>
+  <data name="DimensionNC_InfoText" xml:space="preserve">
+    <value>NC Dimension</value>
+  </data>
+  <data name="DimensionOnCircle_InfoText" xml:space="preserve">
+    <value>Angular Dimension</value>
+  </data>
+  <data name="DimensionOrthogonal_InfoText" xml:space="preserve">
+    <value>Orthogonal Dimension</value>
+  </data>
+  <data name="DimensionRadial_InfoText" xml:space="preserve">
+    <value>Radial Dimension</value>
+  </data>
+  <data name="DirectionPath_InfoText" xml:space="preserve">
+    <value>Create Direction Path</value>
+  </data>
+  <data name="Direction_InfoText" xml:space="preserve">
+    <value>Create Direction</value>
+  </data>
+  <data name="DragDrop_InfoText" xml:space="preserve">
+    <value>Drag &amp; Drop</value>
+  </data>
+  <data name="Measure_InfoText" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="ModifySelected_InfoText" xml:space="preserve">
+    <value>Modify Selected</value>
+  </data>
+  <data name="OffsetPlane_InfoText" xml:space="preserve">
+    <value>Move Active Plane</value>
+  </data>
+  <data name="Offset_InfoText" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="ResizePicture_InfoText" xml:space="preserve">
+    <value>Resize Picture</value>
+  </data>
+  <data name="SnapPoints_InfoText" xml:space="preserve">
+    <value>Snap Points</value>
+  </data>
+  <data name="SolidDifference_InfoText" xml:space="preserve">
+    <value>Difference</value>
+  </data>
+  <data name="SolidIntersect_InfoText" xml:space="preserve">
+    <value>Intersect</value>
+  </data>
+  <data name="SolidUnion_InfoText" xml:space="preserve">
+    <value>Union</value>
+  </data>
+  <data name="Sphere_InfoText" xml:space="preserve">
+    <value>Sphere</value>
+  </data>
+  <data name="Spline_InfoText" xml:space="preserve">
+    <value>Spline</value>
+  </data>
+  <data name="Sweep_InfoText" xml:space="preserve">
+    <value>Sweep</value>
+  </data>
+  <data name="Text_InfoText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Torus_InfoText" xml:space="preserve">
+    <value>Torus</value>
+  </data>
+  <data name="Trim_InfoText" xml:space="preserve">
+    <value>Trim</value>
+  </data>
+  <data name="PasteFromClipboard_Infotext" xml:space="preserve">
+    <value>Paste from Clipboard</value>
+  </data>
+  <data name="Polygon_InfoText" xml:space="preserve">
+    <value>Polygon</value>
+  </data>
+  <data name="ExportFileFilter" xml:space="preserve">
+    <value>Filter File|*.filter</value>
+  </data>
+  <data name="ExportFilter_Title" xml:space="preserve">
+    <value>Export FIlter File</value>
+  </data>
+  <data name="ImportFileFilter" xml:space="preserve">
+    <value>Filter files (*.filter)|*.filter</value>
+  </data>
+  <data name="ImportFilter_Title" xml:space="preserve">
+    <value>Import FIlter File</value>
+  </data>
+  <data name="Machining_set_true" xml:space="preserve">
+    <value>You have set some planes as Machining. This method is deprecated, please use the machining definitions menu</value>
+  </data>
+  <data name="Clipping_View_Name" xml:space="preserve">
+    <value>Clipping View Name</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Show </value>
+  </data>
+  <data name="Delete_clipping_view" xml:space="preserve">
+    <value>Are you sure you want to delete the clipping view?</value>
+  </data>
+  <data name="Delete_Clipping_View_Title" xml:space="preserve">
+    <value>Delete Clipping View</value>
+  </data>
+  <data name="TextTemplateFile" xml:space="preserve">
+    <value>Text Template File|*.ttf</value>
+  </data>
+  <data name="TextTemplate_Title" xml:space="preserve">
+    <value>Save Text Template File</value>
+  </data>
+  <data name="Template_Name_Exists" xml:space="preserve">
+    <value>Template name already exists</value>
+  </data>
+  <data name="Data_Missing" xml:space="preserve">
+    <value>Data missing. Template not saved</value>
+  </data>
+  <data name="Formulas_Cannot_be_Empty" xml:space="preserve">
+    <value>Formulas/Template name cannot be empty</value>
+  </data>
+  <data name="Formula_Name_Exists" xml:space="preserve">
+    <value>Formula Name already exists!</value>
+  </data>
+  <data name="Formula_Name_Empty" xml:space="preserve">
+    <value>Formula Name and Formula value should not be empty! Please check.</value>
+  </data>
+  <data name="Do_You_Want_To_Delete_TextTemplate" xml:space="preserve">
+    <value>Are you sure to delete the text template {0}?</value>
+  </data>
+  <data name="Delete_Text_Template" xml:space="preserve">
+    <value>Delete Text Template</value>
+  </data>
+  <data name="User_Defined" xml:space="preserve">
+    <value>User Defined</value>
+  </data>
+  <data name="Macro_symbol_not_updated" xml:space="preserve">
+    <value>Symbol {0} can not be updated. Library is either locked or read only.</value>
+  </data>
+  <data name="Select_macro_component" xml:space="preserve">
+    <value>Please select one or more components, which are part of a macro.</value>
+  </data>
+  <data name="Symbol_not_advanced_macro" xml:space="preserve">
+    <value>Symbol {0} is not advanced macro.</value>
+  </data>
+  <data name="Overwrite_existing_symbol" xml:space="preserve">
+    <value>Are you sure you want to overwrite {0}?</value>
+  </data>
+  <data name="Symbol_has_incorrect_structure_for_adv_macro" xml:space="preserve">
+    <value>Symbol {0} is part of advanced macro. Such symbols must contain only one component.</value>
+  </data>
+  <data name="Log_advanced_macro" xml:space="preserve">
+    <value>Advanced Macro</value>
+  </data>
+  <data name="Log_adv_macro_updated" xml:space="preserve">
+    <value>The following advanced macros are updated:</value>
+  </data>
+  <data name="Log_new_version" xml:space="preserve">
+    <value>New Version</value>
+  </data>
+  <data name="Updating_adv_macros" xml:space="preserve">
+    <value>Updating advanced macros...</value>
+  </data>
+  <data name="Updating_text" xml:space="preserve">
+    <value>Updating: {0}</value>
+  </data>
+  <data name="Overwrite_symbol_caption" xml:space="preserve">
+    <value>Overwrite Symbol</value>
+  </data>
+  <data name="Symbol_updated" xml:space="preserve">
+    <value>Symbol {0} is updated.</value>
+  </data>
+  <data name="Macro_updated" xml:space="preserve">
+    <value>Macro {0} is updated.</value>
+  </data>
+  <data name="Overwrite_macro_caption" xml:space="preserve">
+    <value>Overwrite Macro</value>
+  </data>
+  <data name="Msg_convert_old_macro_container" xml:space="preserve">
+    <value>Macro container {0} has an older version than the current. If you upgrade it you will no longer be able to open it in previous versions of See 3D. Do you want to upgrade it?</value>
+  </data>
+  <data name="Msg_version_check" xml:space="preserve">
+    <value>Version Validation</value>
+  </data>
+  <data name="MsgMacroAlreadyExist" xml:space="preserve">
+    <value>Macro '{0}' already exist. Do you want to overwrite existing macro?</value>
+  </data>
+  <data name="Macro_container_file_not_saved" xml:space="preserve">
+    <value>Macro container file {0} can not be saved.</value>
+  </data>
+  <data name="MacroNewerVersion" xml:space="preserve">
+    <value>This macro was generated in a newer version than this one. Please upgrade to be able to work with this macro.</value>
+  </data>
+  <data name="Macro_control_settings" xml:space="preserve">
+    <value>Macro Control Settings</value>
+  </data>
+  <data name="Macro_containers_wrong_directory" xml:space="preserve">
+    <value>Selected directory is different than the default macros directory ({0}).</value>
+  </data>
+  <data name="Macro_container_filter" xml:space="preserve">
+    <value>Macro Container File|*{0}</value>
+  </data>
+  <data name="New_macro_container" xml:space="preserve">
+    <value>New Macro Container</value>
+  </data>
+  <data name="Invalid_name_characters" xml:space="preserve">
+    <value>Name can not contain any of the following characters: {0}</value>
+  </data>
+  <data name="Rename_macro_container" xml:space="preserve">
+    <value>Rename Macro Container</value>
+  </data>
+  <data name="Delete_macro_container" xml:space="preserve">
+    <value>Are you sure you want to delete container '{0}'?</value>
+  </data>
+  <data name="Delete_macro_container_caption" xml:space="preserve">
+    <value>Delete Macro Container</value>
+  </data>
+  <data name="Delete_macro" xml:space="preserve">
+    <value>Delete Macro</value>
+  </data>
+  <data name="MsgDeleteMacro" xml:space="preserve">
+    <value>Are you sure you want to delete macro '{0}'?</value>
+  </data>
+  <data name="Macro_already_exist" xml:space="preserve">
+    <value>Macro '{0}' already exist.</value>
+  </data>
+  <data name="Macro_properties" xml:space="preserve">
+    <value>Macro Properties</value>
+  </data>
+  <data name="Macro_properties_read_only" xml:space="preserve">
+    <value>Macro Properties (read-only)</value>
+  </data>
+  <data name="Text_Template_does_not_exists" xml:space="preserve">
+    <value>Text template {0} does not exist</value>
+  </data>
+  <data name="Text_Attributes" xml:space="preserve">
+    <value>Update Text Attributes</value>
+  </data>
+  <data name="Update_Completed" xml:space="preserve">
+    <value>Update Completed</value>
+  </data>
+  <data name="TextTemplateDefinitionID" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="TextTemplateID" xml:space="preserve">
+    <value>Text Template</value>
+  </data>
+  <data name="Update_text_attributes_undo" xml:space="preserve">
+    <value>Undo will not be available for these modifications. Continue updating?</value>
+  </data>
+  <data name="Text_template_files" xml:space="preserve">
+    <value>Text Template Files</value>
+  </data>
+  <data name="SeeBasePointType_BottomCenter" xml:space="preserve">
+    <value>Bottom Center</value>
+  </data>
+  <data name="SeeBasePointType_BottomLeft" xml:space="preserve">
+    <value>Bottom Left</value>
+  </data>
+  <data name="SeeBasePointType_BottomRight" xml:space="preserve">
+    <value>Bottom Right</value>
+  </data>
+  <data name="SeeBasePointType_MiddleCenter" xml:space="preserve">
+    <value>Middle Center</value>
+  </data>
+  <data name="SeeBasePointType_MiddleLeft" xml:space="preserve">
+    <value>Middle Left</value>
+  </data>
+  <data name="SeeBasePointType_MiddleRight" xml:space="preserve">
+    <value>Middle Right</value>
+  </data>
+  <data name="SeeBasePointType_TopCenter" xml:space="preserve">
+    <value>Top Center</value>
+  </data>
+  <data name="SeeBasePointType_TopLeft" xml:space="preserve">
+    <value>Top Left</value>
+  </data>
+  <data name="SeeBasePointType_TopRight" xml:space="preserve">
+    <value>Top Right</value>
+  </data>
+  <data name="Is_Template_Valid_Name" xml:space="preserve">
+    <value>Template name cannot contain any of the following characters: \ / : * ? " &lt; &gt; | %</value>
+  </data>
+  <data name="TextTemplateInfo" xml:space="preserve">
+    <value>Template {0} updated to {1} component</value>
+  </data>
+  <data name="Log_macro_updated" xml:space="preserve">
+    <value>The following macros are updated:</value>
+  </data>
+  <data name="Update_macros" xml:space="preserve">
+    <value>Update Macros</value>
+  </data>
+  <data name="Working_on" xml:space="preserve">
+    <value>Working on: {0}</value>
+  </data>
+  <data name="Log_text_template" xml:space="preserve">
+    <value>Text Template</value>
+  </data>
+  <data name="Log_updated_components" xml:space="preserve">
+    <value>Updated Components</value>
+  </data>
+  <data name="Add_texttemplate_Name_caption" xml:space="preserve">
+    <value>Copy To New Template</value>
+  </data>
+  <data name="Template_Name_Empty" xml:space="preserve">
+    <value>Template Name Cannot Be Empty</value>
+  </data>
+  <data name="TextTemplate_Name" xml:space="preserve">
+    <value>Text Templat Name</value>
+  </data>
+  <data name="File_ReadOnly" xml:space="preserve">
+    <value>File {0} is read only. To save your changes, choose another location or file name.</value>
+  </data>
+  <data name="TemplateNameID" xml:space="preserve">
+    <value>Template Name</value>
+  </data>
+  <data name="Reset_UI" xml:space="preserve">
+    <value>UI layout has been reset</value>
+  </data>
+  <data name="Reset_UI_Layout" xml:space="preserve">
+    <value>Reset UI Layout</value>
+  </data>
+  <data name="UpdateGlobalTextTemplateAttributes" xml:space="preserve">
+    <value>You have modified some text templates. Do you want to apply the changes to the associated components?</value>
+  </data>
+  <data name="Equipment_node_caption" xml:space="preserve">
+    <value>Equipment (Id = {0}, ExternalId = {1})</value>
+  </data>
+  <data name="Select_macro_variant" xml:space="preserve">
+    <value>Select Macro Variant</value>
+  </data>
+  <data name="Macro_no_available_variants" xml:space="preserve">
+    <value>There are no available variants for this macro.</value>
+  </data>
+  <data name="3DPDF_caption" xml:space="preserve">
+    <value>Export 3D PDF</value>
+  </data>
+  <data name="Hidden_objects_3dpdf" xml:space="preserve">
+    <value>Do you want to export the hidden entities?</value>
+  </data>
+  <data name="GroupIndexID" xml:space="preserve">
+    <value>Group Index</value>
+  </data>
+  <data name="Component_Log_3D_Symbol_Status" xml:space="preserve">
+    <value>3D Symbol Status</value>
+  </data>
+  <data name="Component_Log_Equipment" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="Component_Log_FullTag" xml:space="preserve">
+    <value>Full Tag</value>
+  </data>
+  <data name="Component_Log_Manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Component_log_Caption" xml:space="preserve">
+    <value>Components Log</value>
+  </data>
+  <data name="ManufacturingID" xml:space="preserve">
+    <value>Manufacturing</value>
+  </data>
+  <data name="DrillPositioningAidID" xml:space="preserve">
+    <value>Drill Positioning Aid</value>
+  </data>
+  <data name="Distance_label" xml:space="preserve">
+    <value>Distance:</value>
+  </data>
+  <data name="Snap_distance_caption" xml:space="preserve">
+    <value>Snap Distance</value>
+  </data>
+  <data name="See_symbol_database" xml:space="preserve">
+    <value>See 3D Symbol Database</value>
+  </data>
+  <data name="CustomPropertiesDefinitionID" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="CustomPropertiesID" xml:space="preserve">
+    <value>Custom Properties</value>
+  </data>
+  <data name="Ask_delete_undefined_custom_properties" xml:space="preserve">
+    <value>There are some undefined properties. Do you want to delete them?</value>
+  </data>
+  <data name="UndefinedCategoryID" xml:space="preserve">
+    <value>Undefined</value>
+  </data>
+  <data name="Custom_category" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="System_category" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="renderType_Direct3D" xml:space="preserve">
+    <value>Direct3D</value>
+  </data>
+  <data name="renderType_OpenGL" xml:space="preserve">
+    <value>OpenGL</value>
+  </data>
+  <data name="LayerDeletion_ask_to_delete" xml:space="preserve">
+    <value>Are you sure you want to delete layer {0}? Undo steps will be cleared during this action. Do you want to continue?</value>
+  </data>
+  <data name="LayerDeletion__delete_caption" xml:space="preserve">
+    <value>Delete Layer</value>
+  </data>
+  <data name="Wire_color_already_exist" xml:space="preserve">
+    <value>Wire color already exist.</value>
+  </data>
+  <data name="Wire_color_can_not_be_empty" xml:space="preserve">
+    <value>Wire color can not be empty.</value>
+  </data>
+  <data name="AllowStretchingID" xml:space="preserve">
+    <value>Allow Stretching</value>
+  </data>
+  <data name="CircleID" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="EmptyArrowID" xml:space="preserve">
+    <value>Empty Arrow</value>
+  </data>
+  <data name="FilledArrowID" xml:space="preserve">
+    <value>Filled Arrow</value>
+  </data>
+  <data name="NoneID" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PreserveRatioID" xml:space="preserve">
+    <value>Preserve Ratio</value>
+  </data>
+  <data name="SlashID" xml:space="preserve">
+    <value>Slash</value>
+  </data>
+  <data name="ArrowID" xml:space="preserve">
+    <value>Arrow</value>
+  </data>
+  <data name="DimensionArrowHeightID" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="DimensionArrowWidthID" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="DimensionFirstArrowTypeID" xml:space="preserve">
+    <value>First Arrow Type</value>
+  </data>
+  <data name="DimensionLineOverhangID" xml:space="preserve">
+    <value>Dimension Line Overhang</value>
+  </data>
+  <data name="DimensionSecondArrowTypeID" xml:space="preserve">
+    <value>Second Arrow Type</value>
+  </data>
+  <data name="ImageDisplayModeID" xml:space="preserve">
+    <value>Image Display Mode</value>
+  </data>
+  <data name="PictureID" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="WidthID" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="InitialRatioID" xml:space="preserve">
+    <value>Initial Ratio</value>
+  </data>
+  <data name="ShowEdgesID" xml:space="preserve">
+    <value>Show Edges</value>
+  </data>
+  <data name="Invalid_Property_Name" xml:space="preserve">
+    <value>Invalid Property Name</value>
+  </data>
+  <data name="Custom_Category_Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Custom_Property_Text" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="Definition_Empty" xml:space="preserve">
+    <value>Properties definitions cannot be empty.</value>
+  </data>
+  <data name="Invalid_Node_Name" xml:space="preserve">
+    <value>Invalid Name</value>
+  </data>
+  <data name="Invalid_Entry_Not_In_ChoiceList" xml:space="preserve">
+    <value>Value not in Choice list</value>
+  </data>
+  <data name="Invalid_Node_Category" xml:space="preserve">
+    <value>Invalid Category Name</value>
+  </data>
+  <data name="Invalid_Node_Category_Property" xml:space="preserve">
+    <value>Property and its Category name cannot be same</value>
+  </data>
+  <data name="Invalid_Node_NullEmpty" xml:space="preserve">
+    <value>Name cannot be null or empty</value>
+  </data>
+  <data name="Invalid_Node_Root" xml:space="preserve">
+    <value>Root node cannot be edited</value>
+  </data>
+  <data name="Invalid_Value" xml:space="preserve">
+    <value>Invalid Value</value>
+  </data>
+  <data name="CustomProperties_Caption_Copy" xml:space="preserve">
+    <value>Copy Definition</value>
+  </data>
+  <data name="CustomProperties_Caption_Delete" xml:space="preserve">
+    <value>Delete Definition</value>
+  </data>
+  <data name="CustomProperties_Caption_Edit" xml:space="preserve">
+    <value>Edit Definition</value>
+  </data>
+  <data name="CustomProperties_Caption_New" xml:space="preserve">
+    <value>New Definition</value>
+  </data>
+  <data name="Do_You_Want_To_Delete_CustomProperties" xml:space="preserve">
+    <value>Are you sure to delete the properties definition {0}?</value>
+  </data>
+  <data name="Custom_properties_definition_file_exists" xml:space="preserve">
+    <value>Properties definition file {0} already exists</value>
+  </data>
+  <data name="Add_CustomProperties_Name_caption" xml:space="preserve">
+    <value>Copy To New Custom Properties Definition</value>
+  </data>
+  <data name="TextTemplate_Caption_Copy" xml:space="preserve">
+    <value>Copy Template</value>
+  </data>
+  <data name="TextTemplate_Caption_Delete" xml:space="preserve">
+    <value>Delete Template</value>
+  </data>
+  <data name="TextTemplate_Caption_Edit" xml:space="preserve">
+    <value>Edit Template</value>
+  </data>
+  <data name="TextTemplate_Caption_New" xml:space="preserve">
+    <value>New Template</value>
+  </data>
+  <data name="File_Not_Saved" xml:space="preserve">
+    <value>Definition error. File not saved.</value>
+  </data>
+  <data name="CustomPropertySelectID" xml:space="preserve">
+    <value>Active Definition File</value>
+  </data>
+  <data name="Definition_name_empty" xml:space="preserve">
+    <value>Definition name cannot be empty.</value>
+  </data>
+  <data name="Property_definition_file_incorrect_version" xml:space="preserve">
+    <value>Property definition file has incorrect version.</value>
+  </data>
+  <data name="KeepTogetherID" xml:space="preserve">
+    <value>Keep Together</value>
+  </data>
+  <data name="FilterVariables_All_Fields_Required" xml:space="preserve">
+    <value>Value can not be empty.</value>
+  </data>
+  <data name="FilterVariables_Data_Not_Valid" xml:space="preserve">
+    <value>Invalid value. Value syntax: {0}</value>
+  </data>
+  <data name="FilterVariables_Syntax" xml:space="preserve">
+    <value>Syntax: {0}</value>
+  </data>
+  <data name="FilterVariables_Value" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="EndFitting_used_rpoperty_text" xml:space="preserve">
+    <value>Used</value>
+  </data>
+  <data name="EndFitting_conditions_caption" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="EndFitting_custom_results_caption" xml:space="preserve">
+    <value>Custom Results</value>
+  </data>
+  <data name="EndFitting_no_used_property" xml:space="preserve">
+    <value>There is no property, which is marked as used.</value>
+  </data>
+  <data name="EndFitting_system_results_caption" xml:space="preserve">
+    <value>System Results</value>
+  </data>
+  <data name="EndFitting_conditions_properties_definitions" xml:space="preserve">
+    <value>Conditions Properties Definitions</value>
+  </data>
+  <data name="EndFitting_results_properties_definitions" xml:space="preserve">
+    <value>Results Properties Definitions</value>
+  </data>
+  <data name="AmountID" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Component_types_file_incorrect_version" xml:space="preserve">
+    <value>Component types file has incorrect version.</value>
+  </data>
+  <data name="Empty_component_types_definition" xml:space="preserve">
+    <value>There are no valid component types defined in {0}</value>
+  </data>
+  <data name="Connector_type_is_used" xml:space="preserve">
+    <value>Connector type is used in End fitting mapping. It can not be empty.</value>
+  </data>
+  <data name="Do_You_Want_To_Delete_Label_Template" xml:space="preserve">
+    <value>Are you sure to delete the template {0}?</value>
+  </data>
+  <data name="Labels_Template_Caption_Copy" xml:space="preserve">
+    <value>Copy Template</value>
+  </data>
+  <data name="Labels_Template_Caption_Delete" xml:space="preserve">
+    <value>Delete Template</value>
+  </data>
+  <data name="Labels_Template_Caption_Edit" xml:space="preserve">
+    <value>Edit Template</value>
+  </data>
+  <data name="Labels_Template_Caption_New" xml:space="preserve">
+    <value>New Template</value>
+  </data>
+  <data name="Labels_Template_Name_Caption" xml:space="preserve">
+    <value>Copy To New Template</value>
+  </data>
+  <data name="Drawing_template_name_empty" xml:space="preserve">
+    <value>Drawing text template can not be empty.</value>
+  </data>
+  <data name="Invalid_template_name_characters" xml:space="preserve">
+    <value>Template name can not contain any of the following characters: {0}</value>
+  </data>
+  <data name="Label_template_already_exists" xml:space="preserve">
+    <value>Label mapping template with this name already exists.</value>
+  </data>
+  <data name="Msg_delete_selected_template_mapping" xml:space="preserve">
+    <value>Are you sure you want to delete the selected text template mapping?</value>
+  </data>
+  <data name="Print_template_name_empty" xml:space="preserve">
+    <value>Print text template can not be empty.</value>
+  </data>
+  <data name="Template_name_can_not_be_empty" xml:space="preserve">
+    <value>Template name can not be empty.</value>
+  </data>
+  <data name="Drawing_template_name_already_exists" xml:space="preserve">
+    <value>Drawing text template '{0}' already exist.</value>
+  </data>
+  <data name="Label_mapping_empty_definition" xml:space="preserve">
+    <value>There is no template mapping defined.</value>
+  </data>
+  <data name="Label_mapping_same_template" xml:space="preserve">
+    <value>Drawing text template is the same as print text template.</value>
+  </data>
+  <data name="PrintMappingNameID" xml:space="preserve">
+    <value>Print Mapping Name</value>
+  </data>
+  <data name="TaggingID" xml:space="preserve">
+    <value>Tagging Formulas</value>
+  </data>
+  <data name="Saved_success" xml:space="preserve">
+    <value>File saved successfully</value>
+  </data>
+  <data name="Save_caption_DWG" xml:space="preserve">
+    <value>Saved as DWG</value>
+  </data>
+  <data name="Save_caption_IGES" xml:space="preserve">
+    <value>Saved as IGES</value>
+  </data>
+  <data name="Save_caption_PDF" xml:space="preserve">
+    <value>Saved as PDF</value>
+  </data>
+  <data name="Save_caption_STEP" xml:space="preserve">
+    <value>Saved as STEP</value>
+  </data>
+  <data name="Save_caption_STL" xml:space="preserve">
+    <value>Saved as STL</value>
+  </data>
+  <data name="Save_caption_Template" xml:space="preserve">
+    <value>Saved as Panel Template</value>
+  </data>
+  <data name="Save_caption_Workspace" xml:space="preserve">
+    <value>Saved as Workspace</value>
+  </data>
+  <data name="Hide_Connections" xml:space="preserve">
+    <value>Hide Connections</value>
+  </data>
+  <data name="Hide_TextAttribute" xml:space="preserve">
+    <value>Hide Text Attrib.</value>
+  </data>
+  <data name="Show_Connections" xml:space="preserve">
+    <value>Show Connections</value>
+  </data>
+  <data name="Show_TextAttribute" xml:space="preserve">
+    <value>Show Text Attrib.</value>
+  </data>
+  <data name="Functional_description_manual_graphic" xml:space="preserve">
+    <value>Manual graphic</value>
+  </data>
+  <data name="Functional_description_route_path" xml:space="preserve">
+    <value>Route path</value>
+  </data>
+</root>
